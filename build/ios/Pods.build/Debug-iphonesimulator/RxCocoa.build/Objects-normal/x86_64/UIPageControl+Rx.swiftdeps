@@ -1,0 +1,178 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift8ReactiveV", "currentPage"]
+- ["7RxSwift8ReactiveV", "numberOfPages"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "Base"
+- "Binder"
+- "Int"
+- "Reactive"
+- "UIPageControl"
+depends-member:
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["So15CALayerDelegateP", "currentPage"]
+- !private ["So15CALayerDelegateP", "numberOfPages"]
+- !private ["s7CVarArgP", "currentPage"]
+- !private ["s7CVarArgP", "numberOfPages"]
+- !private ["s28CustomDebugStringConvertibleP", "currentPage"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfPages"]
+- !private ["s23CustomStringConvertibleP", "currentPage"]
+- !private ["s23CustomStringConvertibleP", "numberOfPages"]
+- !private ["SQ", ""]
+- !private ["SQ", "currentPage"]
+- !private ["SQ", "numberOfPages"]
+- !private ["SH", "currentPage"]
+- !private ["SH", "numberOfPages"]
+- !private ["So8NSCodingP", "currentPage"]
+- !private ["So8NSCodingP", "numberOfPages"]
+- !private ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "currentPage"]
+- !private ["So8NSObjectC", "numberOfPages"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "currentPage"]
+- !private ["So8NSObjectP", "numberOfPages"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- ["7RxSwift8ReactiveV", "Binder"]
+- ["7RxSwift8ReactiveV", "Int"]
+- ["7RxSwift8ReactiveV", "UIPageControl"]
+- ["7RxSwift8ReactiveV", ""]
+- !private ["7RxSwift8ReactiveV", "base"]
+- ["7RxSwift8ReactiveV", "currentPage"]
+- ["7RxSwift8ReactiveV", "numberOfPages"]
+- !private ["7RxSwift18ReactiveCompatibleP", "currentPage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "numberOfPages"]
+- !private ["So29UIAccessibilityIdentificationP", "currentPage"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfPages"]
+- !private ["So12UIAppearanceP", "currentPage"]
+- !private ["So12UIAppearanceP", "numberOfPages"]
+- !private ["So21UIAppearanceContainerP", "currentPage"]
+- !private ["So21UIAppearanceContainerP", "numberOfPages"]
+- !private ["So32UIContextMenuInteractionDelegateP", "currentPage"]
+- !private ["So32UIContextMenuInteractionDelegateP", "numberOfPages"]
+- ["So9UIControlC", ""]
+- !private ["So9UIControlC", "currentPage"]
+- !private ["So9UIControlC", "numberOfPages"]
+- !private ["So17UICoordinateSpaceP", "currentPage"]
+- !private ["So17UICoordinateSpaceP", "numberOfPages"]
+- !private ["So13UIDynamicItemP", "currentPage"]
+- !private ["So13UIDynamicItemP", "numberOfPages"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "currentPage"]
+- !private ["So18UIFocusEnvironmentP", "numberOfPages"]
+- !private ["So11UIFocusItemP", "currentPage"]
+- !private ["So11UIFocusItemP", "numberOfPages"]
+- !private ["So20UIFocusItemContainerP", "currentPage"]
+- !private ["So20UIFocusItemContainerP", "numberOfPages"]
+- !private ["So24UILargeContentViewerItemP", "currentPage"]
+- !private ["So24UILargeContentViewerItemP", "numberOfPages"]
+- !private ["So13UIPageControlC", "currentPage"]
+- !private ["So13UIPageControlC", "numberOfPages"]
+- !private ["So30UIPasteConfigurationSupportingP", "currentPage"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfPages"]
+- !private ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "currentPage"]
+- !private ["So11UIResponderC", "numberOfPages"]
+- !private ["So30UIResponderStandardEditActionsP", "currentPage"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfPages"]
+- !private ["So18UITraitEnvironmentP", "currentPage"]
+- !private ["So18UITraitEnvironmentP", "numberOfPages"]
+- !private ["So23UIUserActivityRestoringP", "currentPage"]
+- !private ["So23UIUserActivityRestoringP", "numberOfPages"]
+- !private ["So6UIViewC", ""]
+- !private ["So6UIViewC", "currentPage"]
+- !private ["So6UIViewC", "numberOfPages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentPage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfPages"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentPage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfPages"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "currentPage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "numberOfPages"]
+depends-nominal:
+- !private "7RxCocoa6BinderV"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7RxSwift12ObserverTypeP"
+- "7RxSwift8ReactiveV"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So13UIPageControlC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "071038a108ac987c35289bea49737177"

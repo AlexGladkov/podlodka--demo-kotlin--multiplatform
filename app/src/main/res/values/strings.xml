@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QuestGo</string>
+    <string name="quest_list_title">Список квестов</string>
+    <string name="quest_page_response">Напишите цифру, слово или буквы слитно…</string>
+    <string name="wrong_answer_title">Не правильно!</string>
+    <string name="wrong_answer_text">Ответ не подход. Попробуйте еще раз или поищите опечатку. Также, помните, что буквы е и ё - это разные буквы.</string>
+    <string name="action_ok">Хорошо</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_finish_quest">Завершить квест</string>
+    <string name="thank_you_page_share_text">Классные квесты от QuestGo! Привычные маршруты и городские пейзажи заиграли новыми красками. Скачивайте приложение, рекомендую!</string>
+    <string name="error_loading_data">Ошибка при загрузке данных</string>
+    <string name="promo_title">Введите промокод</string>
+    <string name="promo_hint">Например, promoaction…</string>
+    <string name="promo_buy">Отправить</string>
+    <string name="promo_error">Не удалось применить промокод</string>
+    <string name="promo_not_valid">Промокод истек или введен неправильно</string>
+    <string name="action_buy">Купить квест</string>
+    <string name="action_promo">Применить промо-код</string>
+    <string name="start_fragment_end_title">Конец ознакомительного фрагмента</string>
+    <string name="start_fragment_end_subtitle">Вы прошли ознакомительный участок квеста. Дальнейшее прохождение будет доступно после оплаты.</string>
+    <string name="error_pay">Не удалось купить квест, попробуйте позднее</string>
+    <string name="error_pay_no_items">Не удалось получить идентификатор покупки. Попробуйте еще раз позже</string>
+    <string name="error_pay_in_app">Не удалось оплатить товар, попробуйте позже</string>
+    <string name="error_pay_canceled">Вы отменили покупку</string>
+    <string name="error_pay_code">Встроенные покупки не поддерживаются</string>
+    <string name="successfull_bought">Вы успешно оплатили товар</string>
+</resources>

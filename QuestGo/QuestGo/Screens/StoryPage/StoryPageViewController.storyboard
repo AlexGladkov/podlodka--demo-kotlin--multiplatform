@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Story Page View Controller-->
+        <scene sceneID="b7g-3p-5Op">
+            <objects>
+                <viewController storyboardIdentifier="StoryPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8Hh-9h-mZx" customClass="StoryPageViewController" customModule="QuestGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I56-D3-HLW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BSa-Z0-Aqx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="QBN-H8-C8I">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lyE-L6-1hE">
+                                <rect key="frame" x="16" y="790" width="382" height="48"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Введите кодовое слово..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OXu-oz-tfz">
+                                        <rect key="frame" x="20" y="0.0" width="304" height="48"/>
+                                        <color key="textColor" name="primaryTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HY2-xi-2Fy">
+                                        <rect key="frame" x="332" y="8" width="34" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="Neo-wz-Ii9"/>
+                                        </constraints>
+                                        <state key="normal" image="sendIcon"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="secondaryBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="OXu-oz-tfz" firstAttribute="leading" secondItem="lyE-L6-1hE" secondAttribute="leading" constant="20" id="16c-4h-DOH"/>
+                                    <constraint firstItem="HY2-xi-2Fy" firstAttribute="top" secondItem="lyE-L6-1hE" secondAttribute="top" constant="8" id="6PX-P9-Efc"/>
+                                    <constraint firstAttribute="bottom" secondItem="OXu-oz-tfz" secondAttribute="bottom" id="9aN-7u-JrV"/>
+                                    <constraint firstAttribute="height" constant="48" id="Csi-HT-QVR"/>
+                                    <constraint firstItem="HY2-xi-2Fy" firstAttribute="leading" secondItem="OXu-oz-tfz" secondAttribute="trailing" constant="8" id="Jd6-xj-Qrg"/>
+                                    <constraint firstItem="OXu-oz-tfz" firstAttribute="top" secondItem="lyE-L6-1hE" secondAttribute="top" id="Vr2-Po-YUQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="HY2-xi-2Fy" secondAttribute="trailing" constant="16" id="iFR-SR-ikZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="HY2-xi-2Fy" secondAttribute="bottom" constant="8" id="oua-st-FIh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wzs-Cu-jxX"/>
+                        <color key="backgroundColor" name="primaryBackroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BSa-Z0-Aqx" firstAttribute="leading" secondItem="Wzs-Cu-jxX" secondAttribute="leading" id="4ge-ft-Ssl"/>
+                            <constraint firstItem="BSa-Z0-Aqx" firstAttribute="top" secondItem="Wzs-Cu-jxX" secondAttribute="top" id="6fH-Ap-zLJ"/>
+                            <constraint firstAttribute="trailing" secondItem="lyE-L6-1hE" secondAttribute="trailing" constant="16" id="6uL-sb-qva"/>
+                            <constraint firstItem="Wzs-Cu-jxX" firstAttribute="trailing" secondItem="BSa-Z0-Aqx" secondAttribute="trailing" id="87H-gv-XDg"/>
+                            <constraint firstItem="Wzs-Cu-jxX" firstAttribute="bottom" secondItem="lyE-L6-1hE" secondAttribute="bottom" constant="24" id="I7H-R9-Csm"/>
+                            <constraint firstItem="QBN-H8-C8I" firstAttribute="centerY" secondItem="I56-D3-HLW" secondAttribute="centerY" id="NdT-qI-VxK"/>
+                            <constraint firstItem="lyE-L6-1hE" firstAttribute="leading" secondItem="I56-D3-HLW" secondAttribute="leading" constant="16" id="Qu1-jG-JZe"/>
+                            <constraint firstItem="Wzs-Cu-jxX" firstAttribute="bottom" secondItem="BSa-Z0-Aqx" secondAttribute="bottom" id="Qzh-xZ-1cd"/>
+                            <constraint firstItem="QBN-H8-C8I" firstAttribute="centerX" secondItem="I56-D3-HLW" secondAttribute="centerX" id="UEW-VL-zpW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonSendView" destination="HY2-xi-2Fy" id="ytf-Ld-zg7"/>
+                        <outlet property="codeContainerView" destination="lyE-L6-1hE" id="bNi-Uo-PJU"/>
+                        <outlet property="codeTextView" destination="OXu-oz-tfz" id="K58-0k-y1L"/>
+                        <outlet property="containerBottomMargin" destination="I7H-R9-Csm" id="wfq-ZJ-XeA"/>
+                        <outlet property="loaderView" destination="QBN-H8-C8I" id="UtE-0f-ZTi"/>
+                        <outlet property="tableView" destination="BSa-Z0-Aqx" id="FzG-5k-xZn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgP-3U-Q2k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="60"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sendIcon" width="125" height="122"/>
+        <namedColor name="primaryBackroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="primaryTextColor">
+            <color red="0.23899999260902405" green="0.27099999785423279" blue="0.30199998617172241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

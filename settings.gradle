@@ -1,0 +1,3 @@
+include ':questShared'
+include ':app'
+rootProject.name = "QuestGo"

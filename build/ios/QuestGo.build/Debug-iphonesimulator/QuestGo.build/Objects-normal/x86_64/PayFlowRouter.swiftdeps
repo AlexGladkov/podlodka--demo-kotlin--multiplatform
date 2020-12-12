@@ -1,0 +1,302 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PayFlowRoutingLogic"
+- "PayFlowDataPassing"
+- "PayFlowRouter"
+provides-nominal:
+- "7QuestGo19PayFlowRoutingLogicP"
+- "7QuestGo18PayFlowDataPassingP"
+- "7QuestGo13PayFlowRouterC"
+provides-member:
+- ["7QuestGo19PayFlowRoutingLogicP", ""]
+- ["7QuestGo18PayFlowDataPassingP", ""]
+- ["7QuestGo13PayFlowRouterC", ""]
+provides-dynamic-lookup:
+- "dataStore"
+- "routeToError"
+- "viewController"
+depends-top-level:
+- !private "BooleanLiteralType"
+- "PayFlowDataPassing"
+- "PayFlowDataStoring"
+- "PayFlowRouter"
+- "PayFlowRoutingLogic"
+- "String"
+- !private "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UIViewController"
+- !private "viewController"
+depends-member:
+- !private ["SK", ""]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "present"]
+- !private ["Sl", ""]
+- !private ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "default"]
+- !private ["SQ", "init"]
+- !private ["SQ", "present"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "default"]
+- !private ["SH", "init"]
+- !private ["SH", "present"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "alertControllerWithTitle"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "alertControllerWithTitle"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "actionWithTitle"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "alertControllerWithTitle"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentViewController"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "actionWithTitle"]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "alertControllerWithTitle"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentViewController"]
+- ["7QuestGo18PayFlowDataPassingP", "PayFlowDataStoring"]
+- !private ["7QuestGo18PayFlowDataPassingP", "UIAlertAction"]
+- !private ["7QuestGo18PayFlowDataPassingP", "UIAlertController"]
+- ["7QuestGo18PayFlowDataPassingP", ""]
+- ["7QuestGo18PayFlowDataPassingP", "dataStore"]
+- ["7QuestGo18PayFlowDataPassingP", "routeToError"]
+- !private ["7QuestGo18PayFlowDataPassingP", "viewController"]
+- ["7QuestGo13PayFlowRouterC", "PayFlowDataStoring"]
+- ["7QuestGo13PayFlowRouterC", "String"]
+- !private ["7QuestGo13PayFlowRouterC", "UIAlertAction"]
+- !private ["7QuestGo13PayFlowRouterC", "UIAlertController"]
+- ["7QuestGo13PayFlowRouterC", "UIViewController"]
+- ["7QuestGo13PayFlowRouterC", ""]
+- ["7QuestGo13PayFlowRouterC", "dataStore"]
+- ["7QuestGo13PayFlowRouterC", "deinit"]
+- ["7QuestGo13PayFlowRouterC", "init"]
+- ["7QuestGo13PayFlowRouterC", "routeToError"]
+- ["7QuestGo13PayFlowRouterC", "viewController"]
+- ["7QuestGo19PayFlowRoutingLogicP", "String"]
+- !private ["7QuestGo19PayFlowRoutingLogicP", "UIAlertAction"]
+- !private ["7QuestGo19PayFlowRoutingLogicP", "UIAlertController"]
+- ["7QuestGo19PayFlowRoutingLogicP", ""]
+- ["7QuestGo19PayFlowRoutingLogicP", "dataStore"]
+- ["7QuestGo19PayFlowRoutingLogicP", "routeToError"]
+- !private ["7QuestGo19PayFlowRoutingLogicP", "viewController"]
+- !private ["SY", "alert"]
+- !private ["SY", "default"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addAction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "present"]
+- !private ["ST", ""]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "default"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "alertControllerWithTitle"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "alertControllerWithTitle"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "alertControllerWithTitle"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "alertControllerWithTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "alertControllerWithTitle"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "alertControllerWithTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "alertControllerWithTitle"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "alertControllerWithTitle"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "alertControllerWithTitle"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentViewController"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "alertControllerWithTitle"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "7QuestGo18PayFlowDataPassingP"
+- "7QuestGo13PayFlowRouterC"
+- "7QuestGo19PayFlowRoutingLogicP"
+- !private "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/youtube-ios-player-helper-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Headers/questGoShared.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/YTPlayerView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/QuestGoShared/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "69b07283a58fb798c5b82408e29bb4a8"

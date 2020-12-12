@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":questShared:iosArm64Main" external.linked.project.path="$MODULE_DIR$/../../../questShared" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="QuestGo" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="Native (ios_arm64) " allPlatforms="Native []/Native [ios_arm64]" useProjectSettings="false" isTestModule="false" externalProjectId=":questShared" isHmppProject="true" pureKotlinSourceFolders="$MODULE_DIR$/../../../questShared/src/commonMain/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidDebug/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/debug/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/debug/java;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidDebugAndroidTest/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidDebugUnitTest/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidRelease/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/release/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/release/java;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidReleaseUnitTest/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/iosArm64Main/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/iosArm64Main/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/iosX64Main/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/iosX64Main/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/commonMain/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/commonMain/kotlin">
+        <dependsOnModuleNames>
+          <dependsOn>:questShared:commonMain</dependsOn>
+          <dependsOn>:questShared:iosMain</dependsOn>
+        </dependsOnModuleNames>
+        <sourceSets>
+          <sourceSet>QuestGo.questShared.commonMain</sourceSet>
+          <sourceSet>QuestGo.questShared.iosMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../questShared/src/iosArm64Main/kotlin" />
+    <content url="file://$MODULE_DIR$/../../../questShared/src/iosArm64Main/resources" />
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - stdlib" level="project" />
+    <orderEntry type="module" module-name="QuestGo.questShared.commonMain" />
+    <orderEntry type="module" module-name="QuestGo.questShared.iosMain" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ARKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ARKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AVFoundation [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AVFoundation [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AVKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AVKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Accelerate [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Accelerate [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Accessibility [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Accessibility [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Accounts [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Accounts [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AdSupport [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AdSupport [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AddressBook [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AddressBook [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AddressBookUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AddressBookUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AppClip [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AppClip [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AppTrackingTransparency [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AppTrackingTransparency [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AssetsLibrary [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AssetsLibrary [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AudioToolbox [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AudioToolbox [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AuthenticationServices [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AuthenticationServices [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AutomaticAssessmentConfiguration [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - AutomaticAssessmentConfiguration [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - BackgroundTasks [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - BackgroundTasks [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - BusinessChat [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - BusinessChat [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CFNetwork [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CFNetwork [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CallKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CallKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CarPlay [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CarPlay [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ClassKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ClassKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ClockKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ClockKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CloudKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CloudKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CommonCrypto [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CommonCrypto [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Contacts [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Contacts [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ContactsUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ContactsUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreAudio [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreAudio [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreAudioKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreAudioKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreAudioTypes [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreAudioTypes [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreBluetooth [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreBluetooth [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreData [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreData [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreFoundation [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreFoundation [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreGraphics [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreGraphics [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreHaptics [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreHaptics [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreImage [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreImage [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreLocation [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreLocation [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreMIDI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreMIDI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreML [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreML [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreMedia [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreMedia [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreMotion [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreMotion [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreNFC [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreNFC [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreServices [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreServices [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreSpotlight [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreSpotlight [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreTelephony [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreTelephony [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreText [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreText [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreVideo [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CoreVideo [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CryptoTokenKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - CryptoTokenKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - DeviceCheck [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - DeviceCheck [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - EAGL [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - EAGL [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - EventKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - EventKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - EventKitUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - EventKitUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ExposureNotification [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ExposureNotification [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ExternalAccessory [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ExternalAccessory [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - FileProvider [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - FileProvider [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - FileProviderUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - FileProviderUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Foundation [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Foundation [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GLKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GLKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GSS [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GSS [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GameController [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GameController [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GameKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GameKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GameplayKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - GameplayKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - HealthKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - HealthKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - HealthKitUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - HealthKitUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - HomeKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - HomeKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - IOSurface [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - IOSurface [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - IdentityLookup [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - IdentityLookup [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - IdentityLookupUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - IdentityLookupUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ImageCaptureCore [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ImageCaptureCore [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ImageIO [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ImageIO [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Intents [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Intents [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - IntentsUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - IntentsUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - JavaScriptCore [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - JavaScriptCore [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - LinkPresentation [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - LinkPresentation [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - LocalAuthentication [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - LocalAuthentication [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MLCompute [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MLCompute [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MapKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MapKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MediaAccessibility [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MediaAccessibility [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MediaPlayer [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MediaPlayer [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MediaSetup [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MediaSetup [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MediaToolbox [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MediaToolbox [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MessageUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MessageUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Messages [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Messages [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Metal [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Metal [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MetalKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MetalKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MetalPerformanceShaders [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MetalPerformanceShaders [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MetalPerformanceShadersGraph [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MetalPerformanceShadersGraph [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MetricKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MetricKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MobileCoreServices [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MobileCoreServices [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ModelIO [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ModelIO [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MultipeerConnectivity [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - MultipeerConnectivity [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NaturalLanguage [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NaturalLanguage [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NearbyInteraction [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NearbyInteraction [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Network [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Network [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NetworkExtension [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NetworkExtension [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NewsstandKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NewsstandKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NotificationCenter [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - NotificationCenter [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenAL [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenAL [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenGLES [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenGLES [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenGLES2 [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenGLES2 [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenGLES3 [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenGLES3 [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenGLESCommon [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - OpenGLESCommon [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PDFKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PDFKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PassKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PassKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PencilKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PencilKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Photos [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Photos [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PhotosUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PhotosUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PushKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - PushKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - QuartzCore [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - QuartzCore [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - QuickLook [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - QuickLook [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - QuickLookThumbnailing [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - QuickLookThumbnailing [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ReplayKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ReplayKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SafariServices [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SafariServices [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SceneKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SceneKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ScreenTime [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - ScreenTime [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Security [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Security [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SensorKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SensorKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Social [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Social [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SoundAnalysis [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SoundAnalysis [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Speech [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Speech [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SpriteKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SpriteKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - StoreKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - StoreKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SystemConfiguration [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - SystemConfiguration [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Twitter [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Twitter [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - UIKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - UIKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - UniformTypeIdentifiers [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - UniformTypeIdentifiers [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - UserNotifications [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - UserNotifications [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - UserNotificationsUI [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - UserNotificationsUI [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - VideoSubscriberAccount [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - VideoSubscriberAccount [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - VideoToolbox [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - VideoToolbox [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Vision [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - Vision [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - VisionKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - VisionKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - WatchConnectivity [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - WatchConnectivity [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - WebKit [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - WebKit [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - builtin [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - builtin [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - darwin [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - darwin [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - iAd [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - iAd [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - iconv [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - iconv [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - objc [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - objc [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - posix [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - posix [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - zlib [ios_arm64(*), ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.4.20 - zlib [ios_arm64, ios_x64]" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.20" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.4.2-native-mt" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:0.14.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:cinterop-interop:0.14.4" level="project" />
+  </component>
+</module>

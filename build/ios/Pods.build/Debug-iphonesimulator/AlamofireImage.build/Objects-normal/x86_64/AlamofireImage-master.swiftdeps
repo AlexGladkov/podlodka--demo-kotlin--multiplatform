@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "9111a9dd880437516e6401989de7e6ac"
+build_time: [1607699237, 502177000]
+inputs:
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/AFIError.swift": [1597572617, 936917019]
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/Image.swift": [1597572617, 937570543]
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/ImageCache.swift": [1597572617, 935571339]
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/ImageDownloader.swift": [1597572617, 940189994]
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/ImageFilter.swift": [1597572617, 943002142]
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1597572617, 942185787]
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1597572617, 938746359]
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1597572617, 936152907]
+  "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1597572617, 941431805]

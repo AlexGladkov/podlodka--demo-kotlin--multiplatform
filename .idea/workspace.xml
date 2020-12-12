@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aee6d49c-b060-40ea-8730-25086052d3a0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_5_API_23]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/questShared">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QuestGo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QuestGo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QuestGo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QuestGo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QuestGo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="QuestGo" type="f1a62948:ProjectNode" />
+                <item name="questShared" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-1.4.20">
+    <allAvailableExecutables>
+      <executable target="ios_arm64" targetName="iosArm64" execName="test" projectPrefix=":questShared:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":questShared:linkDebugTestIosArm64" file="questShared/build/bin/iosArm64/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="ios_x64" targetName="iosX64" execName="test" projectPrefix=":questShared:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":questShared:linkDebugTestIosX64" file="questShared/build/bin/iosX64/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+    </allAvailableExecutables>
+    <xcodeproj PATH="QuestGo/QuestGo.xcworkspace" />
+  </component>
+  <component name="ProjectId" id="1lVzLkk8IpRzWn0589VVIaOslub" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5_API_23" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-12T17:29:53.797Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="ru.neura.questgoshared.questGoShared.data.features.configuration.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="QuestGo.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="questGoAndroid" type="AndroidRunConfigurationType" factoryName="Android App">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="questgo--mobile-customer--kotlin [packForXcode]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="packForXcode" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QuestGo" type="KmmRunConfiguration" factoryName="iOS Application" singleton="false" XCODE_SCHEME="QuestGo" EXEC_TARGET_ID="E0CA528F-704D-41EB-81EC-93E46978DDC0">
+      <method v="2">
+        <option name="com.jetbrains.kmm.ios.BuildIOSAppTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KmmRunConfiguration" factoryName="iOS Application" XCODE_SCHEME="QuestGo" EXEC_TARGET_ID="E0CA528F-704D-41EB-81EC-93E46978DDC0">
+      <method v="2">
+        <option name="com.jetbrains.kmm.ios.BuildIOSAppTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android App.questGoAndroid" />
+      <item itemvalue="Gradle.questgo--mobile-customer--kotlin [packForXcode]" />
+      <item itemvalue="iOS Application.QuestGo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.questgo--mobile-customer--kotlin [packForXcode]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aee6d49c-b060-40ea-8730-25086052d3a0" name="Default Changelist" comment="" />
+      <created>1607696992881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607696992881</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607699229945">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="304" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.952@0.23.1680.952" timestamp="1607697437618" />
+    <state x="304" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.954@0.23.1680.954" timestamp="1607699229945" />
+    <state x="619" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1607792212967">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="619" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.952@0.23.1680.952" timestamp="1607792212967" />
+    <state x="481" y="296" width="725" height="403" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1607791942266">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="481" y="296" width="725" height="403" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1680.952@0.23.1680.952" timestamp="1607791942266" />
+    <state x="521" y="166" key="#questGoAndroid" timestamp="1607697565160">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="521" y="166" key="#questGoAndroid/0.23.1680.952@0.23.1680.952" timestamp="1607697565160" />
+    <state x="583" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607697869987">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="583" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.952@0.23.1680.952" timestamp="1607697869987" />
+    <state width="1636" height="247" key="GridCell.Tab.0.bottom" timestamp="1607794303354">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1636" height="247" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1607793672398" />
+    <state width="1636" height="247" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1607794303354" />
+    <state width="1636" height="247" key="GridCell.Tab.0.center" timestamp="1607794303352">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1636" height="247" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1607793672398" />
+    <state width="1636" height="247" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1607794303352" />
+    <state width="1636" height="247" key="GridCell.Tab.0.left" timestamp="1607794303350">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1636" height="247" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1607793672397" />
+    <state width="1636" height="247" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1607794303350" />
+    <state width="1636" height="247" key="GridCell.Tab.0.right" timestamp="1607794303353">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1636" height="247" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1607793672398" />
+    <state width="1636" height="247" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1607794303353" />
+  </component>
+</project>

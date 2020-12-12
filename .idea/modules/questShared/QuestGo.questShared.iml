@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":questShared" external.linked.project.path="$MODULE_DIR$/../../../questShared" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="QuestGo" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":questShared" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.0.1" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.0.1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="false" externalProjectId=":questShared" isHmppProject="true" pureKotlinSourceFolders="$MODULE_DIR$/../../../questShared/src/commonMain/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidDebug/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/debug/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/debug/java;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidDebugAndroidTest/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidDebugUnitTest/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidRelease/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/release/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/release/java;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/androidReleaseUnitTest/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/iosArm64Main/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/iosArm64Main/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/iosX64Main/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/iosX64Main/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/commonMain/kotlin;/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/questShared/src/commonMain/kotlin">
+        <sourceSets>
+          <sourceSet>QuestGo.questShared.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../questShared/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7bdc4bf000c2e5f0ba545adefa56348b/jetified-kotlinx-coroutines-core-jvm-1.4.2-native-mt.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/37938043d16753228722c30c4211f04a/jetified-kotlin-stdlib-1.4.20.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/2b301fe0d8a59dd5c4d77de32f9a0159/material-1.2.1-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/cac4eee8ecfd4400d794ffae4408aa0d/jetified-kotlin-stdlib-common-1.4.20.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/a89d78cad90ddc6895e3aca0845c5fd8/jetified-annotations-13.0.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/1de1ef999d292f5bab99675394a0e1e8/appcompat-1.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/e492d4a56c044491d9a34a1b38dba9e4/cardview-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/6ac32bb02e48025b0ef848c1ad88c95e/coordinatorlayout-1.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/bbdc95776b9eae617efad0979a5e4203/jetified-viewpager2-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/574f3c6a329465dc90de5087eeef2e19/fragment-1.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/0a4d67b2183653cdedc8551123e9185d/recyclerview-1.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/4e7a7741e2c0095d4fcbe6408c698f7b/transition-1.2.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/d5f6ecb0c8f0ff84e8a2357895245a7b/jetified-appcompat-resources-1.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/646bc072694a587ffadad4bfb019ccac/vectordrawable-animated-1.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/6a34dee50ff9589a538f953e550b635a/vectordrawable-1.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/244d49d4c1f834ae80e6ef6f613f3ca3/drawerlayout-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/24f4b1a6f8545c2006b6fb12e9f5e649/viewpager-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/60745b8aa2e8a8040eb51b5cb4e3051f/customview-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/02e02815d0bf6adf48b50a48ae1cbaf1/loader-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/5fcbc721c09f2a877c55a0c75c12a079/jetified-activity-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/23203644377d0441e6114d0ddd55094b/core-1.2.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/a273549b229c44dc1a4ad3e03423f632/lifecycle-runtime-2.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/1f044843bba6c9a46a60d5d3a2d33a6f/cursoradapter-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/71606c639864719b22b2d75c0d1a9382/versionedparcelable-1.1.0-api.jar:/Users/neuradev/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/d2faa3ae71bc3f8070fb7d810db7e802/lifecycle-viewmodel-2.1.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/b1e5469b9680253f15a979298fca5b06/jetified-savedstate-1.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/fe1d134e1705db4ab5123ed9c8978abb/lifecycle-livedata-2.0.0-api.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/e7a6494d4652f63a84699de4f25ca7c6/lifecycle-livedata-core-2.0.0-api.jar:/Users/neuradev/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0/c67e7807d9cd6c329b9d0218b2ec4e505dd340b7/lifecycle-common-2.1.0.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/baacd57e8178cbf1f485f68db0384f8d/core-runtime-2.0.0-api.jar:/Users/neuradev/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/c23c0031910371d9ee84f0a322f604fe/interpolator-1.0.0-api.jar:/Users/neuradev/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/neuradev/.gradle/caches/transforms-2/files-2.1/a4040ffa6164c3c9453dc15e956e1baa/jetified-annotation-experimental-1.0.0-api.jar:/Users/neuradev/Library/Android/sdk/platforms/android-29/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="questShared_debug" />
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.4.20/9793d2f6b262847a2d8127951c5786cf907cc7b1/kotlin-script-runtime-1.4.20.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.4.20/2e2bf29688a76cec111df56bc5e358c5bbc5057/kotlin-scripting-common-1.4.20.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.4.20/83704fbbe39946cc2ac6d0f07f41947abeb8dc20/kotlin-scripting-jvm-1.4.20.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.20/c6761d7805b5312302f2bbd78cda68c976ce0c70/kotlin-stdlib-common-1.4.20.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.20/9be77b243a362b745e365f286627b8724337009c/kotlin-stdlib-1.4.20.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.7/8e2eb78158638b33793d204ffef0b65c4a578e1c/kotlinx-coroutines-core-1.3.7.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/androidMain/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../questShared/src/main/res;file://$MODULE_DIR$/../../../questShared/src/debug/res;file://$MODULE_DIR$/../../../questShared/build/generated/res/rs/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../questShared/src/androidTest/res;file://$MODULE_DIR$/../../../questShared/src/androidTestDebug/res;file://$MODULE_DIR$/../../../questShared/build/generated/res/rs/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../../questShared/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../questShared/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../questShared">
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidDebug/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/debug/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidMain/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidMain/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidDebugAndroidTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidDebugAndroidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidAndroidTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidAndroidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidAndroidTestDebug/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidTestDebug/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidAndroidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidDebugUnitTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidDebugUnitTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/testDebug/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidRelease/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/release/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/release/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidRelease/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidReleaseUnitTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidReleaseUnitTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidTestRelease/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/testRelease/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/testRelease/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/src/androidTestRelease/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../questShared/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../questShared/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../questShared/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.4.2-native-mt" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.4.20" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.20">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.20/c6761d7805b5312302f2bbd78cda68c976ce0c70/kotlin-stdlib-common-1.4.20.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.20/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-stdlib-common-1.4.20-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.20/f43399bcb1a17566dd6a89937876b898b89ef4c0/kotlin-stdlib-common-1.4.20-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.material:material:1.2.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.transition:transition:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.4.20" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.4.20" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.4.20">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.4.20/2191d43275c9a8558adea84729c1ca372a463e59/kotlin-test-common-1.4.20.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.4.20/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-test-common-1.4.20-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.4.20/d1818d1bdc457b51289f006884a260b56a55cb77/kotlin-test-common-1.4.20-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.4.20">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.4.20/a82b48a34377ac287c138ea21e09b511ab21c374/kotlin-test-annotations-common-1.4.20.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.4.20/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-test-annotations-common-1.4.20-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.4.20/57512e29ee20defe37d54ce19507d599b0f2113/kotlin-test-annotations-common-1.4.20-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="module" module-name="QuestGo.questShared.commonMain" />
+    <orderEntry type="module" module-name="QuestGo.questShared.commonTest" scope="TEST" production-on-test="" />
+  </component>
+</module>

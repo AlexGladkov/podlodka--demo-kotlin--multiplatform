@@ -1,0 +1,245 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Queue"
+provides-nominal:
+- "7RxSwift5QueueV"
+provides-member:
+- ["7RxSwift5QueueV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- "-="
+- !private "..<"
+- !private "/"
+- !private "<"
+- "=="
+- !private ">"
+- ">="
+- "AnyIterator"
+- "AssignmentPrecedence"
+- "Bool"
+- "ContiguousArray"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Queue"
+- "Sequence"
+- !private "Swift"
+- "T"
+- "TernaryPrecedence"
+- !private "_count"
+- !private "_initialCapacity"
+- !private "_pushNextIndex"
+- !private "_resizeFactor"
+- !private "_storage"
+- !private "count"
+- !private "dequeueElementOnly"
+- !private "dequeueIndex"
+- !private "precondition"
+- !private "resizeTo"
+depends-member:
+- !private ["s11AnyIteratorV", "init"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["s15ContiguousArrayV", "count"]
+- !private ["s15ContiguousArrayV", "init"]
+- !private ["s15ContiguousArrayV", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", ""]
+- !private ["SQ", "count"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "count"]
+- !private ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["St", "init"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["7RxSwift5QueueV", "AnyIterator"]
+- ["7RxSwift5QueueV", "Bool"]
+- ["7RxSwift5QueueV", "ContiguousArray"]
+- ["7RxSwift5QueueV", "Default_Element"]
+- ["7RxSwift5QueueV", "Default_Iterator"]
+- ["7RxSwift5QueueV", "Element"]
+- ["7RxSwift5QueueV", "Generator"]
+- ["7RxSwift5QueueV", "Int"]
+- ["7RxSwift5QueueV", "Iterator"]
+- !private ["7RxSwift5QueueV", "Swift"]
+- ["7RxSwift5QueueV", ""]
+- ["7RxSwift5QueueV", "_Default_Element"]
+- ["7RxSwift5QueueV", "_Default_Iterator"]
+- ["7RxSwift5QueueV", "_copyContents"]
+- ["7RxSwift5QueueV", "_copyToContiguousArray"]
+- !private ["7RxSwift5QueueV", "_count"]
+- ["7RxSwift5QueueV", "_customContainsEquatableElement"]
+- !private ["7RxSwift5QueueV", "_initialCapacity"]
+- !private ["7RxSwift5QueueV", "_pushNextIndex"]
+- !private ["7RxSwift5QueueV", "_resizeFactor"]
+- !private ["7RxSwift5QueueV", "_storage"]
+- ["7RxSwift5QueueV", "count"]
+- ["7RxSwift5QueueV", "dequeue"]
+- !private ["7RxSwift5QueueV", "dequeueElementOnly"]
+- !private ["7RxSwift5QueueV", "dequeueIndex"]
+- ["7RxSwift5QueueV", "enqueue"]
+- ["7RxSwift5QueueV", "init"]
+- !private ["7RxSwift5QueueV", "initialCapacity"]
+- ["7RxSwift5QueueV", "isEmpty"]
+- ["7RxSwift5QueueV", "makeIterator"]
+- ["7RxSwift5QueueV", "peek"]
+- !private ["7RxSwift5QueueV", "precondition"]
+- !private ["7RxSwift5QueueV", "pushNextIndex"]
+- !private ["7RxSwift5QueueV", "resizeFactor"]
+- !private ["7RxSwift5QueueV", "resizeTo"]
+- !private ["7RxSwift5QueueV", "storage"]
+- ["7RxSwift5QueueV", "underestimatedCount"]
+- ["7RxSwift5QueueV", "withContiguousStorageIfAvailable"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "AnyIterator"]
+- !private ["ST", "ContiguousArray"]
+- ["ST", "Default_Element"]
+- ["ST", "Default_Iterator"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- !private ["ST", "Swift"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- !private ["ST", "_count"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "_initialCapacity"]
+- !private ["ST", "_pushNextIndex"]
+- !private ["ST", "_resizeFactor"]
+- !private ["ST", "_storage"]
+- !private ["ST", "count"]
+- !private ["ST", "dequeueElementOnly"]
+- !private ["ST", "dequeueIndex"]
+- !private ["ST", "enqueue"]
+- !private ["ST", "init"]
+- !private ["ST", "initialCapacity"]
+- ["ST", "makeIterator"]
+- !private ["ST", "precondition"]
+- !private ["ST", "pushNextIndex"]
+- !private ["ST", "resizeFactor"]
+- !private ["ST", "resizeTo"]
+- !private ["ST", "storage"]
+- !private ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+depends-nominal:
+- !private "s11AnyIteratorV"
+- !private "SK"
+- !private "Sl"
+- !private "s15ContiguousArrayV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "St"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "7RxSwift5QueueV"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e87b0928ef2cf83998ccdaf2f6942e21"

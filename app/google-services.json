@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "66064217695",
+    "firebase_url": "https://questgo-77ce7.firebaseio.com",
+    "project_id": "questgo-77ce7",
+    "storage_bucket": "questgo-77ce7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66064217695:android:918d8efc5e3b1aaed24dea",
+        "android_client_info": {
+          "package_name": "ru.agladkov.questgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66064217695-ahsd78oeb7h6el0of8jckmik2ka3kfb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.agladkov.questgo",
+            "certificate_hash": "7b5b7ff871fa83444d4562e038b2da4cbc62d51d"
+          }
+        },
+        {
+          "client_id": "66064217695-4hgibjik6okbamhrd4vvhgokpkecskdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxB__zRp0k0YyaQWEPPG3H95K9i3m42k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66064217695-4hgibjik6okbamhrd4vvhgokpkecskdf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "66064217695-p6n41ulepfocae7ed3equdac7onnbrqt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.questgo.ios",
+                "app_store_id": "1528201025"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

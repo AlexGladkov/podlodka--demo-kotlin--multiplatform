@@ -1,0 +1,841 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StoreObserver"
+provides-nominal:
+- "7QuestGo13StoreObserverC"
+provides-member:
+- ["7QuestGo13StoreObserverC", ""]
+provides-dynamic-lookup:
+- "buy"
+- "delegate"
+- "handleFailed"
+- "handlePurchased"
+- "handleRestored"
+- "hasRestorablePurchases"
+- "isAuthorizedForPayments"
+- "paymentQueue"
+- "paymentQueueRestoreCompletedTransactionsFinished"
+- "purchased"
+- "restore"
+- "restored"
+- "shared"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Messages"
+- "NSObject"
+- "SKError"
+- !private "SKMutablePayment"
+- "SKPaymentQueue"
+- "SKPaymentTransaction"
+- "SKPaymentTransactionObserver"
+- "SKProduct"
+- "StoreObserver"
+- "StoreObserverDelegate"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+- !private "handleFailed"
+- !private "handlePurchased"
+- !private "handleRestored"
+- !private "hasRestorablePurchases"
+- !private "print"
+- !private "purchased"
+- !private "restored"
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "append"]
+- ["9Alamofire0A8ExtendedP", "init"]
+- !private ["9Alamofire0A8ExtendedP", "isEmpty"]
+- !private ["9Alamofire0A8ExtendedP", "removeAll"]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "removeAll"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "removeAll"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "isEmpty"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "removeAll"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "Messages"]
+- !private ["s7CVarArgP", "SKMutablePayment"]
+- !private ["s7CVarArgP", "SKPaymentQueue"]
+- ["s7CVarArgP", "SKPaymentTransaction"]
+- ["s7CVarArgP", "StoreObserver"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "buy"]
+- !private ["s7CVarArgP", "canMakePayments"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "finishTransaction"]
+- !private ["s7CVarArgP", "handleFailed"]
+- !private ["s7CVarArgP", "handlePurchased"]
+- !private ["s7CVarArgP", "handleRestored"]
+- !private ["s7CVarArgP", "hasRestorablePurchases"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "payment"]
+- ["s7CVarArgP", "paymentQueue"]
+- ["s7CVarArgP", "paymentQueueDidChangeStorefront"]
+- ["s7CVarArgP", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "productIdentifier"]
+- !private ["s7CVarArgP", "purchased"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "restore"]
+- !private ["s7CVarArgP", "restoreCompletedTransactions"]
+- !private ["s7CVarArgP", "restored"]
+- !private ["s7CVarArgP", "transactionState"]
+- !private ["So11SKErrorCodeV", "RawValue"]
+- !private ["So11SKErrorCodeV", "paymentCancelled"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "removeAll"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Messages"]
+- !private ["s28CustomDebugStringConvertibleP", "SKMutablePayment"]
+- !private ["s28CustomDebugStringConvertibleP", "SKPaymentQueue"]
+- ["s28CustomDebugStringConvertibleP", "SKPaymentTransaction"]
+- ["s28CustomDebugStringConvertibleP", "StoreObserver"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "buy"]
+- !private ["s28CustomDebugStringConvertibleP", "canMakePayments"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "finishTransaction"]
+- !private ["s28CustomDebugStringConvertibleP", "handleFailed"]
+- !private ["s28CustomDebugStringConvertibleP", "handlePurchased"]
+- !private ["s28CustomDebugStringConvertibleP", "handleRestored"]
+- !private ["s28CustomDebugStringConvertibleP", "hasRestorablePurchases"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "payment"]
+- !private ["s28CustomDebugStringConvertibleP", "paymentCancelled"]
+- ["s28CustomDebugStringConvertibleP", "paymentQueue"]
+- ["s28CustomDebugStringConvertibleP", "paymentQueueDidChangeStorefront"]
+- ["s28CustomDebugStringConvertibleP", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "productIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "purchased"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "restore"]
+- !private ["s28CustomDebugStringConvertibleP", "restoreCompletedTransactions"]
+- !private ["s28CustomDebugStringConvertibleP", "restored"]
+- !private ["s28CustomDebugStringConvertibleP", "transactionState"]
+- !private ["10Foundation13CustomNSErrorP", "Code"]
+- !private ["10Foundation13CustomNSErrorP", ""]
+- !private ["10Foundation13CustomNSErrorP", "code"]
+- !private ["10Foundation13CustomNSErrorP", "localizedDescription"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "paymentCancelled"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "Messages"]
+- !private ["s23CustomStringConvertibleP", "SKMutablePayment"]
+- !private ["s23CustomStringConvertibleP", "SKPaymentQueue"]
+- ["s23CustomStringConvertibleP", "SKPaymentTransaction"]
+- ["s23CustomStringConvertibleP", "StoreObserver"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "buy"]
+- !private ["s23CustomStringConvertibleP", "canMakePayments"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "finishTransaction"]
+- !private ["s23CustomStringConvertibleP", "handleFailed"]
+- !private ["s23CustomStringConvertibleP", "handlePurchased"]
+- !private ["s23CustomStringConvertibleP", "handleRestored"]
+- !private ["s23CustomStringConvertibleP", "hasRestorablePurchases"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "payment"]
+- ["s23CustomStringConvertibleP", "paymentQueue"]
+- ["s23CustomStringConvertibleP", "paymentQueueDidChangeStorefront"]
+- ["s23CustomStringConvertibleP", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "productIdentifier"]
+- !private ["s23CustomStringConvertibleP", "purchased"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "restore"]
+- !private ["s23CustomStringConvertibleP", "restoreCompletedTransactions"]
+- !private ["s23CustomStringConvertibleP", "restored"]
+- !private ["s23CustomStringConvertibleP", "transactionState"]
+- ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["Se", "append"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "paymentCancelled"]
+- !private ["Se", "removeAll"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "append"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "paymentCancelled"]
+- !private ["SE", "removeAll"]
+- !private ["SQ", "Code"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "Messages"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "SKMutablePayment"]
+- !private ["SQ", "SKPaymentQueue"]
+- ["SQ", "SKPaymentTransaction"]
+- ["SQ", "StoreObserver"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "buy"]
+- !private ["SQ", "canMakePayments"]
+- !private ["SQ", "code"]
+- !private ["SQ", "default"]
+- ["SQ", "deferred"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "error"]
+- ["SQ", "failed"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "finishTransaction"]
+- !private ["SQ", "handleFailed"]
+- !private ["SQ", "handlePurchased"]
+- !private ["SQ", "handleRestored"]
+- !private ["SQ", "hasRestorablePurchases"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "localizedDescription"]
+- !private ["SQ", "main"]
+- !private ["SQ", "payment"]
+- !private ["SQ", "paymentCancelled"]
+- ["SQ", "paymentQueue"]
+- ["SQ", "paymentQueueDidChangeStorefront"]
+- ["SQ", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["SQ", "print"]
+- !private ["SQ", "productIdentifier"]
+- ["SQ", "purchased"]
+- ["SQ", "purchasing"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "restore"]
+- !private ["SQ", "restoreCompletedTransactions"]
+- ["SQ", "restored"]
+- !private ["SQ", "transactionState"]
+- !private ["s5ErrorP", "Code"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s23ExpressibleByNilLiteralP", "paymentCancelled"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", "Code"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "Messages"]
+- !private ["SH", "RawValue"]
+- !private ["SH", "SKMutablePayment"]
+- !private ["SH", "SKPaymentQueue"]
+- ["SH", "SKPaymentTransaction"]
+- ["SH", "StoreObserver"]
+- ["SH", ""]
+- !private ["SH", "add"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "buy"]
+- !private ["SH", "canMakePayments"]
+- !private ["SH", "code"]
+- !private ["SH", "default"]
+- ["SH", "deferred"]
+- !private ["SH", "delegate"]
+- !private ["SH", "error"]
+- ["SH", "failed"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "finishTransaction"]
+- !private ["SH", "handleFailed"]
+- !private ["SH", "handlePurchased"]
+- !private ["SH", "handleRestored"]
+- !private ["SH", "hasRestorablePurchases"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "localizedDescription"]
+- !private ["SH", "main"]
+- !private ["SH", "payment"]
+- !private ["SH", "paymentCancelled"]
+- ["SH", "paymentQueue"]
+- ["SH", "paymentQueueDidChangeStorefront"]
+- ["SH", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["SH", "print"]
+- !private ["SH", "productIdentifier"]
+- ["SH", "purchased"]
+- ["SH", "purchasing"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "restore"]
+- !private ["SH", "restoreCompletedTransactions"]
+- ["SH", "restored"]
+- !private ["SH", "transactionState"]
+- !private ["7QuestGo8MessagesV", "canceled"]
+- !private ["7QuestGo8MessagesV", "deferred"]
+- !private ["7QuestGo8MessagesV", "deliverContent"]
+- !private ["7QuestGo8MessagesV", "error"]
+- !private ["7QuestGo8MessagesV", "failed"]
+- !private ["7QuestGo8MessagesV", "noRestorablePurchases"]
+- !private ["7QuestGo8MessagesV", "purchaseOf"]
+- !private ["7QuestGo8MessagesV", "removed"]
+- !private ["7QuestGo8MessagesV", "restorable"]
+- !private ["7QuestGo8MessagesV", "restoreContent"]
+- !private ["7QuestGo8MessagesV", "unknownPaymentTransaction"]
+- ["SM", ""]
+- !private ["SM", "append"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "productIdentifier"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "productIdentifier"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "Messages"]
+- !private ["So8NSObjectC", "SKError"]
+- !private ["So8NSObjectC", "SKMutablePayment"]
+- ["So8NSObjectC", "SKPaymentQueue"]
+- ["So8NSObjectC", "SKPaymentTransaction"]
+- ["So8NSObjectC", "SKProduct"]
+- ["So8NSObjectC", "StoreObserver"]
+- ["So8NSObjectC", "StoreObserverDelegate"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "addPayment"]
+- !private ["So8NSObjectC", "addTransactionObserver"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "buy"]
+- !private ["So8NSObjectC", "canMakePayments"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "defaultQueue"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "error"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "finishTransaction"]
+- ["So8NSObjectC", "handleFailed"]
+- ["So8NSObjectC", "handlePurchased"]
+- ["So8NSObjectC", "handleRestored"]
+- ["So8NSObjectC", "hasRestorablePurchases"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isAuthorizedForPayments"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "payment"]
+- ["So8NSObjectC", "paymentQueue"]
+- ["So8NSObjectC", "paymentQueueDidChangeStorefront"]
+- ["So8NSObjectC", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["So8NSObjectC", "paymentWithProduct"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "productIdentifier"]
+- ["So8NSObjectC", "purchased"]
+- ["So8NSObjectC", "restore"]
+- !private ["So8NSObjectC", "restoreCompletedTransactions"]
+- !private ["So8NSObjectC", "restoreCompletedTransactionsWithApplicationUsername"]
+- ["So8NSObjectC", "restored"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "transactionState"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", "Error"]
+- !private ["So8NSObjectP", "Messages"]
+- !private ["So8NSObjectP", "SKError"]
+- !private ["So8NSObjectP", "SKMutablePayment"]
+- ["So8NSObjectP", "SKPaymentQueue"]
+- ["So8NSObjectP", "SKPaymentTransaction"]
+- ["So8NSObjectP", "SKProduct"]
+- ["So8NSObjectP", "StoreObserver"]
+- ["So8NSObjectP", "StoreObserverDelegate"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "addPayment"]
+- !private ["So8NSObjectP", "addTransactionObserver"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "buy"]
+- !private ["So8NSObjectP", "canMakePayments"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "defaultQueue"]
+- ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "error"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "finishTransaction"]
+- ["So8NSObjectP", "handleFailed"]
+- ["So8NSObjectP", "handlePurchased"]
+- ["So8NSObjectP", "handleRestored"]
+- ["So8NSObjectP", "hasRestorablePurchases"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isAuthorizedForPayments"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "payment"]
+- ["So8NSObjectP", "paymentQueue"]
+- ["So8NSObjectP", "paymentQueueDidChangeStorefront"]
+- ["So8NSObjectP", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["So8NSObjectP", "paymentWithProduct"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "productIdentifier"]
+- ["So8NSObjectP", "purchased"]
+- ["So8NSObjectP", "restore"]
+- !private ["So8NSObjectP", "restoreCompletedTransactions"]
+- !private ["So8NSObjectP", "restoreCompletedTransactionsWithApplicationUsername"]
+- ["So8NSObjectP", "restored"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "transactionState"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["Sq", "paymentCancelled"]
+- ["Sk", ""]
+- !private ["Sk", "append"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "removeAll"]
+- ["Sm", ""]
+- !private ["Sm", "append"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "removeAll"]
+- !private ["SY", "RawValue"]
+- ["SY", "deferred"]
+- ["SY", "failed"]
+- !private ["SY", "paymentCancelled"]
+- ["SY", "purchased"]
+- ["SY", "purchasing"]
+- ["SY", "restored"]
+- !private ["7RxSwift18ReactiveCompatibleP", "DispatchQueue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Messages"]
+- !private ["7RxSwift18ReactiveCompatibleP", "SKMutablePayment"]
+- !private ["7RxSwift18ReactiveCompatibleP", "SKPaymentQueue"]
+- ["7RxSwift18ReactiveCompatibleP", "SKPaymentTransaction"]
+- ["7RxSwift18ReactiveCompatibleP", "StoreObserver"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "add"]
+- !private ["7RxSwift18ReactiveCompatibleP", "async"]
+- !private ["7RxSwift18ReactiveCompatibleP", "buy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "canMakePayments"]
+- !private ["7RxSwift18ReactiveCompatibleP", "default"]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "error"]
+- !private ["7RxSwift18ReactiveCompatibleP", "fatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "finishTransaction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "handleFailed"]
+- !private ["7RxSwift18ReactiveCompatibleP", "handlePurchased"]
+- !private ["7RxSwift18ReactiveCompatibleP", "handleRestored"]
+- !private ["7RxSwift18ReactiveCompatibleP", "hasRestorablePurchases"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "main"]
+- !private ["7RxSwift18ReactiveCompatibleP", "payment"]
+- ["7RxSwift18ReactiveCompatibleP", "paymentQueue"]
+- ["7RxSwift18ReactiveCompatibleP", "paymentQueueDidChangeStorefront"]
+- ["7RxSwift18ReactiveCompatibleP", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["7RxSwift18ReactiveCompatibleP", "print"]
+- !private ["7RxSwift18ReactiveCompatibleP", "productIdentifier"]
+- !private ["7RxSwift18ReactiveCompatibleP", "purchased"]
+- !private ["7RxSwift18ReactiveCompatibleP", "restore"]
+- !private ["7RxSwift18ReactiveCompatibleP", "restoreCompletedTransactions"]
+- !private ["7RxSwift18ReactiveCompatibleP", "restored"]
+- !private ["7RxSwift18ReactiveCompatibleP", "transactionState"]
+- !private ["SC11SKErrorCodeLeV", "Code"]
+- !private ["SC11SKErrorCodeLeV", "code"]
+- !private ["SC11SKErrorCodeLeV", "localizedDescription"]
+- !private ["So16SKMutablePaymentC", "init"]
+- ["So9SKPaymentC", ""]
+- !private ["So9SKPaymentC", "init"]
+- !private ["So9SKPaymentC", "productIdentifier"]
+- !private ["So14SKPaymentQueueC", "add"]
+- !private ["So14SKPaymentQueueC", "canMakePayments"]
+- !private ["So14SKPaymentQueueC", "default"]
+- !private ["So14SKPaymentQueueC", "finishTransaction"]
+- !private ["So14SKPaymentQueueC", "restoreCompletedTransactions"]
+- !private ["So20SKPaymentTransactionC", "error"]
+- !private ["So20SKPaymentTransactionC", "payment"]
+- !private ["So20SKPaymentTransactionC", "transactionState"]
+- !private ["So28SKPaymentTransactionObserverP", "DispatchQueue"]
+- !private ["So28SKPaymentTransactionObserverP", "Messages"]
+- !private ["So28SKPaymentTransactionObserverP", "SKMutablePayment"]
+- !private ["So28SKPaymentTransactionObserverP", "SKPaymentQueue"]
+- ["So28SKPaymentTransactionObserverP", "SKPaymentTransaction"]
+- ["So28SKPaymentTransactionObserverP", "StoreObserver"]
+- ["So28SKPaymentTransactionObserverP", ""]
+- ["So28SKPaymentTransactionObserverP", "buy"]
+- ["So28SKPaymentTransactionObserverP", "delegate"]
+- !private ["So28SKPaymentTransactionObserverP", "fatalError"]
+- ["So28SKPaymentTransactionObserverP", "handleFailed"]
+- ["So28SKPaymentTransactionObserverP", "handlePurchased"]
+- ["So28SKPaymentTransactionObserverP", "handleRestored"]
+- ["So28SKPaymentTransactionObserverP", "hasRestorablePurchases"]
+- ["So28SKPaymentTransactionObserverP", "init"]
+- ["So28SKPaymentTransactionObserverP", "isAuthorizedForPayments"]
+- ["So28SKPaymentTransactionObserverP", "paymentQueue"]
+- ["So28SKPaymentTransactionObserverP", "paymentQueueDidChangeStorefront"]
+- ["So28SKPaymentTransactionObserverP", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["So28SKPaymentTransactionObserverP", "print"]
+- ["So28SKPaymentTransactionObserverP", "purchased"]
+- ["So28SKPaymentTransactionObserverP", "restore"]
+- ["So28SKPaymentTransactionObserverP", "restored"]
+- ["So28SKPaymentTransactionObserverP", "shared"]
+- ["So25SKPaymentTransactionStateV", "deferred"]
+- ["So25SKPaymentTransactionStateV", "failed"]
+- ["So25SKPaymentTransactionStateV", "purchased"]
+- ["So25SKPaymentTransactionStateV", "purchasing"]
+- ["So25SKPaymentTransactionStateV", "restored"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "removeAll"]
+- ["7QuestGo13StoreObserverC", "Bool"]
+- !private ["7QuestGo13StoreObserverC", "DispatchQueue"]
+- ["7QuestGo13StoreObserverC", "Error"]
+- !private ["7QuestGo13StoreObserverC", "Messages"]
+- !private ["7QuestGo13StoreObserverC", "SKError"]
+- !private ["7QuestGo13StoreObserverC", "SKMutablePayment"]
+- ["7QuestGo13StoreObserverC", "SKPaymentQueue"]
+- ["7QuestGo13StoreObserverC", "SKPaymentTransaction"]
+- ["7QuestGo13StoreObserverC", "SKProduct"]
+- ["7QuestGo13StoreObserverC", "StoreObserver"]
+- ["7QuestGo13StoreObserverC", "StoreObserverDelegate"]
+- ["7QuestGo13StoreObserverC", ""]
+- ["7QuestGo13StoreObserverC", "buy"]
+- ["7QuestGo13StoreObserverC", "deinit"]
+- ["7QuestGo13StoreObserverC", "delegate"]
+- !private ["7QuestGo13StoreObserverC", "fatalError"]
+- !private ["7QuestGo13StoreObserverC", "handleFailed"]
+- !private ["7QuestGo13StoreObserverC", "handlePurchased"]
+- !private ["7QuestGo13StoreObserverC", "handleRestored"]
+- !private ["7QuestGo13StoreObserverC", "hasRestorablePurchases"]
+- ["7QuestGo13StoreObserverC", "init"]
+- ["7QuestGo13StoreObserverC", "isAuthorizedForPayments"]
+- ["7QuestGo13StoreObserverC", "paymentQueue"]
+- ["7QuestGo13StoreObserverC", "paymentQueueDidChangeStorefront"]
+- ["7QuestGo13StoreObserverC", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["7QuestGo13StoreObserverC", "print"]
+- ["7QuestGo13StoreObserverC", "purchased"]
+- ["7QuestGo13StoreObserverC", "restore"]
+- ["7QuestGo13StoreObserverC", "restored"]
+- ["7QuestGo13StoreObserverC", "shared"]
+- !private ["7QuestGo21StoreObserverDelegateP", "storeObserverBuyDidSucceed"]
+- !private ["7QuestGo21StoreObserverDelegateP", "storeObserverDidReceiveMessage"]
+- !private ["7QuestGo21StoreObserverDelegateP", "storeObserverRestoreDidSucceed"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "append"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "Code"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "code"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "localizedDescription"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "RawValue"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "paymentCancelled"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Messages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKMutablePayment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKPaymentQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SKPaymentTransaction"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "StoreObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canMakePayments"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finishTransaction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleFailed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handlePurchased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleRestored"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasRestorablePurchases"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "payment"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "paymentQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "paymentQueueDidChangeStorefront"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "productIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "purchased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restoreCompletedTransactions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restored"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transactionState"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Messages"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SKMutablePayment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SKPaymentQueue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SKPaymentTransaction"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "StoreObserver"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "buy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "canMakePayments"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "error"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "finishTransaction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleFailed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handlePurchased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleRestored"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasRestorablePurchases"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "payment"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "paymentQueue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "paymentQueueDidChangeStorefront"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "paymentQueueRestoreCompletedTransactionsFinished"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "productIdentifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "purchased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restore"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restoreCompletedTransactions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restored"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "transactionState"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "paymentCancelled"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "Code"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", ""]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "code"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "localizedDescription"]
+- !private ["s26_OptionalNilComparisonTypeV", "paymentCancelled"]
+depends-nominal:
+- "9Alamofire0A8ExtendedP"
+- "Sa"
+- "SK"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "So11SKErrorCodeV"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "SH"
+- !private "7QuestGo8MessagesV"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- !private "Sq"
+- "Sk"
+- "Sm"
+- "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "SC11SKErrorCodeLeV"
+- !private "So16SKMutablePaymentC"
+- "So9SKPaymentC"
+- !private "So14SKPaymentQueueC"
+- !private "So20SKPaymentTransactionC"
+- "So28SKPaymentTransactionObserverP"
+- "So25SKPaymentTransactionStateV"
+- !private "7Combine9SchedulerP"
+- "ST"
+- "7QuestGo13StoreObserverC"
+- !private "7QuestGo21StoreObserverDelegateP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "s14_ArrayProtocolP"
+- !private "10Foundation21_BridgedStoredNSErrorP"
+- "s24_DestructorSafeContainerP"
+- !private "10Foundation18_ErrorCodeProtocolP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "10Foundation26_ObjectiveCBridgeableErrorP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/youtube-ios-player-helper-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Headers/questGoShared.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/YTPlayerView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/QuestGoShared/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7ef7df782507ca808ecd0dc5b4cf07b8"

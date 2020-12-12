@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-metadata:nativeDarwinMain:1.4.2-native-mt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/questShared/build/tmp/kotlinMetadata/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core-metadata/org.jetbrains.kotlinx-kotlinx-coroutines-core-metadata-nativeDarwinMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-metadata/1.4.2-native-mt/f59e3ef35cde0a1203e818a07812a7fbeff1f08b/kotlinx-coroutines-core-metadata-1.4.2-native-mt-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Full Image View Controller-->
+        <scene sceneID="QQy-Gz-4Oq">
+            <objects>
+                <viewController storyboardIdentifier="FullImageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aql-IQ-2Wu" customClass="FullImageViewController" customModule="QuestGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EX0-GH-8Kf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1O-Je-Hdf">
+                                <rect key="frame" x="294" y="60" width="120" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="LTw-Vh-JlE"/>
+                                    <constraint firstAttribute="width" constant="120" id="VeH-ay-UVW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Закрыть">
+                                    <color key="titleColor" name="primaryTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeTap:" destination="aql-IQ-2Wu" eventType="touchUpInside" id="c8Y-tY-uic"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="08e-TM-wX0">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lv3-3e-nxn"/>
+                        <color key="backgroundColor" name="primaryBackroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lv3-3e-nxn" firstAttribute="trailing" secondItem="t1O-Je-Hdf" secondAttribute="trailing" id="AgC-jL-NaS"/>
+                            <constraint firstItem="08e-TM-wX0" firstAttribute="centerY" secondItem="EX0-GH-8Kf" secondAttribute="centerY" id="UTN-UE-pTt"/>
+                            <constraint firstItem="t1O-Je-Hdf" firstAttribute="top" secondItem="lv3-3e-nxn" secondAttribute="top" constant="16" id="VGQ-Wn-9CL"/>
+                            <constraint firstItem="08e-TM-wX0" firstAttribute="centerX" secondItem="EX0-GH-8Kf" secondAttribute="centerX" id="ydY-eJ-lK0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="closeButtonView" destination="t1O-Je-Hdf" id="Yyb-a4-vAa"/>
+                        <outlet property="loaderView" destination="08e-TM-wX0" id="lGb-0m-FSh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRI-IV-FKB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-52.173913043478265" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="primaryBackroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="primaryTextColor">
+            <color red="0.23899999260902405" green="0.27099999785423279" blue="0.30199998617172241" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

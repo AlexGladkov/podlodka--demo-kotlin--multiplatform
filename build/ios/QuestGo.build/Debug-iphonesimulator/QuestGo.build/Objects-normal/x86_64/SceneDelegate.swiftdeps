@@ -1,0 +1,623 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SceneDelegate"
+provides-nominal:
+- "7QuestGo13SceneDelegateC"
+provides-member:
+- ["7QuestGo13SceneDelegateC", ""]
+provides-dynamic-lookup:
+- "scene"
+- "sceneDidBecomeActive"
+- "sceneDidDisconnect"
+- "sceneDidEnterBackground"
+- "sceneWillEnterForeground"
+- "sceneWillResignActive"
+- "window"
+depends-top-level:
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "ControllerFactory"
+- "SceneDelegate"
+- "SplashViewController"
+- !private "UIApplication"
+- "UIResponder"
+- "UIScene"
+- "UISceneSession"
+- "UIWindow"
+- "UIWindowScene"
+- "UIWindowSceneDelegate"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["7QuestGo11AppDelegateC", "saveContext"]
+- !private ["SK", ""]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "ControllerFactory"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIWindow"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "saveContext"]
+- ["s7CVarArgP", "scene"]
+- ["s7CVarArgP", "sceneDidBecomeActive"]
+- ["s7CVarArgP", "sceneDidDisconnect"]
+- ["s7CVarArgP", "sceneDidEnterBackground"]
+- ["s7CVarArgP", "sceneWillEnterForeground"]
+- ["s7CVarArgP", "sceneWillResignActive"]
+- !private ["s7CVarArgP", "shared"]
+- ["s7CVarArgP", "stateRestorationActivity"]
+- ["s7CVarArgP", "stateRestorationActivityForScene"]
+- ["s7CVarArgP", "window"]
+- ["s7CVarArgP", "windowScene"]
+- !private ["Sl", ""]
+- !private ["SL", ""]
+- !private ["7QuestGo17ControllerFactoryC", "createViewController"]
+- ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "ControllerFactory"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "saveContext"]
+- ["s28CustomDebugStringConvertibleP", "scene"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidDisconnect"]
+- ["s28CustomDebugStringConvertibleP", "sceneDidEnterBackground"]
+- ["s28CustomDebugStringConvertibleP", "sceneWillEnterForeground"]
+- ["s28CustomDebugStringConvertibleP", "sceneWillResignActive"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s28CustomDebugStringConvertibleP", "stateRestorationActivity"]
+- ["s28CustomDebugStringConvertibleP", "stateRestorationActivityForScene"]
+- ["s28CustomDebugStringConvertibleP", "window"]
+- ["s28CustomDebugStringConvertibleP", "windowScene"]
+- ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "ControllerFactory"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIWindow"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "saveContext"]
+- ["s23CustomStringConvertibleP", "scene"]
+- ["s23CustomStringConvertibleP", "sceneDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "sceneDidDisconnect"]
+- ["s23CustomStringConvertibleP", "sceneDidEnterBackground"]
+- ["s23CustomStringConvertibleP", "sceneWillEnterForeground"]
+- ["s23CustomStringConvertibleP", "sceneWillResignActive"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", "stateRestorationActivity"]
+- ["s23CustomStringConvertibleP", "stateRestorationActivityForScene"]
+- ["s23CustomStringConvertibleP", "window"]
+- ["s23CustomStringConvertibleP", "windowScene"]
+- !private ["7QuestGo12DiscloseViewP", "init"]
+- !private ["7QuestGo12DiscloseViewP", "makeKeyAndVisible"]
+- !private ["7QuestGo12DiscloseViewP", "rootViewController"]
+- ["SQ", "ConnectionOptions"]
+- !private ["SQ", "ControllerFactory"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UIWindow"]
+- ["SQ", ""]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "makeKeyAndVisible"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "saveContext"]
+- ["SQ", "scene"]
+- ["SQ", "sceneDidBecomeActive"]
+- ["SQ", "sceneDidDisconnect"]
+- ["SQ", "sceneDidEnterBackground"]
+- ["SQ", "sceneWillEnterForeground"]
+- ["SQ", "sceneWillResignActive"]
+- !private ["SQ", "shared"]
+- ["SQ", "stateRestorationActivity"]
+- ["SQ", "stateRestorationActivityForScene"]
+- ["SQ", "window"]
+- ["SQ", "windowScene"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", ""]
+- ["SH", "ConnectionOptions"]
+- !private ["SH", "ControllerFactory"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UIWindow"]
+- ["SH", ""]
+- !private ["SH", "delegate"]
+- !private ["SH", "init"]
+- !private ["SH", "makeKeyAndVisible"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "saveContext"]
+- ["SH", "scene"]
+- ["SH", "sceneDidBecomeActive"]
+- ["SH", "sceneDidDisconnect"]
+- ["SH", "sceneDidEnterBackground"]
+- ["SH", "sceneWillEnterForeground"]
+- ["SH", "sceneWillResignActive"]
+- !private ["SH", "shared"]
+- ["SH", "stateRestorationActivity"]
+- ["SH", "stateRestorationActivityForScene"]
+- ["SH", "window"]
+- ["SH", "windowScene"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSObjectC", "AppDelegate"]
+- ["So8NSObjectC", "ConnectionOptions"]
+- !private ["So8NSObjectC", "ControllerFactory"]
+- !private ["So8NSObjectC", "SplashViewController"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIScene"]
+- ["So8NSObjectC", "UISceneSession"]
+- ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "UIWindowScene"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "makeKeyAndVisible"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "saveContext"]
+- ["So8NSObjectC", "scene"]
+- ["So8NSObjectC", "sceneDidBecomeActive"]
+- ["So8NSObjectC", "sceneDidDisconnect"]
+- ["So8NSObjectC", "sceneDidEnterBackground"]
+- ["So8NSObjectC", "sceneWillEnterForeground"]
+- ["So8NSObjectC", "sceneWillResignActive"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "stateRestorationActivity"]
+- ["So8NSObjectC", "stateRestorationActivityForScene"]
+- ["So8NSObjectC", "window"]
+- ["So8NSObjectC", "windowScene"]
+- !private ["So8NSObjectP", "AppDelegate"]
+- ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "ControllerFactory"]
+- !private ["So8NSObjectP", "SplashViewController"]
+- !private ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", "UIScene"]
+- ["So8NSObjectP", "UISceneSession"]
+- ["So8NSObjectP", "UIWindow"]
+- !private ["So8NSObjectP", "UIWindowScene"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "makeKeyAndVisible"]
+- !private ["So8NSObjectP", "rootViewController"]
+- ["So8NSObjectP", "saveContext"]
+- ["So8NSObjectP", "scene"]
+- ["So8NSObjectP", "sceneDidBecomeActive"]
+- ["So8NSObjectP", "sceneDidDisconnect"]
+- ["So8NSObjectP", "sceneDidEnterBackground"]
+- ["So8NSObjectP", "sceneWillEnterForeground"]
+- ["So8NSObjectP", "sceneWillResignActive"]
+- !private ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "stateRestorationActivity"]
+- ["So8NSObjectP", "stateRestorationActivityForScene"]
+- ["So8NSObjectP", "window"]
+- ["So8NSObjectP", "windowScene"]
+- !private ["Sj", ""]
+- ["7RxSwift18ReactiveCompatibleP", "ConnectionOptions"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ControllerFactory"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIApplication"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIWindow"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "makeKeyAndVisible"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rootViewController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "saveContext"]
+- ["7RxSwift18ReactiveCompatibleP", "scene"]
+- ["7RxSwift18ReactiveCompatibleP", "sceneDidBecomeActive"]
+- ["7RxSwift18ReactiveCompatibleP", "sceneDidDisconnect"]
+- ["7RxSwift18ReactiveCompatibleP", "sceneDidEnterBackground"]
+- ["7RxSwift18ReactiveCompatibleP", "sceneWillEnterForeground"]
+- ["7RxSwift18ReactiveCompatibleP", "sceneWillResignActive"]
+- !private ["7RxSwift18ReactiveCompatibleP", "shared"]
+- ["7RxSwift18ReactiveCompatibleP", "stateRestorationActivity"]
+- ["7RxSwift18ReactiveCompatibleP", "stateRestorationActivityForScene"]
+- ["7RxSwift18ReactiveCompatibleP", "window"]
+- ["7RxSwift18ReactiveCompatibleP", "windowScene"]
+- !private ["7QuestGo13SceneDelegateC", "AppDelegate"]
+- !private ["7QuestGo13SceneDelegateC", "ControllerFactory"]
+- !private ["7QuestGo13SceneDelegateC", "SplashViewController"]
+- !private ["7QuestGo13SceneDelegateC", "UIApplication"]
+- ["7QuestGo13SceneDelegateC", "UIScene"]
+- ["7QuestGo13SceneDelegateC", "UISceneSession"]
+- ["7QuestGo13SceneDelegateC", "UIWindow"]
+- !private ["7QuestGo13SceneDelegateC", "UIWindowScene"]
+- ["7QuestGo13SceneDelegateC", ""]
+- ["7QuestGo13SceneDelegateC", "deinit"]
+- ["7QuestGo13SceneDelegateC", "init"]
+- ["7QuestGo13SceneDelegateC", "scene"]
+- ["7QuestGo13SceneDelegateC", "sceneDidBecomeActive"]
+- ["7QuestGo13SceneDelegateC", "sceneDidDisconnect"]
+- ["7QuestGo13SceneDelegateC", "sceneDidEnterBackground"]
+- ["7QuestGo13SceneDelegateC", "sceneWillEnterForeground"]
+- ["7QuestGo13SceneDelegateC", "sceneWillResignActive"]
+- ["7QuestGo13SceneDelegateC", "stateRestorationActivity"]
+- ["7QuestGo13SceneDelegateC", "stateRestorationActivityForScene"]
+- ["7QuestGo13SceneDelegateC", "window"]
+- ["7QuestGo13SceneDelegateC", "windowScene"]
+- !private ["ST", ""]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "makeKeyAndVisible"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- ["So21UIApplicationDelegateP", "saveContext"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "makeKeyAndVisible"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "makeKeyAndVisible"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "makeKeyAndVisible"]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "AppDelegate"]
+- ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "ControllerFactory"]
+- !private ["So30UIPasteConfigurationSupportingP", "SplashViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- ["So30UIPasteConfigurationSupportingP", "UIScene"]
+- ["So30UIPasteConfigurationSupportingP", "UISceneSession"]
+- ["So30UIPasteConfigurationSupportingP", "UIWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIWindowScene"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "deinit"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- ["So30UIPasteConfigurationSupportingP", "saveContext"]
+- ["So30UIPasteConfigurationSupportingP", "scene"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidBecomeActive"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidDisconnect"]
+- ["So30UIPasteConfigurationSupportingP", "sceneDidEnterBackground"]
+- ["So30UIPasteConfigurationSupportingP", "sceneWillEnterForeground"]
+- ["So30UIPasteConfigurationSupportingP", "sceneWillResignActive"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "stateRestorationActivity"]
+- ["So30UIPasteConfigurationSupportingP", "stateRestorationActivityForScene"]
+- ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So30UIPasteConfigurationSupportingP", "windowScene"]
+- !private ["So11UIResponderC", "AppDelegate"]
+- ["So11UIResponderC", "ConnectionOptions"]
+- !private ["So11UIResponderC", "ControllerFactory"]
+- !private ["So11UIResponderC", "SplashViewController"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIScene"]
+- ["So11UIResponderC", "UISceneSession"]
+- ["So11UIResponderC", "UIWindow"]
+- !private ["So11UIResponderC", "UIWindowScene"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "makeKeyAndVisible"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "saveContext"]
+- ["So11UIResponderC", "scene"]
+- ["So11UIResponderC", "sceneDidBecomeActive"]
+- ["So11UIResponderC", "sceneDidDisconnect"]
+- ["So11UIResponderC", "sceneDidEnterBackground"]
+- ["So11UIResponderC", "sceneWillEnterForeground"]
+- ["So11UIResponderC", "sceneWillResignActive"]
+- !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "stateRestorationActivity"]
+- ["So11UIResponderC", "stateRestorationActivityForScene"]
+- ["So11UIResponderC", "window"]
+- ["So11UIResponderC", "windowScene"]
+- !private ["So30UIResponderStandardEditActionsP", "AppDelegate"]
+- ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "ControllerFactory"]
+- !private ["So30UIResponderStandardEditActionsP", "SplashViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- ["So30UIResponderStandardEditActionsP", "UIScene"]
+- ["So30UIResponderStandardEditActionsP", "UISceneSession"]
+- ["So30UIResponderStandardEditActionsP", "UIWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "UIWindowScene"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "deinit"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- ["So30UIResponderStandardEditActionsP", "saveContext"]
+- ["So30UIResponderStandardEditActionsP", "scene"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidBecomeActive"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidDisconnect"]
+- ["So30UIResponderStandardEditActionsP", "sceneDidEnterBackground"]
+- ["So30UIResponderStandardEditActionsP", "sceneWillEnterForeground"]
+- ["So30UIResponderStandardEditActionsP", "sceneWillResignActive"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So30UIResponderStandardEditActionsP", "stateRestorationActivity"]
+- ["So30UIResponderStandardEditActionsP", "stateRestorationActivityForScene"]
+- ["So30UIResponderStandardEditActionsP", "window"]
+- ["So30UIResponderStandardEditActionsP", "windowScene"]
+- ["So7UISceneC", "ConnectionOptions"]
+- ["So7UISceneC", ""]
+- !private ["So15UISceneDelegateP", "ControllerFactory"]
+- !private ["So15UISceneDelegateP", "UIApplication"]
+- !private ["So15UISceneDelegateP", "UIWindow"]
+- ["So15UISceneDelegateP", ""]
+- ["So15UISceneDelegateP", "deinit"]
+- ["So15UISceneDelegateP", "init"]
+- ["So15UISceneDelegateP", "scene"]
+- ["So15UISceneDelegateP", "sceneDidBecomeActive"]
+- ["So15UISceneDelegateP", "sceneDidDisconnect"]
+- ["So15UISceneDelegateP", "sceneDidEnterBackground"]
+- ["So15UISceneDelegateP", "sceneWillEnterForeground"]
+- ["So15UISceneDelegateP", "sceneWillResignActive"]
+- ["So15UISceneDelegateP", "stateRestorationActivity"]
+- ["So15UISceneDelegateP", "stateRestorationActivityForScene"]
+- ["So15UISceneDelegateP", "window"]
+- ["So15UISceneDelegateP", "windowScene"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "AppDelegate"]
+- ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- !private ["So23UIUserActivityRestoringP", "ControllerFactory"]
+- !private ["So23UIUserActivityRestoringP", "SplashViewController"]
+- !private ["So23UIUserActivityRestoringP", "UIApplication"]
+- ["So23UIUserActivityRestoringP", "UIScene"]
+- ["So23UIUserActivityRestoringP", "UISceneSession"]
+- ["So23UIUserActivityRestoringP", "UIWindow"]
+- !private ["So23UIUserActivityRestoringP", "UIWindowScene"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "deinit"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "makeKeyAndVisible"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- ["So23UIUserActivityRestoringP", "saveContext"]
+- ["So23UIUserActivityRestoringP", "scene"]
+- ["So23UIUserActivityRestoringP", "sceneDidBecomeActive"]
+- ["So23UIUserActivityRestoringP", "sceneDidDisconnect"]
+- ["So23UIUserActivityRestoringP", "sceneDidEnterBackground"]
+- ["So23UIUserActivityRestoringP", "sceneWillEnterForeground"]
+- ["So23UIUserActivityRestoringP", "sceneWillResignActive"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- ["So23UIUserActivityRestoringP", "stateRestorationActivity"]
+- ["So23UIUserActivityRestoringP", "stateRestorationActivityForScene"]
+- ["So23UIUserActivityRestoringP", "window"]
+- ["So23UIUserActivityRestoringP", "windowScene"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "makeKeyAndVisible"]
+- !private ["So6UIViewC", "rootViewController"]
+- ["So16UIViewControllerC", ""]
+- !private ["So8UIWindowC", "init"]
+- !private ["So8UIWindowC", "makeKeyAndVisible"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["So21UIWindowSceneDelegateP", "ControllerFactory"]
+- !private ["So21UIWindowSceneDelegateP", "UIApplication"]
+- !private ["So21UIWindowSceneDelegateP", "UIWindow"]
+- ["So21UIWindowSceneDelegateP", ""]
+- ["So21UIWindowSceneDelegateP", "deinit"]
+- ["So21UIWindowSceneDelegateP", "init"]
+- ["So21UIWindowSceneDelegateP", "scene"]
+- ["So21UIWindowSceneDelegateP", "sceneDidBecomeActive"]
+- ["So21UIWindowSceneDelegateP", "sceneDidDisconnect"]
+- ["So21UIWindowSceneDelegateP", "sceneDidEnterBackground"]
+- ["So21UIWindowSceneDelegateP", "sceneWillEnterForeground"]
+- ["So21UIWindowSceneDelegateP", "sceneWillResignActive"]
+- ["So21UIWindowSceneDelegateP", "stateRestorationActivity"]
+- ["So21UIWindowSceneDelegateP", "stateRestorationActivityForScene"]
+- ["So21UIWindowSceneDelegateP", "window"]
+- ["So21UIWindowSceneDelegateP", "windowScene"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ControllerFactory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "scene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidDisconnect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidEnterBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneWillEnterForeground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneWillResignActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stateRestorationActivity"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stateRestorationActivityForScene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "windowScene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ControllerFactory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIWindow"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeKeyAndVisible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveContext"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidBecomeActive"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidDisconnect"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidEnterBackground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneWillEnterForeground"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneWillResignActive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateRestorationActivity"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateRestorationActivityForScene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windowScene"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "7QuestGo11AppDelegateC"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7QuestGo17ControllerFactoryC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "7QuestGo12DiscloseViewP"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "7RxSwift18ReactiveCompatibleP"
+- "7QuestGo13SceneDelegateC"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So21UIApplicationDelegateP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So7UISceneC"
+- "So15UISceneDelegateP"
+- !private "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- "So21UIWindowSceneDelegateP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/youtube-ios-player-helper-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Headers/questGoShared.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/YTPlayerView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/QuestGoShared/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "127201c8c716b7030f8c10092b30daff"

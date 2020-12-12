@@ -1,0 +1,562 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift8ReactiveV", "items"]
+- ["7RxSwift8ReactiveV", "items"]
+- ["7RxSwift8ReactiveV", "items"]
+- ["7RxSwift8ReactiveV", "DisplayCollectionViewCellEvent"]
+- ["7RxSwift8ReactiveV", "DisplayCollectionViewSupplementaryViewEvent"]
+- ["7RxSwift8ReactiveV", "dataSource"]
+- ["7RxSwift8ReactiveV", "setDataSource"]
+- ["7RxSwift8ReactiveV", "itemSelected"]
+- ["7RxSwift8ReactiveV", "itemDeselected"]
+- ["7RxSwift8ReactiveV", "itemHighlighted"]
+- ["7RxSwift8ReactiveV", "itemUnhighlighted"]
+- ["7RxSwift8ReactiveV", "willDisplayCell"]
+- ["7RxSwift8ReactiveV", "willDisplaySupplementaryView"]
+- ["7RxSwift8ReactiveV", "didEndDisplayingCell"]
+- ["7RxSwift8ReactiveV", "didEndDisplayingSupplementaryView"]
+- ["7RxSwift8ReactiveV", "modelSelected"]
+- ["7RxSwift8ReactiveV", "modelDeselected"]
+- ["7RxSwift8ReactiveV", "model"]
+- ["7RxSwift8ReactiveV", "prefetchDataSource"]
+- ["7RxSwift8ReactiveV", "setPrefetchDataSource"]
+- ["7RxSwift8ReactiveV", "prefetchItems"]
+- ["7RxSwift8ReactiveV", "cancelPrefetchingForItems"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- !private "AssignmentPrecedence"
+- "Base"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "ControlEvent"
+- "DelegateProxy"
+- "DisplayCollectionViewCellEvent"
+- "DisplayCollectionViewSupplementaryViewEvent"
+- "Disposable"
+- "FloatLiteralType"
+- "IndexPath"
+- "Int"
+- "IntegerLiteralType"
+- "Observable"
+- "ObservableType"
+- "Reactive"
+- !private "RxCollectionViewDataSourcePrefetchingProxy"
+- "RxCollectionViewDataSourceProxy"
+- "RxCollectionViewDataSourceType"
+- "RxCollectionViewReactiveArrayDataSourceSequenceWrapper"
+- "SectionedViewDataSourceType"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "UICollectionReusableView"
+- "UICollectionView"
+- "UICollectionViewCell"
+- "UICollectionViewDataSource"
+- "UICollectionViewDataSourcePrefetching"
+- !private "UICollectionViewDelegate"
+- "Void"
+- !private "base"
+- !private "castOrFatalError"
+- "castOrThrow"
+- !private "delegate"
+- !private "itemDeselected"
+- !private "itemSelected"
+- !private "prefetchDataSource"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So15CALayerDelegateP", "rx"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "forwardToDelegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "installForwardDelegate"]
+- !private ["s7CVarArgP", "methodInvoked"]
+- !private ["s7CVarArgP", "prefetchItemsPublishSubject"]
+- !private ["s7CVarArgP", "proxy"]
+- !private ["s7CVarArgP", "rx"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["7RxCocoa12ControlEventV", ""]
+- !private ["7RxCocoa12ControlEventV", "flatMap"]
+- !private ["7RxCocoa12ControlEventV", "init"]
+- !private ["7RxCocoa16ControlEventTypeP", "flatMap"]
+- !private ["7RxCocoa16ControlEventTypeP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "forwardToDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "installForwardDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "methodInvoked"]
+- !private ["s28CustomDebugStringConvertibleP", "prefetchItemsPublishSubject"]
+- !private ["s28CustomDebugStringConvertibleP", "proxy"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "forwardToDelegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "installForwardDelegate"]
+- !private ["s23CustomStringConvertibleP", "methodInvoked"]
+- !private ["s23CustomStringConvertibleP", "prefetchItemsPublishSubject"]
+- !private ["s23CustomStringConvertibleP", "proxy"]
+- !private ["s23CustomStringConvertibleP", "rx"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- ["7RxCocoa13DelegateProxyC", ""]
+- !private ["7RxCocoa13DelegateProxyC", "forwardToDelegate"]
+- !private ["7RxCocoa13DelegateProxyC", "installForwardDelegate"]
+- !private ["7RxCocoa13DelegateProxyC", "methodInvoked"]
+- !private ["7RxCocoa13DelegateProxyC", "prefetchItemsPublishSubject"]
+- !private ["7RxCocoa13DelegateProxyC", "proxy"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "Delegate"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "ParentObject"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "installForwardDelegate"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "prefetchItemsPublishSubject"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "proxy"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", ""]
+- !private ["SQ", "dequeueReusableCell"]
+- !private ["SQ", "forwardToDelegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "installForwardDelegate"]
+- !private ["SQ", "methodInvoked"]
+- !private ["SQ", "prefetchItemsPublishSubject"]
+- !private ["SQ", "proxy"]
+- !private ["SQ", "rx"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["SF", ""]
+- !private ["7RxCocoa13HasDataSourceP", "dequeueReusableCell"]
+- !private ["7RxCocoa13HasDataSourceP", "rx"]
+- !private ["7RxCocoa11HasDelegateP", "dequeueReusableCell"]
+- !private ["7RxCocoa11HasDelegateP", "rx"]
+- !private ["7RxCocoa21HasPrefetchDataSourceP", "dequeueReusableCell"]
+- !private ["7RxCocoa21HasPrefetchDataSourceP", "rx"]
+- !private ["SH", ""]
+- !private ["SH", "dequeueReusableCell"]
+- !private ["SH", "forwardToDelegate"]
+- !private ["SH", "init"]
+- !private ["SH", "installForwardDelegate"]
+- !private ["SH", "methodInvoked"]
+- !private ["SH", "prefetchItemsPublishSubject"]
+- !private ["SH", "proxy"]
+- !private ["SH", "rx"]
+- !private ["SH", "subscript"]
+- !private ["10Foundation9IndexPathV", "init"]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So8NSCodingP", "rx"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- !private ["So8NSObjectC", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So8NSObjectC", "forwardToDelegate"]
+- !private ["So8NSObjectC", "installForwardDelegate"]
+- !private ["So8NSObjectC", "methodInvoked"]
+- !private ["So8NSObjectC", "prefetchItemsPublishSubject"]
+- !private ["So8NSObjectC", "proxy"]
+- !private ["So8NSObjectC", "rx"]
+- ["So8NSObjectP", "Element"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "collectionView"]
+- !private ["So8NSObjectP", "dequeueReusableCell"]
+- !private ["So8NSObjectP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So8NSObjectP", "forwardToDelegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "installForwardDelegate"]
+- !private ["So8NSObjectP", "methodInvoked"]
+- !private ["So8NSObjectP", "prefetchItemsPublishSubject"]
+- !private ["So8NSObjectP", "proxy"]
+- !private ["So8NSObjectP", "rx"]
+- !private ["Sj", ""]
+- ["7RxSwift10ObservableC", ""]
+- !private ["7RxSwift10ObservableC", "empty"]
+- !private ["7RxSwift10ObservableC", "just"]
+- !private ["7RxSwift10ObservableC", "map"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Element"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "empty"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "just"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribeProxyDataSource"]
+- ["7RxSwift14ObservableTypeP", "Element"]
+- ["7RxSwift14ObservableTypeP", ""]
+- !private ["7RxSwift14ObservableTypeP", "empty"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "just"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "subscribeProxyDataSource"]
+- !private ["Sk", ""]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "subscript"]
+- !private ["7RxSwift8ReactiveV", "Array"]
+- ["7RxSwift8ReactiveV", "ControlEvent"]
+- ["7RxSwift8ReactiveV", "DelegateProxy"]
+- ["7RxSwift8ReactiveV", "DisplayCollectionViewCellEvent"]
+- ["7RxSwift8ReactiveV", "DisplayCollectionViewSupplementaryViewEvent"]
+- ["7RxSwift8ReactiveV", "Disposable"]
+- ["7RxSwift8ReactiveV", "IndexPath"]
+- ["7RxSwift8ReactiveV", "Int"]
+- !private ["7RxSwift8ReactiveV", "Observable"]
+- ["7RxSwift8ReactiveV", "ObservableType"]
+- !private ["7RxSwift8ReactiveV", "RxCollectionViewDataSourcePrefetchingProxy"]
+- !private ["7RxSwift8ReactiveV", "RxCollectionViewDataSourceProxy"]
+- ["7RxSwift8ReactiveV", "RxCollectionViewDataSourceType"]
+- !private ["7RxSwift8ReactiveV", "RxCollectionViewReactiveArrayDataSourceSequenceWrapper"]
+- !private ["7RxSwift8ReactiveV", "SectionedViewDataSourceType"]
+- ["7RxSwift8ReactiveV", "String"]
+- ["7RxSwift8ReactiveV", "Swift"]
+- ["7RxSwift8ReactiveV", "UICollectionReusableView"]
+- ["7RxSwift8ReactiveV", "UICollectionView"]
+- ["7RxSwift8ReactiveV", "UICollectionViewCell"]
+- ["7RxSwift8ReactiveV", "UICollectionViewDataSource"]
+- ["7RxSwift8ReactiveV", "UICollectionViewDataSourcePrefetching"]
+- !private ["7RxSwift8ReactiveV", "UICollectionViewDelegate"]
+- ["7RxSwift8ReactiveV", "Void"]
+- ["7RxSwift8ReactiveV", ""]
+- !private ["7RxSwift8ReactiveV", "base"]
+- ["7RxSwift8ReactiveV", "cancelPrefetchingForItems"]
+- !private ["7RxSwift8ReactiveV", "castOrFatalError"]
+- !private ["7RxSwift8ReactiveV", "castOrThrow"]
+- ["7RxSwift8ReactiveV", "dataSource"]
+- !private ["7RxSwift8ReactiveV", "delegate"]
+- ["7RxSwift8ReactiveV", "didEndDisplayingCell"]
+- ["7RxSwift8ReactiveV", "didEndDisplayingSupplementaryView"]
+- ["7RxSwift8ReactiveV", "itemDeselected"]
+- ["7RxSwift8ReactiveV", "itemHighlighted"]
+- ["7RxSwift8ReactiveV", "itemSelected"]
+- ["7RxSwift8ReactiveV", "itemUnhighlighted"]
+- ["7RxSwift8ReactiveV", "items"]
+- ["7RxSwift8ReactiveV", "model"]
+- ["7RxSwift8ReactiveV", "modelDeselected"]
+- ["7RxSwift8ReactiveV", "modelSelected"]
+- ["7RxSwift8ReactiveV", "prefetchDataSource"]
+- ["7RxSwift8ReactiveV", "prefetchItems"]
+- ["7RxSwift8ReactiveV", "setDataSource"]
+- ["7RxSwift8ReactiveV", "setPrefetchDataSource"]
+- ["7RxSwift8ReactiveV", "willDisplayCell"]
+- ["7RxSwift8ReactiveV", "willDisplaySupplementaryView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dequeueReusableCell"]
+- !private ["7RxSwift18ReactiveCompatibleP", "forwardToDelegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "installForwardDelegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "methodInvoked"]
+- !private ["7RxSwift18ReactiveCompatibleP", "prefetchItemsPublishSubject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "proxy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["7RxCocoa0A40CollectionViewDataSourcePrefetchingProxyC", ""]
+- !private ["7RxCocoa0A40CollectionViewDataSourcePrefetchingProxyC", "installForwardDelegate"]
+- !private ["7RxCocoa0A40CollectionViewDataSourcePrefetchingProxyC", "prefetchItemsPublishSubject"]
+- !private ["7RxCocoa0A40CollectionViewDataSourcePrefetchingProxyC", "proxy"]
+- !private ["7RxCocoa0A29CollectionViewDataSourceProxyC", ""]
+- !private ["7RxCocoa0A29CollectionViewDataSourceProxyC", "installForwardDelegate"]
+- !private ["7RxCocoa0A29CollectionViewDataSourceProxyC", "proxy"]
+- ["7RxCocoa0A28CollectionViewDataSourceTypeP", "Element"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "collectionView"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "init"]
+- ["7RxCocoa0A37CollectionViewReactiveArrayDataSourceC", ""]
+- !private ["7RxCocoa0A37CollectionViewReactiveArrayDataSourceC", "init"]
+- !private ["7RxCocoa0A52CollectionViewReactiveArrayDataSourceSequenceWrapperC", ""]
+- !private ["7RxCocoa0A52CollectionViewReactiveArrayDataSourceSequenceWrapperC", "init"]
+- !private ["7RxCocoa0A24PickerViewDataSourceTypeP", "Element"]
+- ["7RxCocoa0A23TableViewDataSourceTypeP", "Element"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "init"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "model"]
+- ["ST", "Element"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So29UIAccessibilityIdentificationP", "rx"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So12UIAppearanceP", "rx"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So21UIAppearanceContainerP", "rx"]
+- !private ["So16UICollectionViewC", "dequeueReusableCell"]
+- !private ["So16UICollectionViewC", "rx"]
+- ["So26UICollectionViewDataSourceP", "Element"]
+- !private ["So26UICollectionViewDataSourceP", "collectionView"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "installForwardDelegate"]
+- !private ["So26UICollectionViewDataSourceP", "proxy"]
+- !private ["So37UICollectionViewDataSourcePrefetchingP", "collectionView"]
+- !private ["So37UICollectionViewDataSourcePrefetchingP", "installForwardDelegate"]
+- !private ["So37UICollectionViewDataSourcePrefetchingP", "prefetchItemsPublishSubject"]
+- !private ["So37UICollectionViewDataSourcePrefetchingP", "proxy"]
+- !private ["So24UICollectionViewDelegateP", "collectionView"]
+- !private ["So33UIContextMenuInteractionAnimatingP", ""]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So17UICoordinateSpaceP", "rx"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "rx"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So13UIDynamicItemP", "rx"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So18UIFocusEnvironmentP", "rx"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So11UIFocusItemP", "rx"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
+- !private ["So20UIFocusItemContainerP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So20UIFocusItemContainerP", "rx"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
+- !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So30UIFocusItemScrollableContainerP", "rx"]
+- !private ["So24UILargeContentViewerItemP", "dequeueReusableCell"]
+- !private ["So24UILargeContentViewerItemP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So24UILargeContentViewerItemP", "rx"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "rx"]
+- !private ["So22UIPickerViewDataSourceP", "Element"]
+- !private ["So20UIPickerViewDelegateP", "Element"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- !private ["So11UIResponderC", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So11UIResponderC", "rx"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "rx"]
+- ["So12UIScrollViewC", ""]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So12UIScrollViewC", "rx"]
+- !private ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "collectionView"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "rx"]
+- ["So21UITableViewDataSourceP", "Element"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So18UITraitEnvironmentP", "rx"]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCell"]
+- !private ["So23UIUserActivityRestoringP", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So23UIUserActivityRestoringP", "rx"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["So6UIViewC", "rx"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forwardToDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "installForwardDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "methodInvoked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prefetchItemsPublishSubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "proxy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dequeueReusableCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "forwardToDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "installForwardDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "methodInvoked"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prefetchItemsPublishSubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "proxy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rx"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["So16_RXDelegateProxyC", ""]
+- !private ["So16_RXDelegateProxyC", "forwardToDelegate"]
+- !private ["So16_RXDelegateProxyC", "installForwardDelegate"]
+- !private ["So16_RXDelegateProxyC", "methodInvoked"]
+- !private ["So16_RXDelegateProxyC", "prefetchItemsPublishSubject"]
+- !private ["So16_RXDelegateProxyC", "proxy"]
+- ["7RxCocoa01_A37CollectionViewReactiveArrayDataSourceC", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rx"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "7RxCocoa13DelegateProxyC"
+- !private "7RxCocoa17DelegateProxyTypeP"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
+- !private "7RxCocoa13HasDataSourceP"
+- !private "7RxCocoa11HasDelegateP"
+- !private "7RxCocoa21HasPrefetchDataSourceP"
+- !private "SH"
+- !private "10Foundation9IndexPathV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- !private "Sk"
+- !private "Sm"
+- "7RxSwift8ReactiveV"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "7RxCocoa0A40CollectionViewDataSourcePrefetchingProxyC"
+- !private "7RxCocoa0A29CollectionViewDataSourceProxyC"
+- "7RxCocoa0A28CollectionViewDataSourceTypeP"
+- "7RxCocoa0A37CollectionViewReactiveArrayDataSourceC"
+- !private "7RxCocoa0A52CollectionViewReactiveArrayDataSourceSequenceWrapperC"
+- !private "7RxCocoa0A24PickerViewDataSourceTypeP"
+- "7RxCocoa0A23TableViewDataSourceTypeP"
+- !private "7RxCocoa27SectionedViewDataSourceTypeP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UICollectionViewC"
+- "So26UICollectionViewDataSourceP"
+- !private "So37UICollectionViewDataSourcePrefetchingP"
+- !private "So24UICollectionViewDelegateP"
+- !private "So33UIContextMenuInteractionAnimatingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So22UIPickerViewDataSourceP"
+- !private "So20UIPickerViewDelegateP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So21UITableViewDataSourceP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "So16_RXDelegateProxyC"
+- "7RxCocoa01_A37CollectionViewReactiveArrayDataSourceC"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a83636e37290293a0c362b35430ba1fc"

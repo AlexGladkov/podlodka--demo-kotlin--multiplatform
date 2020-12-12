@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="QuestAppTheme" >
+        <attr name="primaryTextColor" format="color" />
+        <attr name="secondaryTextColor" format="color" />
+        <attr name="thirdTextColor" format="color" />
+
+        <attr name="primaryTintColor" format="color" />
+
+        <attr name="primaryBackgroundColor" format="color" />
+        <attr name="secondaryBackgroundColor" format="color" />
+    </declare-styleable>
+
+</resources>

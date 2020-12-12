@@ -1,0 +1,1421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED95C3240521DA0195CCADFD /* Pods_QuestGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68D51DDD3ADEC4F609C35A1 /* Pods_QuestGo.framework */; };
+		FA17A61C251F31E5001BD4FA /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17A61A251F31E5001BD4FA /* EmptyCell.swift */; };
+		FA17A61D251F31E5001BD4FA /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA17A61B251F31E5001BD4FA /* EmptyCell.xib */; };
+		FA17A624251F3A7B001BD4FA /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17A622251F3A7B001BD4FA /* LoadingCell.swift */; };
+		FA17A625251F3A7B001BD4FA /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA17A623251F3A7B001BD4FA /* LoadingCell.xib */; };
+		FA23945F250E73D8003DB7C0 /* UserWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23945E250E73D8003DB7C0 /* UserWorker.swift */; };
+		FA239462250E7418003DB7C0 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA239461250E7418003DB7C0 /* UserModel.swift */; };
+		FA23CB7C251DCA9B001EDB03 /* FullImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23CB78251DCA9B001EDB03 /* FullImagePresenter.swift */; };
+		FA23CB7D251DCA9B001EDB03 /* FullImageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23CB79251DCA9B001EDB03 /* FullImageRouter.swift */; };
+		FA23CB7E251DCA9B001EDB03 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23CB7A251DCA9B001EDB03 /* FullImageViewController.swift */; };
+		FA23CB7F251DCA9B001EDB03 /* FullImageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23CB7B251DCA9B001EDB03 /* FullImageInteractor.swift */; };
+		FA23CB81251DCAB4001EDB03 /* FullImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA23CB80251DCAB4001EDB03 /* FullImageViewController.storyboard */; };
+		FA269B842583C36F0043F148 /* questGoShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA269B832583C36F0043F148 /* questGoShared.framework */; };
+		FA269B852583C36F0043F148 /* questGoShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA269B832583C36F0043F148 /* questGoShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA26C88E257FFC3F00A27F77 /* TextButtonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C88D257FFC3F00A27F77 /* TextButtonCellModel.swift */; };
+		FA26C894257FFC8400A27F77 /* TextButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C892257FFC8400A27F77 /* TextButtonCell.swift */; };
+		FA26C895257FFC8400A27F77 /* TextButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26C893257FFC8400A27F77 /* TextButtonCell.xib */; };
+		FA26C89C258004E900A27F77 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C89A258004E900A27F77 /* TextFieldCell.swift */; };
+		FA26C89D258004E900A27F77 /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA26C89B258004E900A27F77 /* TextFieldCell.xib */; };
+		FA26C8A2258004F300A27F77 /* TextFieldCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8A1258004F300A27F77 /* TextFieldCellModel.swift */; };
+		FA26C8A825800AF500A27F77 /* PromoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8A725800AF500A27F77 /* PromoWorker.swift */; };
+		FA26C8B025800B8700A27F77 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8AF25800B8700A27F77 /* NetworkError.swift */; };
+		FA26C8B625800BD800A27F77 /* PromoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8B525800BD800A27F77 /* PromoResponse.swift */; };
+		FA26C8BE2580998C00A27F77 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8BD2580998C00A27F77 /* Configuration.swift */; };
+		FA26C8CA2580A16500A27F77 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8C62580A16500A27F77 /* SplashPresenter.swift */; };
+		FA26C8CB2580A16500A27F77 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8C72580A16500A27F77 /* SplashRouter.swift */; };
+		FA26C8CC2580A16500A27F77 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8C82580A16500A27F77 /* SplashViewController.swift */; };
+		FA26C8CD2580A16500A27F77 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8C92580A16500A27F77 /* SplashInteractor.swift */; };
+		FA26C8D62580A17700A27F77 /* SplashEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8D52580A17700A27F77 /* SplashEvent.swift */; };
+		FA26C8DE2580A18000A27F77 /* SplashViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8DD2580A18000A27F77 /* SplashViewState.swift */; };
+		FA26C8E32580A18A00A27F77 /* SplashAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26C8E22580A18A00A27F77 /* SplashAction.swift */; };
+		FA26C8E82580A1DB00A27F77 /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26C8E72580A1DB00A27F77 /* SplashViewController.storyboard */; };
+		FA292FAF25251CB4008335D9 /* StoreObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA292FAE25251CB4008335D9 /* StoreObserver.swift */; };
+		FA292FBD25251CCB008335D9 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA292FB525251CCA008335D9 /* AppExtensions.swift */; };
+		FA292FC025251CCB008335D9 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA292FB825251CCB008335D9 /* StoreManager.swift */; };
+		FA292FC125251CCB008335D9 /* AppDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA292FB925251CCB008335D9 /* AppDataTypes.swift */; };
+		FA292FC225251CCB008335D9 /* AppProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA292FBA25251CCB008335D9 /* AppProtocols.swift */; };
+		FA33FC7D250C0BA600E2FA46 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33FC7B250C0BA600E2FA46 /* VideoCell.swift */; };
+		FA33FC7E250C0BA600E2FA46 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA33FC7C250C0BA600E2FA46 /* VideoCell.xib */; };
+		FA33FC80250C0C3700E2FA46 /* VideoCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33FC7F250C0C3700E2FA46 /* VideoCellModel.swift */; };
+		FA5CBFAF24E93773003584E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFAE24E93773003584E2 /* AppDelegate.swift */; };
+		FA5CBFB124E93773003584E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFB024E93773003584E2 /* SceneDelegate.swift */; };
+		FA5CBFB624E93773003584E2 /* QuestsListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5CBFB424E93773003584E2 /* QuestsListViewController.storyboard */; };
+		FA5CBFB924E93773003584E2 /* QuestGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFB724E93773003584E2 /* QuestGo.xcdatamodeld */; };
+		FA5CBFBB24E93774003584E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5CBFBA24E93774003584E2 /* Assets.xcassets */; };
+		FA5CBFBE24E93774003584E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5CBFBC24E93774003584E2 /* LaunchScreen.storyboard */; };
+		FA5CBFC924E93774003584E2 /* QuestGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFC824E93774003584E2 /* QuestGoTests.swift */; };
+		FA5CBFD424E93774003584E2 /* QuestGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFD324E93774003584E2 /* QuestGoUITests.swift */; };
+		FA5CBFE324E93802003584E2 /* CellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFE224E93802003584E2 /* CellFactory.swift */; };
+		FA5CBFE824E93851003584E2 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFE624E93851003584E2 /* TextCell.swift */; };
+		FA5CBFE924E93851003584E2 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5CBFE724E93851003584E2 /* TextCell.xib */; };
+		FA5CBFEB24E93887003584E2 /* TextCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFEA24E93887003584E2 /* TextCellModel.swift */; };
+		FA5CBFEF24E93C1A003584E2 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFED24E93C1A003584E2 /* ImageCell.swift */; };
+		FA5CBFF024E93C1A003584E2 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5CBFEE24E93C1A003584E2 /* ImageCell.xib */; };
+		FA5CBFF224E93C61003584E2 /* ImageCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFF124E93C61003584E2 /* ImageCellModel.swift */; };
+		FA5CBFF424E93D07003584E2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FA5CBFF324E93D07003584E2 /* Podfile */; };
+		FA5CBFFB24E93E8B003584E2 /* StoryPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFF724E93E8B003584E2 /* StoryPagePresenter.swift */; };
+		FA5CBFFC24E93E8B003584E2 /* StoryPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFF824E93E8B003584E2 /* StoryPageRouter.swift */; };
+		FA5CBFFD24E93E8B003584E2 /* StoryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFF924E93E8B003584E2 /* StoryPageViewController.swift */; };
+		FA5CBFFE24E93E8B003584E2 /* StoryPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBFFA24E93E8B003584E2 /* StoryPageInteractor.swift */; };
+		FA5CC00024E93EA7003584E2 /* StoryPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5CBFFF24E93EA7003584E2 /* StoryPageViewController.storyboard */; };
+		FA5FA3E324EBAD4200F8DDE0 /* ControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FA3E224EBAD4200F8DDE0 /* ControllerFactory.swift */; };
+		FA5FA3E824EBB93900F8DDE0 /* QuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FA3E724EBB93900F8DDE0 /* QuestModel.swift */; };
+		FA5FA3EA24EBBA0000F8DDE0 /* QuestWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FA3E924EBBA0000F8DDE0 /* QuestWorker.swift */; };
+		FA5FA3EC24EBBCFF00F8DDE0 /* Data+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FA3EB24EBBCFF00F8DDE0 /* Data+Codable.swift */; };
+		FA5FA3EF24EBC40800F8DDE0 /* UIViewController+NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FA3EE24EBC40800F8DDE0 /* UIViewController+NavigationBar.swift */; };
+		FA5FA3F324EBC7A600F8DDE0 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FA3F124EBC7A600F8DDE0 /* HeaderCell.swift */; };
+		FA5FA3F424EBC7A600F8DDE0 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5FA3F224EBC7A600F8DDE0 /* HeaderCell.xib */; };
+		FA5FA3F624EBC7AD00F8DDE0 /* HeaderCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5FA3F524EBC7AD00F8DDE0 /* HeaderCellModel.swift */; };
+		FA7F0E222505FFBC00E771A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA7F0E212505FFBC00E771A6 /* GoogleService-Info.plist */; };
+		FA7F0E282506024A00E771A6 /* QuestDescriptionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F0E242506024A00E771A6 /* QuestDescriptionPresenter.swift */; };
+		FA7F0E292506024A00E771A6 /* QuestDescriptionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F0E252506024A00E771A6 /* QuestDescriptionRouter.swift */; };
+		FA7F0E2A2506024A00E771A6 /* QuestDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F0E262506024A00E771A6 /* QuestDescriptionViewController.swift */; };
+		FA7F0E2B2506024A00E771A6 /* QuestDescriptionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F0E272506024A00E771A6 /* QuestDescriptionInteractor.swift */; };
+		FA7F0E2D2506025D00E771A6 /* QuestDescriptionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7F0E2C2506025D00E771A6 /* QuestDescriptionViewController.storyboard */; };
+		FA7F0E332506A38300E771A6 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F0E312506A38300E771A6 /* ButtonCell.swift */; };
+		FA7F0E342506A38300E771A6 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7F0E322506A38300E771A6 /* ButtonCell.xib */; };
+		FA7F0E362506A41B00E771A6 /* ButtonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F0E352506A41B00E771A6 /* ButtonCellModel.swift */; };
+		FA85412924EC5BAA002DC1CE /* FinishPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85412524EC5BAA002DC1CE /* FinishPagePresenter.swift */; };
+		FA85412A24EC5BAA002DC1CE /* FinishPageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85412624EC5BAA002DC1CE /* FinishPageRouter.swift */; };
+		FA85412B24EC5BAA002DC1CE /* FinishPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85412724EC5BAA002DC1CE /* FinishPageViewController.swift */; };
+		FA85412C24EC5BAA002DC1CE /* FinishPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85412824EC5BAA002DC1CE /* FinishPageInteractor.swift */; };
+		FA85412E24EC5BBA002DC1CE /* FinishPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA85412D24EC5BBA002DC1CE /* FinishPageViewController.storyboard */; };
+		FA85413424EC60B5002DC1CE /* QuestsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85413024EC60B5002DC1CE /* QuestsListPresenter.swift */; };
+		FA85413524EC60B5002DC1CE /* QuestsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85413124EC60B5002DC1CE /* QuestsListRouter.swift */; };
+		FA85413624EC60B5002DC1CE /* QuestsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85413224EC60B5002DC1CE /* QuestsListViewController.swift */; };
+		FA85413724EC60B5002DC1CE /* QuestsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85413324EC60B5002DC1CE /* QuestsListInteractor.swift */; };
+		FA85413C24EC6239002DC1CE /* QuestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85413A24EC6239002DC1CE /* QuestCell.swift */; };
+		FA85413D24EC6239002DC1CE /* QuestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA85413B24EC6239002DC1CE /* QuestCell.xib */; };
+		FA85413F24EC6294002DC1CE /* QuestCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85413E24EC6294002DC1CE /* QuestCellModel.swift */; };
+		FAA57049250BEF1A0041D6FE /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA57048250BEF1A0041D6FE /* IAPManager.swift */; };
+		FAA5704B250BFFBC0041D6FE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5704A250BFFBC0041D6FE /* StoreKit.framework */; };
+		FAB55C93251DF2E1000C1DAB /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB55C92251DF2E1000C1DAB /* ImageScrollView.swift */; };
+		FACB85DD257D5A070078EB0E /* StoryPageEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB85DC257D5A070078EB0E /* StoryPageEvent.swift */; };
+		FACB85E2257D5A9A0078EB0E /* StoryPageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB85E1257D5A9A0078EB0E /* StoryPageAction.swift */; };
+		FACB85E7257D5AEF0078EB0E /* StoryPageViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB85E6257D5AEF0078EB0E /* StoryPageViewState.swift */; };
+		FACB85F0257D67EB0078EB0E /* PayFlowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB85EC257D67EB0078EB0E /* PayFlowPresenter.swift */; };
+		FACB85F1257D67EB0078EB0E /* PayFlowRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB85ED257D67EB0078EB0E /* PayFlowRouter.swift */; };
+		FACB85F2257D67EB0078EB0E /* PayFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB85EE257D67EB0078EB0E /* PayFlowViewController.swift */; };
+		FACB85F3257D67EB0078EB0E /* PayFlowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB85EF257D67EB0078EB0E /* PayFlowInteractor.swift */; };
+		FACB85F8257D68180078EB0E /* PayFlowViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACB85F7257D68180078EB0E /* PayFlowViewController.storyboard */; };
+		FAD976552580ABD2001A1287 /* FinishEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD976542580ABD2001A1287 /* FinishEvent.swift */; };
+		FAD9765A2580ABDA001A1287 /* FinishAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD976592580ABDA001A1287 /* FinishAction.swift */; };
+		FAD9765F2580ABE2001A1287 /* FinishViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9765E2580ABE2001A1287 /* FinishViewState.swift */; };
+		FAD976652580B5E8001A1287 /* QuestDescriptionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD976642580B5E8001A1287 /* QuestDescriptionEvent.swift */; };
+		FAD9766D2580B5F1001A1287 /* QuestDescriptionAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9766C2580B5F1001A1287 /* QuestDescriptionAction.swift */; };
+		FAD976722580B5FB001A1287 /* QuestDescriptionViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD976712580B5FB001A1287 /* QuestDescriptionViewState.swift */; };
+		FAD976792580B98A001A1287 /* QuestPageAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD976782580B98A001A1287 /* QuestPageAnalytics.swift */; };
+		FAD9767E2580BA62001A1287 /* PurchaseAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9767D2580BA62001A1287 /* PurchaseAnalytics.swift */; };
+		FAD976832580BB35001A1287 /* QuestListAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD976822580BB35001A1287 /* QuestListAnalytics.swift */; };
+		FAD9B37E257EC4FF00FE3B72 /* PayFlowEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9B37D257EC4FF00FE3B72 /* PayFlowEvent.swift */; };
+		FAD9B386257EC50A00FE3B72 /* PayFlowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9B385257EC50A00FE3B72 /* PayFlowAction.swift */; };
+		FAD9B38B257EC51600FE3B72 /* PayFlowViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9B38A257EC51600FE3B72 /* PayFlowViewState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5CBFC524E93774003584E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5CBFA324E93773003584E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5CBFAA24E93773003584E2;
+			remoteInfo = QuestGo;
+		};
+		FA5CBFD024E93774003584E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5CBFA324E93773003584E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5CBFAA24E93773003584E2;
+			remoteInfo = QuestGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA269B862583C36F0043F148 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA269B852583C36F0043F148 /* questGoShared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42D83403A6DB2BE763DD2439 /* Pods-QuestGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestGo.debug.xcconfig"; path = "Target Support Files/Pods-QuestGo/Pods-QuestGo.debug.xcconfig"; sourceTree = "<group>"; };
+		A9998A30E2D36E521DE5C645 /* Pods-QuestGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestGo.release.xcconfig"; path = "Target Support Files/Pods-QuestGo/Pods-QuestGo.release.xcconfig"; sourceTree = "<group>"; };
+		E68D51DDD3ADEC4F609C35A1 /* Pods_QuestGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA17A61A251F31E5001BD4FA /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
+		FA17A61B251F31E5001BD4FA /* EmptyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCell.xib; sourceTree = "<group>"; };
+		FA17A622251F3A7B001BD4FA /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		FA17A623251F3A7B001BD4FA /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		FA23945E250E73D8003DB7C0 /* UserWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWorker.swift; sourceTree = "<group>"; };
+		FA239461250E7418003DB7C0 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FA23CB78251DCA9B001EDB03 /* FullImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImagePresenter.swift; sourceTree = "<group>"; };
+		FA23CB79251DCA9B001EDB03 /* FullImageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageRouter.swift; sourceTree = "<group>"; };
+		FA23CB7A251DCA9B001EDB03 /* FullImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
+		FA23CB7B251DCA9B001EDB03 /* FullImageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageInteractor.swift; sourceTree = "<group>"; };
+		FA23CB80251DCAB4001EDB03 /* FullImageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FullImageViewController.storyboard; sourceTree = "<group>"; };
+		FA269B832583C36F0043F148 /* questGoShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = questGoShared.framework; path = "../questShared/build/xcode-frameworks/questGoShared.framework"; sourceTree = "<group>"; };
+		FA26C88D257FFC3F00A27F77 /* TextButtonCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonCellModel.swift; sourceTree = "<group>"; };
+		FA26C892257FFC8400A27F77 /* TextButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonCell.swift; sourceTree = "<group>"; };
+		FA26C893257FFC8400A27F77 /* TextButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextButtonCell.xib; sourceTree = "<group>"; };
+		FA26C89A258004E900A27F77 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		FA26C89B258004E900A27F77 /* TextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		FA26C8A1258004F300A27F77 /* TextFieldCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCellModel.swift; sourceTree = "<group>"; };
+		FA26C8A725800AF500A27F77 /* PromoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoWorker.swift; sourceTree = "<group>"; };
+		FA26C8AF25800B8700A27F77 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FA26C8B525800BD800A27F77 /* PromoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoResponse.swift; sourceTree = "<group>"; };
+		FA26C8BD2580998C00A27F77 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		FA26C8C62580A16500A27F77 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		FA26C8C72580A16500A27F77 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		FA26C8C82580A16500A27F77 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		FA26C8C92580A16500A27F77 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		FA26C8D52580A17700A27F77 /* SplashEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashEvent.swift; sourceTree = "<group>"; };
+		FA26C8DD2580A18000A27F77 /* SplashViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewState.swift; sourceTree = "<group>"; };
+		FA26C8E22580A18A00A27F77 /* SplashAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAction.swift; sourceTree = "<group>"; };
+		FA26C8E72580A1DB00A27F77 /* SplashViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashViewController.storyboard; sourceTree = "<group>"; };
+		FA292FAE25251CB4008335D9 /* StoreObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreObserver.swift; sourceTree = "<group>"; };
+		FA292FB525251CCA008335D9 /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+		FA292FB825251CCB008335D9 /* StoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		FA292FB925251CCB008335D9 /* AppDataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDataTypes.swift; sourceTree = "<group>"; };
+		FA292FBA25251CCB008335D9 /* AppProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppProtocols.swift; sourceTree = "<group>"; };
+		FA33FC7B250C0BA600E2FA46 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		FA33FC7C250C0BA600E2FA46 /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		FA33FC7F250C0C3700E2FA46 /* VideoCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCellModel.swift; sourceTree = "<group>"; };
+		FA5CBFAB24E93773003584E2 /* QuestGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5CBFAE24E93773003584E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA5CBFB024E93773003584E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA5CBFB524E93773003584E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/QuestsListViewController.storyboard; sourceTree = "<group>"; };
+		FA5CBFB824E93773003584E2 /* QuestGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuestGo.xcdatamodel; sourceTree = "<group>"; };
+		FA5CBFBA24E93774003584E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5CBFBD24E93774003584E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5CBFBF24E93774003584E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5CBFC424E93774003584E2 /* QuestGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5CBFC824E93774003584E2 /* QuestGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestGoTests.swift; sourceTree = "<group>"; };
+		FA5CBFCA24E93774003584E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5CBFCF24E93774003584E2 /* QuestGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5CBFD324E93774003584E2 /* QuestGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestGoUITests.swift; sourceTree = "<group>"; };
+		FA5CBFD524E93774003584E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5CBFE224E93802003584E2 /* CellFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellFactory.swift; sourceTree = "<group>"; };
+		FA5CBFE624E93851003584E2 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		FA5CBFE724E93851003584E2 /* TextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		FA5CBFEA24E93887003584E2 /* TextCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCellModel.swift; sourceTree = "<group>"; };
+		FA5CBFED24E93C1A003584E2 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		FA5CBFEE24E93C1A003584E2 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		FA5CBFF124E93C61003584E2 /* ImageCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellModel.swift; sourceTree = "<group>"; };
+		FA5CBFF324E93D07003584E2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA5CBFF724E93E8B003584E2 /* StoryPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPagePresenter.swift; sourceTree = "<group>"; };
+		FA5CBFF824E93E8B003584E2 /* StoryPageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageRouter.swift; sourceTree = "<group>"; };
+		FA5CBFF924E93E8B003584E2 /* StoryPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageViewController.swift; sourceTree = "<group>"; };
+		FA5CBFFA24E93E8B003584E2 /* StoryPageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageInteractor.swift; sourceTree = "<group>"; };
+		FA5CBFFF24E93EA7003584E2 /* StoryPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryPageViewController.storyboard; sourceTree = "<group>"; };
+		FA5FA3E224EBAD4200F8DDE0 /* ControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerFactory.swift; sourceTree = "<group>"; };
+		FA5FA3E724EBB93900F8DDE0 /* QuestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestModel.swift; sourceTree = "<group>"; };
+		FA5FA3E924EBBA0000F8DDE0 /* QuestWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestWorker.swift; sourceTree = "<group>"; };
+		FA5FA3EB24EBBCFF00F8DDE0 /* Data+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Codable.swift"; sourceTree = "<group>"; };
+		FA5FA3EE24EBC40800F8DDE0 /* UIViewController+NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationBar.swift"; sourceTree = "<group>"; };
+		FA5FA3F124EBC7A600F8DDE0 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		FA5FA3F224EBC7A600F8DDE0 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		FA5FA3F524EBC7AD00F8DDE0 /* HeaderCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCellModel.swift; sourceTree = "<group>"; };
+		FA7F0E212505FFBC00E771A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA7F0E242506024A00E771A6 /* QuestDescriptionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDescriptionPresenter.swift; sourceTree = "<group>"; };
+		FA7F0E252506024A00E771A6 /* QuestDescriptionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDescriptionRouter.swift; sourceTree = "<group>"; };
+		FA7F0E262506024A00E771A6 /* QuestDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDescriptionViewController.swift; sourceTree = "<group>"; };
+		FA7F0E272506024A00E771A6 /* QuestDescriptionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDescriptionInteractor.swift; sourceTree = "<group>"; };
+		FA7F0E2C2506025D00E771A6 /* QuestDescriptionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuestDescriptionViewController.storyboard; sourceTree = "<group>"; };
+		FA7F0E2F2506A17600E771A6 /* QuestGo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuestGo.entitlements; sourceTree = "<group>"; };
+		FA7F0E312506A38300E771A6 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		FA7F0E322506A38300E771A6 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		FA7F0E352506A41B00E771A6 /* ButtonCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCellModel.swift; sourceTree = "<group>"; };
+		FA85412524EC5BAA002DC1CE /* FinishPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishPagePresenter.swift; sourceTree = "<group>"; };
+		FA85412624EC5BAA002DC1CE /* FinishPageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishPageRouter.swift; sourceTree = "<group>"; };
+		FA85412724EC5BAA002DC1CE /* FinishPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishPageViewController.swift; sourceTree = "<group>"; };
+		FA85412824EC5BAA002DC1CE /* FinishPageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishPageInteractor.swift; sourceTree = "<group>"; };
+		FA85412D24EC5BBA002DC1CE /* FinishPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinishPageViewController.storyboard; sourceTree = "<group>"; };
+		FA85413024EC60B5002DC1CE /* QuestsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestsListPresenter.swift; sourceTree = "<group>"; };
+		FA85413124EC60B5002DC1CE /* QuestsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestsListRouter.swift; sourceTree = "<group>"; };
+		FA85413224EC60B5002DC1CE /* QuestsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestsListViewController.swift; sourceTree = "<group>"; };
+		FA85413324EC60B5002DC1CE /* QuestsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestsListInteractor.swift; sourceTree = "<group>"; };
+		FA85413A24EC6239002DC1CE /* QuestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestCell.swift; sourceTree = "<group>"; };
+		FA85413B24EC6239002DC1CE /* QuestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestCell.xib; sourceTree = "<group>"; };
+		FA85413E24EC6294002DC1CE /* QuestCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestCellModel.swift; sourceTree = "<group>"; };
+		FAA57048250BEF1A0041D6FE /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		FAA5704A250BFFBC0041D6FE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FAB55C92251DF2E1000C1DAB /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		FACB85DC257D5A070078EB0E /* StoryPageEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageEvent.swift; sourceTree = "<group>"; };
+		FACB85E1257D5A9A0078EB0E /* StoryPageAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageAction.swift; sourceTree = "<group>"; };
+		FACB85E6257D5AEF0078EB0E /* StoryPageViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageViewState.swift; sourceTree = "<group>"; };
+		FACB85EC257D67EB0078EB0E /* PayFlowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowPresenter.swift; sourceTree = "<group>"; };
+		FACB85ED257D67EB0078EB0E /* PayFlowRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowRouter.swift; sourceTree = "<group>"; };
+		FACB85EE257D67EB0078EB0E /* PayFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowViewController.swift; sourceTree = "<group>"; };
+		FACB85EF257D67EB0078EB0E /* PayFlowInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowInteractor.swift; sourceTree = "<group>"; };
+		FACB85F7257D68180078EB0E /* PayFlowViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PayFlowViewController.storyboard; sourceTree = "<group>"; };
+		FAD976542580ABD2001A1287 /* FinishEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishEvent.swift; sourceTree = "<group>"; };
+		FAD976592580ABDA001A1287 /* FinishAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishAction.swift; sourceTree = "<group>"; };
+		FAD9765E2580ABE2001A1287 /* FinishViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewState.swift; sourceTree = "<group>"; };
+		FAD976642580B5E8001A1287 /* QuestDescriptionEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDescriptionEvent.swift; sourceTree = "<group>"; };
+		FAD9766C2580B5F1001A1287 /* QuestDescriptionAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDescriptionAction.swift; sourceTree = "<group>"; };
+		FAD976712580B5FB001A1287 /* QuestDescriptionViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestDescriptionViewState.swift; sourceTree = "<group>"; };
+		FAD976782580B98A001A1287 /* QuestPageAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestPageAnalytics.swift; sourceTree = "<group>"; };
+		FAD9767D2580BA62001A1287 /* PurchaseAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseAnalytics.swift; sourceTree = "<group>"; };
+		FAD976822580BB35001A1287 /* QuestListAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestListAnalytics.swift; sourceTree = "<group>"; };
+		FAD9B37D257EC4FF00FE3B72 /* PayFlowEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowEvent.swift; sourceTree = "<group>"; };
+		FAD9B385257EC50A00FE3B72 /* PayFlowAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowAction.swift; sourceTree = "<group>"; };
+		FAD9B38A257EC51600FE3B72 /* PayFlowViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayFlowViewState.swift; sourceTree = "<group>"; };
+		FAFBF8B825815D54004122A6 /* questGoShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = questGoShared.framework; path = "../questGoShared/build/xcode-frameworks/questGoShared.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5CBFA824E93773003584E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED95C3240521DA0195CCADFD /* Pods_QuestGo.framework in Frameworks */,
+				FA269B842583C36F0043F148 /* questGoShared.framework in Frameworks */,
+				FAA5704B250BFFBC0041D6FE /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5CBFC124E93774003584E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5CBFCC24E93774003584E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EFBE45D10D3AEF11BAF599F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAFBF8B825815D54004122A6 /* questGoShared.framework */,
+				FA269B832583C36F0043F148 /* questGoShared.framework */,
+				FAA5704A250BFFBC0041D6FE /* StoreKit.framework */,
+				E68D51DDD3ADEC4F609C35A1 /* Pods_QuestGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9956D677AB645CF04B071186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42D83403A6DB2BE763DD2439 /* Pods-QuestGo.debug.xcconfig */,
+				A9998A30E2D36E521DE5C645 /* Pods-QuestGo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA17A619251F31C8001BD4FA /* EmptyCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA17A61A251F31E5001BD4FA /* EmptyCell.swift */,
+				FA17A61B251F31E5001BD4FA /* EmptyCell.xib */,
+			);
+			path = EmptyCell;
+			sourceTree = "<group>";
+		};
+		FA17A621251F3A6B001BD4FA /* LoadingCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA17A622251F3A7B001BD4FA /* LoadingCell.swift */,
+				FA17A623251F3A7B001BD4FA /* LoadingCell.xib */,
+			);
+			path = LoadingCell;
+			sourceTree = "<group>";
+		};
+		FA23945D250E73CF003DB7C0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				FA239460250E740F003DB7C0 /* Models */,
+				FA23945E250E73D8003DB7C0 /* UserWorker.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		FA239460250E740F003DB7C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA239461250E7418003DB7C0 /* UserModel.swift */,
+				FA26C8BD2580998C00A27F77 /* Configuration.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA23CB77251DCA88001EDB03 /* FullImage */ = {
+			isa = PBXGroup;
+			children = (
+				FA23CB78251DCA9B001EDB03 /* FullImagePresenter.swift */,
+				FA23CB79251DCA9B001EDB03 /* FullImageRouter.swift */,
+				FA23CB7A251DCA9B001EDB03 /* FullImageViewController.swift */,
+				FA23CB7B251DCA9B001EDB03 /* FullImageInteractor.swift */,
+				FA23CB80251DCAB4001EDB03 /* FullImageViewController.storyboard */,
+			);
+			path = FullImage;
+			sourceTree = "<group>";
+		};
+		FA26C88C257FFC2B00A27F77 /* TextButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C88D257FFC3F00A27F77 /* TextButtonCellModel.swift */,
+				FA26C892257FFC8400A27F77 /* TextButtonCell.swift */,
+				FA26C893257FFC8400A27F77 /* TextButtonCell.xib */,
+			);
+			path = TextButtonCell;
+			sourceTree = "<group>";
+		};
+		FA26C899258004D200A27F77 /* TextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C89A258004E900A27F77 /* TextFieldCell.swift */,
+				FA26C89B258004E900A27F77 /* TextFieldCell.xib */,
+				FA26C8A1258004F300A27F77 /* TextFieldCellModel.swift */,
+			);
+			path = TextFieldCell;
+			sourceTree = "<group>";
+		};
+		FA26C8A625800AE400A27F77 /* Promo */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C8B425800BCD00A27F77 /* Models */,
+				FA26C8A725800AF500A27F77 /* PromoWorker.swift */,
+			);
+			path = Promo;
+			sourceTree = "<group>";
+		};
+		FA26C8B425800BCD00A27F77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C8B525800BD800A27F77 /* PromoResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA26C8C52580A15700A27F77 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C8D42580A16C00A27F77 /* Models */,
+				FA26C8C62580A16500A27F77 /* SplashPresenter.swift */,
+				FA26C8C72580A16500A27F77 /* SplashRouter.swift */,
+				FA26C8C82580A16500A27F77 /* SplashViewController.swift */,
+				FA26C8C92580A16500A27F77 /* SplashInteractor.swift */,
+				FA26C8E72580A1DB00A27F77 /* SplashViewController.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		FA26C8D42580A16C00A27F77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C8D52580A17700A27F77 /* SplashEvent.swift */,
+				FA26C8DD2580A18000A27F77 /* SplashViewState.swift */,
+				FA26C8E22580A18A00A27F77 /* SplashAction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA33FC7A250C0B8A00E2FA46 /* VideoCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA33FC7B250C0BA600E2FA46 /* VideoCell.swift */,
+				FA33FC7C250C0BA600E2FA46 /* VideoCell.xib */,
+				FA33FC7F250C0C3700E2FA46 /* VideoCellModel.swift */,
+			);
+			path = VideoCell;
+			sourceTree = "<group>";
+		};
+		FA5CBFA224E93773003584E2 = {
+			isa = PBXGroup;
+			children = (
+				FA5CBFF324E93D07003584E2 /* Podfile */,
+				FA5CBFAD24E93773003584E2 /* QuestGo */,
+				FA5CBFC724E93774003584E2 /* QuestGoTests */,
+				FA5CBFD224E93774003584E2 /* QuestGoUITests */,
+				FA5CBFAC24E93773003584E2 /* Products */,
+				9956D677AB645CF04B071186 /* Pods */,
+				5EFBE45D10D3AEF11BAF599F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5CBFAC24E93773003584E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5CBFAB24E93773003584E2 /* QuestGo.app */,
+				FA5CBFC424E93774003584E2 /* QuestGoTests.xctest */,
+				FA5CBFCF24E93774003584E2 /* QuestGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5CBFAD24E93773003584E2 /* QuestGo */ = {
+			isa = PBXGroup;
+			children = (
+				FAD976762580B978001A1287 /* Analytics */,
+				FAA57047250BEF060041D6FE /* Payment */,
+				FA7F0E2F2506A17600E771A6 /* QuestGo.entitlements */,
+				FA5FA3E424EBB92200F8DDE0 /* Workers */,
+				FA5CBFF524E93E2C003584E2 /* Screens */,
+				FA5CBFE424E9382F003584E2 /* Common */,
+				FA5CBFE124E93784003584E2 /* Helpers */,
+				FA5CBFAE24E93773003584E2 /* AppDelegate.swift */,
+				FA5CBFB024E93773003584E2 /* SceneDelegate.swift */,
+				FA5CBFBA24E93774003584E2 /* Assets.xcassets */,
+				FA5CBFBC24E93774003584E2 /* LaunchScreen.storyboard */,
+				FA7F0E212505FFBC00E771A6 /* GoogleService-Info.plist */,
+				FA5CBFBF24E93774003584E2 /* Info.plist */,
+				FA5CBFB724E93773003584E2 /* QuestGo.xcdatamodeld */,
+			);
+			path = QuestGo;
+			sourceTree = "<group>";
+		};
+		FA5CBFC724E93774003584E2 /* QuestGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5CBFC824E93774003584E2 /* QuestGoTests.swift */,
+				FA5CBFCA24E93774003584E2 /* Info.plist */,
+			);
+			path = QuestGoTests;
+			sourceTree = "<group>";
+		};
+		FA5CBFD224E93774003584E2 /* QuestGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5CBFD324E93774003584E2 /* QuestGoUITests.swift */,
+				FA5CBFD524E93774003584E2 /* Info.plist */,
+			);
+			path = QuestGoUITests;
+			sourceTree = "<group>";
+		};
+		FA5CBFE124E93784003584E2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FA3ED24EBC3F900F8DDE0 /* Extensions */,
+				FAB55C92251DF2E1000C1DAB /* ImageScrollView.swift */,
+				FA5CBFE224E93802003584E2 /* CellFactory.swift */,
+				FA5FA3E224EBAD4200F8DDE0 /* ControllerFactory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FA5CBFE424E9382F003584E2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C899258004D200A27F77 /* TextFieldCell */,
+				FA26C88C257FFC2B00A27F77 /* TextButtonCell */,
+				FA17A621251F3A6B001BD4FA /* LoadingCell */,
+				FA17A619251F31C8001BD4FA /* EmptyCell */,
+				FA33FC7A250C0B8A00E2FA46 /* VideoCell */,
+				FA7F0E302506A2FB00E771A6 /* ButtonCell */,
+				FA5FA3F024EBC79200F8DDE0 /* HeaderCell */,
+				FA5CBFEC24E93C07003584E2 /* ImageCell */,
+				FA5CBFE524E93834003584E2 /* TextCell */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FA5CBFE524E93834003584E2 /* TextCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA5CBFE624E93851003584E2 /* TextCell.swift */,
+				FA5CBFE724E93851003584E2 /* TextCell.xib */,
+				FA5CBFEA24E93887003584E2 /* TextCellModel.swift */,
+			);
+			path = TextCell;
+			sourceTree = "<group>";
+		};
+		FA5CBFEC24E93C07003584E2 /* ImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA5CBFED24E93C1A003584E2 /* ImageCell.swift */,
+				FA5CBFEE24E93C1A003584E2 /* ImageCell.xib */,
+				FA5CBFF124E93C61003584E2 /* ImageCellModel.swift */,
+			);
+			path = ImageCell;
+			sourceTree = "<group>";
+		};
+		FA5CBFF524E93E2C003584E2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C8C52580A15700A27F77 /* Splash */,
+				FACB85EB257D67DD0078EB0E /* PayFlow */,
+				FA23CB77251DCA88001EDB03 /* FullImage */,
+				FA7F0E232506022700E771A6 /* QuestDescription */,
+				FA85412F24EC60A1002DC1CE /* QuestsList */,
+				FA85412424EC5B9B002DC1CE /* FinishPage */,
+				FA5CBFF624E93E47003584E2 /* StoryPage */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FA5CBFF624E93E47003584E2 /* StoryPage */ = {
+			isa = PBXGroup;
+			children = (
+				FACB85DB257D59FB0078EB0E /* Models */,
+				FA5CBFF724E93E8B003584E2 /* StoryPagePresenter.swift */,
+				FA5CBFF824E93E8B003584E2 /* StoryPageRouter.swift */,
+				FA5CBFF924E93E8B003584E2 /* StoryPageViewController.swift */,
+				FA5CBFFA24E93E8B003584E2 /* StoryPageInteractor.swift */,
+				FA5CBFFF24E93EA7003584E2 /* StoryPageViewController.storyboard */,
+			);
+			path = StoryPage;
+			sourceTree = "<group>";
+		};
+		FA5FA3E424EBB92200F8DDE0 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				FA26C8A625800AE400A27F77 /* Promo */,
+				FA23945D250E73CF003DB7C0 /* User */,
+				FA5FA3E524EBB92800F8DDE0 /* Quest */,
+				FA26C8AF25800B8700A27F77 /* NetworkError.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		FA5FA3E524EBB92800F8DDE0 /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FA3E624EBB92E00F8DDE0 /* Models */,
+				FA5FA3E924EBBA0000F8DDE0 /* QuestWorker.swift */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
+		FA5FA3E624EBB92E00F8DDE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FA3E724EBB93900F8DDE0 /* QuestModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA5FA3ED24EBC3F900F8DDE0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FA3EB24EBBCFF00F8DDE0 /* Data+Codable.swift */,
+				FA5FA3EE24EBC40800F8DDE0 /* UIViewController+NavigationBar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA5FA3F024EBC79200F8DDE0 /* HeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FA3F124EBC7A600F8DDE0 /* HeaderCell.swift */,
+				FA5FA3F224EBC7A600F8DDE0 /* HeaderCell.xib */,
+				FA5FA3F524EBC7AD00F8DDE0 /* HeaderCellModel.swift */,
+			);
+			path = HeaderCell;
+			sourceTree = "<group>";
+		};
+		FA7F0E232506022700E771A6 /* QuestDescription */ = {
+			isa = PBXGroup;
+			children = (
+				FAD976632580B5DD001A1287 /* Models */,
+				FA7F0E242506024A00E771A6 /* QuestDescriptionPresenter.swift */,
+				FA7F0E252506024A00E771A6 /* QuestDescriptionRouter.swift */,
+				FA7F0E262506024A00E771A6 /* QuestDescriptionViewController.swift */,
+				FA7F0E272506024A00E771A6 /* QuestDescriptionInteractor.swift */,
+				FA7F0E2C2506025D00E771A6 /* QuestDescriptionViewController.storyboard */,
+			);
+			path = QuestDescription;
+			sourceTree = "<group>";
+		};
+		FA7F0E302506A2FB00E771A6 /* ButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F0E312506A38300E771A6 /* ButtonCell.swift */,
+				FA7F0E322506A38300E771A6 /* ButtonCell.xib */,
+				FA7F0E352506A41B00E771A6 /* ButtonCellModel.swift */,
+			);
+			path = ButtonCell;
+			sourceTree = "<group>";
+		};
+		FA85412424EC5B9B002DC1CE /* FinishPage */ = {
+			isa = PBXGroup;
+			children = (
+				FAD976532580ABC6001A1287 /* Models */,
+				FA85412524EC5BAA002DC1CE /* FinishPagePresenter.swift */,
+				FA85412624EC5BAA002DC1CE /* FinishPageRouter.swift */,
+				FA85412724EC5BAA002DC1CE /* FinishPageViewController.swift */,
+				FA85412824EC5BAA002DC1CE /* FinishPageInteractor.swift */,
+				FA85412D24EC5BBA002DC1CE /* FinishPageViewController.storyboard */,
+			);
+			path = FinishPage;
+			sourceTree = "<group>";
+		};
+		FA85412F24EC60A1002DC1CE /* QuestsList */ = {
+			isa = PBXGroup;
+			children = (
+				FA85413824EC6223002DC1CE /* Views */,
+				FA85413024EC60B5002DC1CE /* QuestsListPresenter.swift */,
+				FA85413124EC60B5002DC1CE /* QuestsListRouter.swift */,
+				FA85413224EC60B5002DC1CE /* QuestsListViewController.swift */,
+				FA85413324EC60B5002DC1CE /* QuestsListInteractor.swift */,
+				FA5CBFB424E93773003584E2 /* QuestsListViewController.storyboard */,
+			);
+			path = QuestsList;
+			sourceTree = "<group>";
+		};
+		FA85413824EC6223002DC1CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA85413924EC6226002DC1CE /* QuestCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA85413924EC6226002DC1CE /* QuestCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA85413A24EC6239002DC1CE /* QuestCell.swift */,
+				FA85413B24EC6239002DC1CE /* QuestCell.xib */,
+				FA85413E24EC6294002DC1CE /* QuestCellModel.swift */,
+			);
+			path = QuestCell;
+			sourceTree = "<group>";
+		};
+		FAA57047250BEF060041D6FE /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				FA292FB925251CCB008335D9 /* AppDataTypes.swift */,
+				FA292FB525251CCA008335D9 /* AppExtensions.swift */,
+				FA292FBA25251CCB008335D9 /* AppProtocols.swift */,
+				FA292FB825251CCB008335D9 /* StoreManager.swift */,
+				FA292FAE25251CB4008335D9 /* StoreObserver.swift */,
+				FAA57048250BEF1A0041D6FE /* IAPManager.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		FACB85DB257D59FB0078EB0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FACB85DC257D5A070078EB0E /* StoryPageEvent.swift */,
+				FACB85E1257D5A9A0078EB0E /* StoryPageAction.swift */,
+				FACB85E6257D5AEF0078EB0E /* StoryPageViewState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FACB85EB257D67DD0078EB0E /* PayFlow */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9B37C257EC4F100FE3B72 /* Models */,
+				FACB85EC257D67EB0078EB0E /* PayFlowPresenter.swift */,
+				FACB85ED257D67EB0078EB0E /* PayFlowRouter.swift */,
+				FACB85EE257D67EB0078EB0E /* PayFlowViewController.swift */,
+				FACB85EF257D67EB0078EB0E /* PayFlowInteractor.swift */,
+				FACB85F7257D68180078EB0E /* PayFlowViewController.storyboard */,
+			);
+			path = PayFlow;
+			sourceTree = "<group>";
+		};
+		FAD976532580ABC6001A1287 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAD976542580ABD2001A1287 /* FinishEvent.swift */,
+				FAD976592580ABDA001A1287 /* FinishAction.swift */,
+				FAD9765E2580ABE2001A1287 /* FinishViewState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAD976632580B5DD001A1287 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAD976642580B5E8001A1287 /* QuestDescriptionEvent.swift */,
+				FAD9766C2580B5F1001A1287 /* QuestDescriptionAction.swift */,
+				FAD976712580B5FB001A1287 /* QuestDescriptionViewState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAD976762580B978001A1287 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				FAD976782580B98A001A1287 /* QuestPageAnalytics.swift */,
+				FAD9767D2580BA62001A1287 /* PurchaseAnalytics.swift */,
+				FAD976822580BB35001A1287 /* QuestListAnalytics.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		FAD9B37C257EC4F100FE3B72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAD9B37D257EC4FF00FE3B72 /* PayFlowEvent.swift */,
+				FAD9B385257EC50A00FE3B72 /* PayFlowAction.swift */,
+				FAD9B38A257EC51600FE3B72 /* PayFlowViewState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5CBFAA24E93773003584E2 /* QuestGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5CBFD824E93774003584E2 /* Build configuration list for PBXNativeTarget "QuestGo" */;
+			buildPhases = (
+				CEF16A6BDED5BB1C1E424BC4 /* [CP] Check Pods Manifest.lock */,
+				FA5CBFA724E93773003584E2 /* Sources */,
+				FA5CBFA824E93773003584E2 /* Frameworks */,
+				FA5CBFA924E93773003584E2 /* Resources */,
+				109F1A006F8006968D0895F6 /* [CP] Embed Pods Frameworks */,
+				FA269B862583C36F0043F148 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuestGo;
+			productName = QuestGo;
+			productReference = FA5CBFAB24E93773003584E2 /* QuestGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5CBFC324E93774003584E2 /* QuestGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5CBFDB24E93774003584E2 /* Build configuration list for PBXNativeTarget "QuestGoTests" */;
+			buildPhases = (
+				FA5CBFC024E93774003584E2 /* Sources */,
+				FA5CBFC124E93774003584E2 /* Frameworks */,
+				FA5CBFC224E93774003584E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5CBFC624E93774003584E2 /* PBXTargetDependency */,
+			);
+			name = QuestGoTests;
+			productName = QuestGoTests;
+			productReference = FA5CBFC424E93774003584E2 /* QuestGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5CBFCE24E93774003584E2 /* QuestGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5CBFDE24E93774003584E2 /* Build configuration list for PBXNativeTarget "QuestGoUITests" */;
+			buildPhases = (
+				FA5CBFCB24E93774003584E2 /* Sources */,
+				FA5CBFCC24E93774003584E2 /* Frameworks */,
+				FA5CBFCD24E93774003584E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5CBFD124E93774003584E2 /* PBXTargetDependency */,
+			);
+			name = QuestGoUITests;
+			productName = QuestGoUITests;
+			productReference = FA5CBFCF24E93774003584E2 /* QuestGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5CBFA324E93773003584E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Алексей Гладков";
+				TargetAttributes = {
+					FA5CBFAA24E93773003584E2 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					FA5CBFC324E93774003584E2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FA5CBFAA24E93773003584E2;
+					};
+					FA5CBFCE24E93774003584E2 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = FA5CBFAA24E93773003584E2;
+					};
+				};
+			};
+			buildConfigurationList = FA5CBFA624E93773003584E2 /* Build configuration list for PBXProject "QuestGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5CBFA224E93773003584E2;
+			productRefGroup = FA5CBFAC24E93773003584E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5CBFAA24E93773003584E2 /* QuestGo */,
+				FA5CBFC324E93774003584E2 /* QuestGoTests */,
+				FA5CBFCE24E93774003584E2 /* QuestGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5CBFA924E93773003584E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACB85F8257D68180078EB0E /* PayFlowViewController.storyboard in Resources */,
+				FA7F0E2D2506025D00E771A6 /* QuestDescriptionViewController.storyboard in Resources */,
+				FA85412E24EC5BBA002DC1CE /* FinishPageViewController.storyboard in Resources */,
+				FA7F0E342506A38300E771A6 /* ButtonCell.xib in Resources */,
+				FA26C8E82580A1DB00A27F77 /* SplashViewController.storyboard in Resources */,
+				FA5FA3F424EBC7A600F8DDE0 /* HeaderCell.xib in Resources */,
+				FA5CBFF424E93D07003584E2 /* Podfile in Resources */,
+				FA17A61D251F31E5001BD4FA /* EmptyCell.xib in Resources */,
+				FA5CBFBE24E93774003584E2 /* LaunchScreen.storyboard in Resources */,
+				FA23CB81251DCAB4001EDB03 /* FullImageViewController.storyboard in Resources */,
+				FA85413D24EC6239002DC1CE /* QuestCell.xib in Resources */,
+				FA5CBFBB24E93774003584E2 /* Assets.xcassets in Resources */,
+				FA5CBFE924E93851003584E2 /* TextCell.xib in Resources */,
+				FA33FC7E250C0BA600E2FA46 /* VideoCell.xib in Resources */,
+				FA5CBFF024E93C1A003584E2 /* ImageCell.xib in Resources */,
+				FA17A625251F3A7B001BD4FA /* LoadingCell.xib in Resources */,
+				FA26C895257FFC8400A27F77 /* TextButtonCell.xib in Resources */,
+				FA7F0E222505FFBC00E771A6 /* GoogleService-Info.plist in Resources */,
+				FA5CBFB624E93773003584E2 /* QuestsListViewController.storyboard in Resources */,
+				FA5CC00024E93EA7003584E2 /* StoryPageViewController.storyboard in Resources */,
+				FA26C89D258004E900A27F77 /* TextFieldCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5CBFC224E93774003584E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5CBFCD24E93774003584E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109F1A006F8006968D0895F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestGo/Pods-QuestGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuestGo/Pods-QuestGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuestGo/Pods-QuestGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF16A6BDED5BB1C1E424BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5CBFA724E93773003584E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA57049250BEF1A0041D6FE /* IAPManager.swift in Sources */,
+				FACB85F3257D67EB0078EB0E /* PayFlowInteractor.swift in Sources */,
+				FA85412924EC5BAA002DC1CE /* FinishPagePresenter.swift in Sources */,
+				FA7F0E2B2506024A00E771A6 /* QuestDescriptionInteractor.swift in Sources */,
+				FA292FC025251CCB008335D9 /* StoreManager.swift in Sources */,
+				FA5CBFB924E93773003584E2 /* QuestGo.xcdatamodeld in Sources */,
+				FAD976792580B98A001A1287 /* QuestPageAnalytics.swift in Sources */,
+				FA5CBFFD24E93E8B003584E2 /* StoryPageViewController.swift in Sources */,
+				FA26C8A2258004F300A27F77 /* TextFieldCellModel.swift in Sources */,
+				FACB85E2257D5A9A0078EB0E /* StoryPageAction.swift in Sources */,
+				FACB85F2257D67EB0078EB0E /* PayFlowViewController.swift in Sources */,
+				FA23CB7D251DCA9B001EDB03 /* FullImageRouter.swift in Sources */,
+				FAD976722580B5FB001A1287 /* QuestDescriptionViewState.swift in Sources */,
+				FA7F0E362506A41B00E771A6 /* ButtonCellModel.swift in Sources */,
+				FA26C8A825800AF500A27F77 /* PromoWorker.swift in Sources */,
+				FA5CBFEB24E93887003584E2 /* TextCellModel.swift in Sources */,
+				FAD9767E2580BA62001A1287 /* PurchaseAnalytics.swift in Sources */,
+				FA85413C24EC6239002DC1CE /* QuestCell.swift in Sources */,
+				FA23CB7C251DCA9B001EDB03 /* FullImagePresenter.swift in Sources */,
+				FA26C8B625800BD800A27F77 /* PromoResponse.swift in Sources */,
+				FAD9B386257EC50A00FE3B72 /* PayFlowAction.swift in Sources */,
+				FA292FC225251CCB008335D9 /* AppProtocols.swift in Sources */,
+				FA292FBD25251CCB008335D9 /* AppExtensions.swift in Sources */,
+				FA26C8BE2580998C00A27F77 /* Configuration.swift in Sources */,
+				FA26C8E32580A18A00A27F77 /* SplashAction.swift in Sources */,
+				FA5FA3E824EBB93900F8DDE0 /* QuestModel.swift in Sources */,
+				FA33FC80250C0C3700E2FA46 /* VideoCellModel.swift in Sources */,
+				FA239462250E7418003DB7C0 /* UserModel.swift in Sources */,
+				FA292FC125251CCB008335D9 /* AppDataTypes.swift in Sources */,
+				FA26C8CB2580A16500A27F77 /* SplashRouter.swift in Sources */,
+				FA26C8CA2580A16500A27F77 /* SplashPresenter.swift in Sources */,
+				FA5FA3EF24EBC40800F8DDE0 /* UIViewController+NavigationBar.swift in Sources */,
+				FAD9765F2580ABE2001A1287 /* FinishViewState.swift in Sources */,
+				FAB55C93251DF2E1000C1DAB /* ImageScrollView.swift in Sources */,
+				FA5CBFFB24E93E8B003584E2 /* StoryPagePresenter.swift in Sources */,
+				FAD976552580ABD2001A1287 /* FinishEvent.swift in Sources */,
+				FA26C8D62580A17700A27F77 /* SplashEvent.swift in Sources */,
+				FA26C8DE2580A18000A27F77 /* SplashViewState.swift in Sources */,
+				FA85413424EC60B5002DC1CE /* QuestsListPresenter.swift in Sources */,
+				FA5FA3EC24EBBCFF00F8DDE0 /* Data+Codable.swift in Sources */,
+				FA5CBFAF24E93773003584E2 /* AppDelegate.swift in Sources */,
+				FAD9B38B257EC51600FE3B72 /* PayFlowViewState.swift in Sources */,
+				FA5FA3F324EBC7A600F8DDE0 /* HeaderCell.swift in Sources */,
+				FA26C8B025800B8700A27F77 /* NetworkError.swift in Sources */,
+				FA7F0E332506A38300E771A6 /* ButtonCell.swift in Sources */,
+				FAD9765A2580ABDA001A1287 /* FinishAction.swift in Sources */,
+				FA5FA3E324EBAD4200F8DDE0 /* ControllerFactory.swift in Sources */,
+				FA23945F250E73D8003DB7C0 /* UserWorker.swift in Sources */,
+				FA85413524EC60B5002DC1CE /* QuestsListRouter.swift in Sources */,
+				FA292FAF25251CB4008335D9 /* StoreObserver.swift in Sources */,
+				FA26C88E257FFC3F00A27F77 /* TextButtonCellModel.swift in Sources */,
+				FA7F0E282506024A00E771A6 /* QuestDescriptionPresenter.swift in Sources */,
+				FAD9766D2580B5F1001A1287 /* QuestDescriptionAction.swift in Sources */,
+				FA23CB7E251DCA9B001EDB03 /* FullImageViewController.swift in Sources */,
+				FA7F0E292506024A00E771A6 /* QuestDescriptionRouter.swift in Sources */,
+				FA5FA3EA24EBBA0000F8DDE0 /* QuestWorker.swift in Sources */,
+				FA85412B24EC5BAA002DC1CE /* FinishPageViewController.swift in Sources */,
+				FA85413F24EC6294002DC1CE /* QuestCellModel.swift in Sources */,
+				FA85412C24EC5BAA002DC1CE /* FinishPageInteractor.swift in Sources */,
+				FA7F0E2A2506024A00E771A6 /* QuestDescriptionViewController.swift in Sources */,
+				FA85413724EC60B5002DC1CE /* QuestsListInteractor.swift in Sources */,
+				FA5CBFB124E93773003584E2 /* SceneDelegate.swift in Sources */,
+				FA5CBFFC24E93E8B003584E2 /* StoryPageRouter.swift in Sources */,
+				FA26C8CC2580A16500A27F77 /* SplashViewController.swift in Sources */,
+				FA23CB7F251DCA9B001EDB03 /* FullImageInteractor.swift in Sources */,
+				FA17A61C251F31E5001BD4FA /* EmptyCell.swift in Sources */,
+				FA5FA3F624EBC7AD00F8DDE0 /* HeaderCellModel.swift in Sources */,
+				FA26C894257FFC8400A27F77 /* TextButtonCell.swift in Sources */,
+				FAD9B37E257EC4FF00FE3B72 /* PayFlowEvent.swift in Sources */,
+				FACB85F1257D67EB0078EB0E /* PayFlowRouter.swift in Sources */,
+				FA5CBFEF24E93C1A003584E2 /* ImageCell.swift in Sources */,
+				FA26C89C258004E900A27F77 /* TextFieldCell.swift in Sources */,
+				FA5CBFF224E93C61003584E2 /* ImageCellModel.swift in Sources */,
+				FACB85E7257D5AEF0078EB0E /* StoryPageViewState.swift in Sources */,
+				FA85413624EC60B5002DC1CE /* QuestsListViewController.swift in Sources */,
+				FA17A624251F3A7B001BD4FA /* LoadingCell.swift in Sources */,
+				FA33FC7D250C0BA600E2FA46 /* VideoCell.swift in Sources */,
+				FA85412A24EC5BAA002DC1CE /* FinishPageRouter.swift in Sources */,
+				FACB85DD257D5A070078EB0E /* StoryPageEvent.swift in Sources */,
+				FA26C8CD2580A16500A27F77 /* SplashInteractor.swift in Sources */,
+				FA5CBFE824E93851003584E2 /* TextCell.swift in Sources */,
+				FA5CBFFE24E93E8B003584E2 /* StoryPageInteractor.swift in Sources */,
+				FA5CBFE324E93802003584E2 /* CellFactory.swift in Sources */,
+				FAD976652580B5E8001A1287 /* QuestDescriptionEvent.swift in Sources */,
+				FACB85F0257D67EB0078EB0E /* PayFlowPresenter.swift in Sources */,
+				FAD976832580BB35001A1287 /* QuestListAnalytics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5CBFC024E93774003584E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5CBFC924E93774003584E2 /* QuestGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5CBFCB24E93774003584E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5CBFD424E93774003584E2 /* QuestGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5CBFC624E93774003584E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5CBFAA24E93773003584E2 /* QuestGo */;
+			targetProxy = FA5CBFC524E93774003584E2 /* PBXContainerItemProxy */;
+		};
+		FA5CBFD124E93774003584E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5CBFAA24E93773003584E2 /* QuestGo */;
+			targetProxy = FA5CBFD024E93774003584E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5CBFB424E93773003584E2 /* QuestsListViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5CBFB524E93773003584E2 /* Base */,
+			);
+			name = QuestsListViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5CBFBC24E93774003584E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5CBFBD24E93774003584E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5CBFD624E93774003584E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		FA5CBFD724E93774003584E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+		FA5CBFD924E93774003584E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D83403A6DB2BE763DD2439 /* Pods-QuestGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuestGo/QuestGo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 70;
+				DEVELOPMENT_TEAM = 7N3PU42797;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../**",
+					"$(PROJECT_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuestGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.questgo.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64";
+			};
+			name = Debug;
+		};
+		FA5CBFDA24E93774003584E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9998A30E2D36E521DE5C645 /* Pods-QuestGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuestGo/QuestGo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 70;
+				DEVELOPMENT_TEAM = 7N3PU42797;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = QuestGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.questgo.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "x86_64 arm64";
+			};
+			name = Release;
+		};
+		FA5CBFDC24E93774003584E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N3PU42797;
+				INFOPLIST_FILE = QuestGoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.questgo.QuestGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuestGo.app/QuestGo";
+			};
+			name = Debug;
+		};
+		FA5CBFDD24E93774003584E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N3PU42797;
+				INFOPLIST_FILE = QuestGoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.questgo.QuestGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuestGo.app/QuestGo";
+			};
+			name = Release;
+		};
+		FA5CBFDF24E93774003584E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N3PU42797;
+				INFOPLIST_FILE = QuestGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.questgo.QuestGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuestGo;
+			};
+			name = Debug;
+		};
+		FA5CBFE024E93774003584E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N3PU42797;
+				INFOPLIST_FILE = QuestGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.questgo.QuestGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuestGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5CBFA624E93773003584E2 /* Build configuration list for PBXProject "QuestGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5CBFD624E93774003584E2 /* Debug */,
+				FA5CBFD724E93774003584E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5CBFD824E93774003584E2 /* Build configuration list for PBXNativeTarget "QuestGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5CBFD924E93774003584E2 /* Debug */,
+				FA5CBFDA24E93774003584E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5CBFDB24E93774003584E2 /* Build configuration list for PBXNativeTarget "QuestGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5CBFDC24E93774003584E2 /* Debug */,
+				FA5CBFDD24E93774003584E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5CBFDE24E93774003584E2 /* Build configuration list for PBXNativeTarget "QuestGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5CBFDF24E93774003584E2 /* Debug */,
+				FA5CBFE024E93774003584E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA5CBFB724E93773003584E2 /* QuestGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA5CBFB824E93773003584E2 /* QuestGo.xcdatamodel */,
+			);
+			currentVersion = FA5CBFB824E93773003584E2 /* QuestGo.xcdatamodel */;
+			path = QuestGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA5CBFA324E93773003584E2 /* Project object */;
+}

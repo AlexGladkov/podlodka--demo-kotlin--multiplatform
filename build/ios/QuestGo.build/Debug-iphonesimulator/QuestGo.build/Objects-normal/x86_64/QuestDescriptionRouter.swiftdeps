@@ -1,0 +1,569 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QuestDescriptionRoutingLogic"
+- "QuestDescriptionDataPassing"
+- "QuestDescriptionRouter"
+provides-nominal:
+- "7QuestGo0A23DescriptionRoutingLogicP"
+- "7QuestGo0A22DescriptionDataPassingP"
+- "7QuestGo0A17DescriptionRouterC"
+provides-member:
+- ["7QuestGo0A23DescriptionRoutingLogicP", ""]
+- ["7QuestGo0A22DescriptionDataPassingP", ""]
+- ["7QuestGo0A17DescriptionRouterC", ""]
+provides-dynamic-lookup:
+- "dataStore"
+- "routeToAlert"
+- "routeToImage"
+- "routeToQuest"
+- "viewController"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "ControllerFactory"
+- !private "FloatLiteralType"
+- "FullImageViewController"
+- "Int"
+- !private "IntegerLiteralType"
+- "QuestDescriptionDataPassing"
+- "QuestDescriptionDataStoring"
+- "QuestDescriptionRouter"
+- "QuestDescriptionRoutingLogic"
+- "StoryPageViewController"
+- !private "StoryPageViewState"
+- "String"
+- !private "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- !private "UIColor"
+- !private "UINavigationController"
+- "UIViewController"
+- "URL"
+- !private "viewController"
+depends-member:
+- !private ["7QuestGo18ButtonCellDelegateP", "router"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "modalPresentationStyle"]
+- !private ["s7CVarArgP", "navigationBar"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "router"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "view"]
+- !private ["7QuestGo17ControllerFactoryC", "createViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "modalPresentationStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "router"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s17CustomReflectableP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "modalPresentationStyle"]
+- !private ["s23CustomStringConvertibleP", "navigationBar"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "router"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["Se", "tintColor"]
+- !private ["7QuestGo12DiscloseViewP", "isHidden"]
+- !private ["7QuestGo12DiscloseViewP", "tintColor"]
+- !private ["SE", "tintColor"]
+- !private ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "default"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "modalPresentationStyle"]
+- !private ["SQ", "navigationBar"]
+- !private ["SQ", "overFullScreen"]
+- !private ["SQ", "present"]
+- !private ["SQ", "router"]
+- !private ["SQ", "tintColor"]
+- !private ["SQ", "view"]
+- !private ["s23ExpressibleByNilLiteralP", "tintColor"]
+- !private ["7QuestGo20FullImageDataPassingP", "dataStore"]
+- !private ["7QuestGo20FullImageDataStoringP", "imageUrl"]
+- !private ["7QuestGo21FullImageDisplayLogicP", "router"]
+- !private ["7QuestGo21FullImageRoutingLogicP", "dataStore"]
+- !private ["7QuestGo23FullImageViewControllerC", "router"]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "default"]
+- !private ["SH", "init"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "modalPresentationStyle"]
+- !private ["SH", "navigationBar"]
+- !private ["SH", "overFullScreen"]
+- !private ["SH", "present"]
+- !private ["SH", "router"]
+- !private ["SH", "tintColor"]
+- !private ["SH", "view"]
+- !private ["7QuestGo17ImageCellDelegateP", "router"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "alertControllerWithTitle"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "modalPresentationStyle"]
+- !private ["So8NSCodingP", "navigationBar"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "router"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "alertControllerWithTitle"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "modalPresentationStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "router"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "actionWithTitle"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "alertControllerWithTitle"]
+- !private ["So8NSObjectC", "colorNamed"]
+- !private ["So8NSObjectC", "colorWithCGColor"]
+- !private ["So8NSObjectC", "colorWithCIColor"]
+- !private ["So8NSObjectC", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectC", "colorWithDynamicProvider"]
+- !private ["So8NSObjectC", "colorWithHue"]
+- !private ["So8NSObjectC", "colorWithPatternImage"]
+- !private ["So8NSObjectC", "colorWithRed"]
+- !private ["So8NSObjectC", "colorWithWhite"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "modalPresentationStyle"]
+- !private ["So8NSObjectC", "navigationBar"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentViewController"]
+- !private ["So8NSObjectC", "router"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "actionWithTitle"]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "alertControllerWithTitle"]
+- !private ["So8NSObjectP", "colorNamed"]
+- !private ["So8NSObjectP", "colorWithCGColor"]
+- !private ["So8NSObjectP", "colorWithCIColor"]
+- !private ["So8NSObjectP", "colorWithDisplayP3Red"]
+- !private ["So8NSObjectP", "colorWithDynamicProvider"]
+- !private ["So8NSObjectP", "colorWithHue"]
+- !private ["So8NSObjectP", "colorWithPatternImage"]
+- !private ["So8NSObjectP", "colorWithRed"]
+- !private ["So8NSObjectP", "colorWithWhite"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "modalPresentationStyle"]
+- !private ["So8NSObjectP", "navigationBar"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentViewController"]
+- !private ["So8NSObjectP", "router"]
+- !private ["So8NSObjectP", "tintColor"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "tintColor"]
+- !private ["7QuestGo0A22DescriptionDataPassingP", "ControllerFactory"]
+- ["7QuestGo0A22DescriptionDataPassingP", "QuestDescriptionDataStoring"]
+- !private ["7QuestGo0A22DescriptionDataPassingP", "StoryPageViewState"]
+- !private ["7QuestGo0A22DescriptionDataPassingP", "UIAlertAction"]
+- !private ["7QuestGo0A22DescriptionDataPassingP", "UIAlertController"]
+- !private ["7QuestGo0A22DescriptionDataPassingP", "UIColor"]
+- !private ["7QuestGo0A22DescriptionDataPassingP", "UINavigationController"]
+- ["7QuestGo0A22DescriptionDataPassingP", ""]
+- ["7QuestGo0A22DescriptionDataPassingP", "dataStore"]
+- ["7QuestGo0A22DescriptionDataPassingP", "routeToAlert"]
+- ["7QuestGo0A22DescriptionDataPassingP", "routeToImage"]
+- ["7QuestGo0A22DescriptionDataPassingP", "routeToQuest"]
+- !private ["7QuestGo0A22DescriptionDataPassingP", "viewController"]
+- !private ["7QuestGo0A17DescriptionRouterC", "ControllerFactory"]
+- !private ["7QuestGo0A17DescriptionRouterC", "FullImageViewController"]
+- ["7QuestGo0A17DescriptionRouterC", "Int"]
+- ["7QuestGo0A17DescriptionRouterC", "QuestDescriptionDataStoring"]
+- !private ["7QuestGo0A17DescriptionRouterC", "StoryPageViewController"]
+- !private ["7QuestGo0A17DescriptionRouterC", "StoryPageViewState"]
+- ["7QuestGo0A17DescriptionRouterC", "String"]
+- !private ["7QuestGo0A17DescriptionRouterC", "UIAlertAction"]
+- !private ["7QuestGo0A17DescriptionRouterC", "UIAlertController"]
+- !private ["7QuestGo0A17DescriptionRouterC", "UIColor"]
+- !private ["7QuestGo0A17DescriptionRouterC", "UINavigationController"]
+- ["7QuestGo0A17DescriptionRouterC", "UIViewController"]
+- ["7QuestGo0A17DescriptionRouterC", "URL"]
+- ["7QuestGo0A17DescriptionRouterC", ""]
+- ["7QuestGo0A17DescriptionRouterC", "dataStore"]
+- ["7QuestGo0A17DescriptionRouterC", "deinit"]
+- ["7QuestGo0A17DescriptionRouterC", "init"]
+- ["7QuestGo0A17DescriptionRouterC", "routeToAlert"]
+- ["7QuestGo0A17DescriptionRouterC", "routeToImage"]
+- ["7QuestGo0A17DescriptionRouterC", "routeToQuest"]
+- ["7QuestGo0A17DescriptionRouterC", "viewController"]
+- !private ["7QuestGo0A23DescriptionRoutingLogicP", "ControllerFactory"]
+- ["7QuestGo0A23DescriptionRoutingLogicP", "Int"]
+- !private ["7QuestGo0A23DescriptionRoutingLogicP", "StoryPageViewState"]
+- ["7QuestGo0A23DescriptionRoutingLogicP", "String"]
+- !private ["7QuestGo0A23DescriptionRoutingLogicP", "UIAlertAction"]
+- !private ["7QuestGo0A23DescriptionRoutingLogicP", "UIAlertController"]
+- !private ["7QuestGo0A23DescriptionRoutingLogicP", "UIColor"]
+- !private ["7QuestGo0A23DescriptionRoutingLogicP", "UINavigationController"]
+- ["7QuestGo0A23DescriptionRoutingLogicP", "URL"]
+- ["7QuestGo0A23DescriptionRoutingLogicP", ""]
+- ["7QuestGo0A23DescriptionRoutingLogicP", "dataStore"]
+- ["7QuestGo0A23DescriptionRoutingLogicP", "routeToAlert"]
+- ["7QuestGo0A23DescriptionRoutingLogicP", "routeToImage"]
+- ["7QuestGo0A23DescriptionRoutingLogicP", "routeToQuest"]
+- !private ["7QuestGo0A23DescriptionRoutingLogicP", "viewController"]
+- !private ["SY", "alert"]
+- !private ["SY", "default"]
+- !private ["SY", "overFullScreen"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addAction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isHidden"]
+- !private ["7RxSwift18ReactiveCompatibleP", "modalPresentationStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "navigationBar"]
+- !private ["7RxSwift18ReactiveCompatibleP", "present"]
+- !private ["7RxSwift18ReactiveCompatibleP", "router"]
+- !private ["7RxSwift18ReactiveCompatibleP", "tintColor"]
+- !private ["7RxSwift18ReactiveCompatibleP", "view"]
+- !private ["7QuestGo20StoryPageDataPassingP", "dataStore"]
+- !private ["7QuestGo20StoryPageDataStoringP", "viewState"]
+- !private ["7QuestGo21StoryPageDisplayLogicP", "router"]
+- !private ["7QuestGo21StoryPageRoutingLogicP", "dataStore"]
+- !private ["7QuestGo23StoryPageViewControllerC", "router"]
+- !private ["7QuestGo18StoryPageViewStateV", "init"]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "default"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So17UIAlertControllerC", "view"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "alertControllerWithTitle"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "modalPresentationStyle"]
+- !private ["So21UIAppearanceContainerP", "navigationBar"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "router"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So16UIBarPositioningP", "isHidden"]
+- !private ["So7UIColorC", "init"]
+- !private ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "alertControllerWithTitle"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "modalPresentationStyle"]
+- !private ["So18UIContentContainerP", "navigationBar"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "router"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "alertControllerWithTitle"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UIFocusEnvironmentP", "navigationBar"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "router"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "tintColor"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- !private ["So24UILargeContentViewerItemP", "tintColor"]
+- !private ["So24UIModalPresentationStyleV", "overFullScreen"]
+- !private ["So15UINavigationBarC", "isHidden"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "modalPresentationStyle"]
+- !private ["So22UINavigationControllerC", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "alertControllerWithTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "modalPresentationStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "router"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "alertControllerWithTitle"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "modalPresentationStyle"]
+- !private ["So11UIResponderC", "navigationBar"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentViewController"]
+- !private ["So11UIResponderC", "router"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "alertControllerWithTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "modalPresentationStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "router"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "router"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "view"]
+- !private ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "alertControllerWithTitle"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "modalPresentationStyle"]
+- !private ["So16UIStateRestoringP", "navigationBar"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "router"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So21UITableViewDataSourceP", "router"]
+- !private ["So19UITableViewDelegateP", "router"]
+- !private ["So19UITextFieldDelegateP", "router"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "alertControllerWithTitle"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UITraitEnvironmentP", "navigationBar"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "router"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "alertControllerWithTitle"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "modalPresentationStyle"]
+- !private ["So23UIUserActivityRestoringP", "navigationBar"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentViewController"]
+- !private ["So23UIUserActivityRestoringP", "router"]
+- !private ["So23UIUserActivityRestoringP", "tintColor"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "tintColor"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "alertControllerWithTitle"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "modalPresentationStyle"]
+- !private ["So16UIViewControllerC", "navigationBar"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "router"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modalPresentationStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "router"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "modalPresentationStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationBar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "router"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "tintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+depends-nominal:
+- !private "7QuestGo18ButtonCellDelegateP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "7QuestGo17ControllerFactoryC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "7QuestGo12DiscloseViewP"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7QuestGo20FullImageDataPassingP"
+- !private "7QuestGo20FullImageDataStoringP"
+- !private "7QuestGo21FullImageDisplayLogicP"
+- !private "7QuestGo21FullImageRoutingLogicP"
+- !private "7QuestGo23FullImageViewControllerC"
+- !private "SH"
+- !private "7QuestGo17ImageCellDelegateP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- "7QuestGo0A22DescriptionDataPassingP"
+- "7QuestGo0A17DescriptionRouterC"
+- "7QuestGo0A23DescriptionRoutingLogicP"
+- !private "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "7QuestGo20StoryPageDataPassingP"
+- !private "7QuestGo20StoryPageDataStoringP"
+- !private "7QuestGo21StoryPageDisplayLogicP"
+- !private "7QuestGo21StoryPageRoutingLogicP"
+- !private "7QuestGo23StoryPageViewControllerC"
+- !private "7QuestGo18StoryPageViewStateV"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UIBarPositioningP"
+- !private "So7UIColorC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So24UIModalPresentationStyleV"
+- !private "So15UINavigationBarC"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So19UITextFieldDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/youtube-ios-player-helper-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Headers/questGoShared.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/YTPlayerView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/QuestGoShared/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b63235fb62379341564f97b7052a6e2d"

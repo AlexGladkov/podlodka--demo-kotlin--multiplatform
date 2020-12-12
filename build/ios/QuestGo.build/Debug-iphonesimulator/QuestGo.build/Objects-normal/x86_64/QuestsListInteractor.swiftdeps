@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QuestsListBusinessLogic"
+- "QuestsListDataStoring"
+- "QuestsListInteractor"
+provides-nominal:
+- "7QuestGo23QuestsListBusinessLogicP"
+- "7QuestGo21QuestsListDataStoringP"
+- "7QuestGo20QuestsListInteractorC"
+provides-member:
+- ["7QuestGo23QuestsListBusinessLogicP", ""]
+- ["7QuestGo21QuestsListDataStoringP", ""]
+- ["7QuestGo20QuestsListInteractorC", ""]
+provides-dynamic-lookup:
+- "disposeBag"
+- "fetchQuestList"
+- "presenter"
+- "questListAnalytics"
+- "questWorker"
+depends-top-level:
+- "AnyObject"
+- !private "Array"
+- !private "BooleanLiteralType"
+- !private "ConcurrentDispatchQueueScheduler"
+- "DisposeBag"
+- !private "MainScheduler"
+- "QuestListAnalytics"
+- "QuestWorker"
+- "QuestsListBusinessLogic"
+- "QuestsListDataStoring"
+- "QuestsListInteractor"
+- "QuestsListPresentationLogic"
+- !private "disposeBag"
+- !private "presenter"
+- !private "questWorker"
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "count"]
+- !private ["Sa", "count"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["7RxSwift32ConcurrentDispatchQueueSchedulerC", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "items"]
+- !private ["8Dispatch0A3QoSV", "userInitiated"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", ""]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "items"]
+- !private ["SQ", "=="]
+- !private ["SQ", ""]
+- !private ["SQ", "count"]
+- !private ["SQ", "userInitiated"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "count"]
+- !private ["SH", "hash"]
+- !private ["SH", "hashValue"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "init"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "instance"]
+- !private ["7RxSwift13MainSchedulerC", "instance"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "observeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribeOn"]
+- !private ["7RxSwift17PrimitiveSequenceV", "observeOn"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribe"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribeOn"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "observeOn"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "subscribe"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "subscribeOn"]
+- !private ["7QuestGo0A5ModelV4ListV8ResponseV0A0V", ""]
+- ["7QuestGo0A13ListAnalyticsC", "init"]
+- !private ["7QuestGo0A13ListAnalyticsC", "listError"]
+- !private ["7QuestGo0A13ListAnalyticsC", "listLoaded"]
+- !private ["7QuestGo0A6WorkerC", "fetchQuestList"]
+- ["7QuestGo0A6WorkerC", "init"]
+- !private ["7QuestGo23QuestsListBusinessLogicP", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo23QuestsListBusinessLogicP", "DisposeBag"]
+- !private ["7QuestGo23QuestsListBusinessLogicP", "MainScheduler"]
+- ["7QuestGo23QuestsListBusinessLogicP", "QuestListAnalytics"]
+- ["7QuestGo23QuestsListBusinessLogicP", "QuestWorker"]
+- ["7QuestGo23QuestsListBusinessLogicP", ""]
+- !private ["7QuestGo23QuestsListBusinessLogicP", "disposeBag"]
+- ["7QuestGo23QuestsListBusinessLogicP", "fetchQuestList"]
+- !private ["7QuestGo23QuestsListBusinessLogicP", "presenter"]
+- !private ["7QuestGo23QuestsListBusinessLogicP", "questListAnalytics"]
+- !private ["7QuestGo23QuestsListBusinessLogicP", "questWorker"]
+- !private ["7QuestGo21QuestsListDataStoringP", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo21QuestsListDataStoringP", "DisposeBag"]
+- !private ["7QuestGo21QuestsListDataStoringP", "MainScheduler"]
+- ["7QuestGo21QuestsListDataStoringP", "QuestListAnalytics"]
+- ["7QuestGo21QuestsListDataStoringP", "QuestWorker"]
+- ["7QuestGo21QuestsListDataStoringP", ""]
+- !private ["7QuestGo21QuestsListDataStoringP", "disposeBag"]
+- ["7QuestGo21QuestsListDataStoringP", "fetchQuestList"]
+- !private ["7QuestGo21QuestsListDataStoringP", "presenter"]
+- !private ["7QuestGo21QuestsListDataStoringP", "questListAnalytics"]
+- !private ["7QuestGo21QuestsListDataStoringP", "questWorker"]
+- !private ["7QuestGo20QuestsListInteractorC", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo20QuestsListInteractorC", "DisposeBag"]
+- !private ["7QuestGo20QuestsListInteractorC", "MainScheduler"]
+- ["7QuestGo20QuestsListInteractorC", "QuestListAnalytics"]
+- ["7QuestGo20QuestsListInteractorC", "QuestWorker"]
+- ["7QuestGo20QuestsListInteractorC", "QuestsListPresentationLogic"]
+- ["7QuestGo20QuestsListInteractorC", ""]
+- ["7QuestGo20QuestsListInteractorC", "deinit"]
+- !private ["7QuestGo20QuestsListInteractorC", "disposeBag"]
+- ["7QuestGo20QuestsListInteractorC", "fetchQuestList"]
+- ["7QuestGo20QuestsListInteractorC", "init"]
+- ["7QuestGo20QuestsListInteractorC", "presenter"]
+- !private ["7QuestGo20QuestsListInteractorC", "questListAnalytics"]
+- !private ["7QuestGo20QuestsListInteractorC", "questWorker"]
+- !private ["7QuestGo27QuestsListPresentationLogicP", "present"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["7QuestGo0A5ModelV4ListV8ResponseV", "CodingKeys"]
+- !private ["7QuestGo0A5ModelV4ListV8ResponseV", ""]
+- !private ["7QuestGo0A5ModelV4ListV8ResponseV", "init"]
+- !private ["7QuestGo0A5ModelV4ListV8ResponseV", "items"]
+- !private ["7RxSwift13SchedulerTypeP", "init"]
+- !private ["7RxSwift13SchedulerTypeP", "instance"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- ["7RxSwift28SerialDispatchQueueSchedulerC", ""]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "instance"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "7RxSwift32ConcurrentDispatchQueueSchedulerC"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "8Dispatch0A3QoSV"
+- !private "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7RxSwift13MainSchedulerC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
+- !private "7QuestGo0A5ModelV4ListV8ResponseV0A0V"
+- "7QuestGo0A13ListAnalyticsC"
+- "7QuestGo0A6WorkerC"
+- "7QuestGo23QuestsListBusinessLogicP"
+- "7QuestGo21QuestsListDataStoringP"
+- "7QuestGo20QuestsListInteractorC"
+- !private "7QuestGo27QuestsListPresentationLogicP"
+- !private "Sk"
+- !private "Sm"
+- !private "7QuestGo0A5ModelV4ListV8ResponseV"
+- !private "7RxSwift13SchedulerTypeP"
+- !private "ST"
+- "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/youtube-ios-player-helper-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Headers/questGoShared.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/YTPlayerView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/QuestGoShared/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a9d3736598c6f11cfb44d04de4f63beb"

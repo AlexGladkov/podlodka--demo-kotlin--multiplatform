@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Toxa2033:ScaleAndSwipeDismissImageView:v0.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e878a5635610b09428c9d1c31cb3c24/jetified-ScaleAndSwipeDismissImageView-v0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e878a5635610b09428c9d1c31cb3c24/jetified-ScaleAndSwipeDismissImageView-v0.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e878a5635610b09428c9d1c31cb3c24/jetified-ScaleAndSwipeDismissImageView-v0.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Toxa2033/ScaleAndSwipeDismissImageView/v0.7/8b98b0f6d166aacbd462436e3b8fab2904cda7a7/ScaleAndSwipeDismissImageView-v0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

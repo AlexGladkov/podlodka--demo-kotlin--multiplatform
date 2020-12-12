@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Kotlin/Native 1.4.20 - builtin [ios_arm64, ios_x64]" type="kotlin.native">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-1.4.20/klib/commonized/ios_arm64-ios_x64-MS40LjIw/common/org.jetbrains.kotlin.native.platform.builtin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

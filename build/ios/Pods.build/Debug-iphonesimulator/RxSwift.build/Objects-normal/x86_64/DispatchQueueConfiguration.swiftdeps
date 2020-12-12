@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DispatchQueueConfiguration"
+provides-nominal:
+- "7RxSwift26DispatchQueueConfigurationV"
+provides-member:
+- ["7RxSwift26DispatchQueueConfigurationV", ""]
+- ["7RxSwift26DispatchQueueConfigurationV", "schedule"]
+- ["7RxSwift26DispatchQueueConfigurationV", "scheduleRelative"]
+- ["7RxSwift26DispatchQueueConfigurationV", "schedulePeriodic"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- !private "CompositeDisposable"
+- "DispatchQueue"
+- "DispatchQueueConfiguration"
+- !private "DispatchSource"
+- "DispatchSourceTimer"
+- !private "DispatchTime"
+- "DispatchTimeInterval"
+- "Disposable"
+- !private "Disposables"
+- "RxTimeInterval"
+- !private "SingleAssignmentDisposable"
+depends-member:
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "makeTimerSource"]
+- !private ["7RxSwift10CancelableP", "dispose"]
+- !private ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "insert"]
+- !private ["7RxSwift10CancelableP", "isDisposed"]
+- !private ["7RxSwift10CancelableP", "setDisposable"]
+- !private ["SL", "now"]
+- !private ["7RxSwift19CompositeDisposableC", ""]
+- !private ["7RxSwift19CompositeDisposableC", "init"]
+- !private ["7RxSwift19CompositeDisposableC", "insert"]
+- !private ["7RxSwift19CompositeDisposableC", "isDisposed"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "makeTimerSource"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "makeTimerSource"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "makeTimerSource"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["7RxSwift26DispatchQueueConfigurationV", "CompositeDisposable"]
+- ["7RxSwift26DispatchQueueConfigurationV", "DispatchQueue"]
+- !private ["7RxSwift26DispatchQueueConfigurationV", "DispatchSource"]
+- !private ["7RxSwift26DispatchQueueConfigurationV", "DispatchSourceTimer"]
+- !private ["7RxSwift26DispatchQueueConfigurationV", "DispatchTime"]
+- ["7RxSwift26DispatchQueueConfigurationV", "DispatchTimeInterval"]
+- ["7RxSwift26DispatchQueueConfigurationV", "Disposable"]
+- !private ["7RxSwift26DispatchQueueConfigurationV", "Disposables"]
+- ["7RxSwift26DispatchQueueConfigurationV", "RxTimeInterval"]
+- !private ["7RxSwift26DispatchQueueConfigurationV", "SingleAssignmentDisposable"]
+- ["7RxSwift26DispatchQueueConfigurationV", ""]
+- ["7RxSwift26DispatchQueueConfigurationV", "init"]
+- ["7RxSwift26DispatchQueueConfigurationV", "leeway"]
+- ["7RxSwift26DispatchQueueConfigurationV", "queue"]
+- ["7RxSwift26DispatchQueueConfigurationV", "schedule"]
+- ["7RxSwift26DispatchQueueConfigurationV", "schedulePeriodic"]
+- ["7RxSwift26DispatchQueueConfigurationV", "scheduleRelative"]
+- !private ["So18OS_dispatch_sourceC", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_vnodeP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_recvP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_sendP", "makeTimerSource"]
+- !private ["So33OS_dispatch_source_memorypressureP", "makeTimerSource"]
+- !private ["So23OS_dispatch_source_procP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", ""]
+- !private ["So18OS_dispatch_sourceP", "cancel"]
+- !private ["So18OS_dispatch_sourceP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "resume"]
+- !private ["So18OS_dispatch_sourceP", "schedule"]
+- !private ["So18OS_dispatch_sourceP", "setEventHandler"]
+- !private ["So23OS_dispatch_source_readP", "makeTimerSource"]
+- !private ["So25OS_dispatch_source_signalP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "cancel"]
+- !private ["So24OS_dispatch_source_timerP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "resume"]
+- !private ["So24OS_dispatch_source_timerP", "schedule"]
+- !private ["So24OS_dispatch_source_timerP", "setEventHandler"]
+- !private ["So27OS_dispatch_source_data_addP", "makeTimerSource"]
+- !private ["So26OS_dispatch_source_data_orP", "makeTimerSource"]
+- !private ["So31OS_dispatch_source_data_replaceP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_writeP", "makeTimerSource"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift10DisposableP", "dispose"]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "insert"]
+- !private ["7RxSwift10DisposableP", "isDisposed"]
+- !private ["7RxSwift10DisposableP", "setDisposable"]
+- !private ["7RxSwift11DisposablesV", "create"]
+- ["7RxSwift11DisposeBaseC", ""]
+- !private ["7RxSwift11DisposeBaseC", "init"]
+- !private ["7RxSwift11DisposeBaseC", "insert"]
+- !private ["7RxSwift11DisposeBaseC", "isDisposed"]
+- !private ["7RxSwift11DisposeBaseC", "setDisposable"]
+- !private ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "makeTimerSource"]
+- !private ["SQ", "now"]
+- !private ["SH", "async"]
+- !private ["SH", "makeTimerSource"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "makeTimerSource"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "makeTimerSource"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "schedule"]
+- !private ["So8NSObjectP", "setEventHandler"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "makeTimerSource"]
+- !private ["7RxSwift18ReactiveCompatibleP", "async"]
+- !private ["7RxSwift18ReactiveCompatibleP", "makeTimerSource"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", ""]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "init"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "setDisposable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeTimerSource"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeTimerSource"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "7RxSwift10CancelableP"
+- !private "SL"
+- !private "7RxSwift19CompositeDisposableC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "7RxSwift26DispatchQueueConfigurationV"
+- !private "So18OS_dispatch_sourceC"
+- !private "So24OS_dispatch_source_vnodeP"
+- !private "So28OS_dispatch_source_mach_recvP"
+- !private "So28OS_dispatch_source_mach_sendP"
+- !private "So33OS_dispatch_source_memorypressureP"
+- !private "So23OS_dispatch_source_procP"
+- !private "So18OS_dispatch_sourceP"
+- !private "So23OS_dispatch_source_readP"
+- !private "So25OS_dispatch_source_signalP"
+- !private "So24OS_dispatch_source_timerP"
+- !private "So27OS_dispatch_source_data_addP"
+- !private "So26OS_dispatch_source_data_orP"
+- !private "So31OS_dispatch_source_data_replaceP"
+- !private "So24OS_dispatch_source_writeP"
+- !private "8Dispatch0A4TimeV"
+- "7RxSwift10DisposableP"
+- !private "7RxSwift11DisposablesV"
+- "7RxSwift11DisposeBaseC"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "7Combine9SchedulerP"
+- !private "7RxSwift26SingleAssignmentDisposableC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1f8ad3e36e5386abe92263d18e380b7c"

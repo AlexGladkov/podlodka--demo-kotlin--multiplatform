@@ -1,0 +1,180 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So17OS_dispatch_queueC", ""]
+- ["So17OS_dispatch_queueC", "isMain"]
+provides-dynamic-lookup:
+- "isMain"
+- "token"
+depends-top-level:
+- !private "!="
+- "Bool"
+- "DispatchQueue"
+- "DispatchSpecificKey"
+- !private "token"
+depends-member:
+- ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "DispatchSpecificKey"]
+- !private ["s7CVarArgP", "getSpecific"]
+- ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "setSpecific"]
+- !private ["s7CVarArgP", "token"]
+- ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "DispatchSpecificKey"]
+- !private ["s28CustomDebugStringConvertibleP", "getSpecific"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "setSpecific"]
+- !private ["s28CustomDebugStringConvertibleP", "token"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "DispatchSpecificKey"]
+- !private ["s23CustomStringConvertibleP", "getSpecific"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "setSpecific"]
+- !private ["s23CustomStringConvertibleP", "token"]
+- ["So18OS_dispatch_objectC", "Bool"]
+- ["So18OS_dispatch_objectC", "DispatchQueue"]
+- ["So18OS_dispatch_objectC", "DispatchSpecificKey"]
+- !private ["So18OS_dispatch_objectC", "getSpecific"]
+- ["So18OS_dispatch_objectC", "isMain"]
+- ["So18OS_dispatch_objectC", "main"]
+- ["So18OS_dispatch_objectC", "setSpecific"]
+- ["So18OS_dispatch_objectC", "token"]
+- ["So17OS_dispatch_queueC", "Bool"]
+- ["So17OS_dispatch_queueC", "DispatchQueue"]
+- ["So17OS_dispatch_queueC", "DispatchSpecificKey"]
+- ["So17OS_dispatch_queueC", ""]
+- !private ["So17OS_dispatch_queueC", "getSpecific"]
+- ["So17OS_dispatch_queueC", "isMain"]
+- ["So17OS_dispatch_queueC", "main"]
+- ["So17OS_dispatch_queueC", "setSpecific"]
+- !private ["So17OS_dispatch_queueC", "token"]
+- ["8Dispatch0A11SpecificKeyC", "init"]
+- ["SQ", "DispatchQueue"]
+- ["SQ", "DispatchSpecificKey"]
+- ["SQ", ""]
+- !private ["SQ", "getSpecific"]
+- ["SQ", "main"]
+- ["SQ", "setSpecific"]
+- !private ["SQ", "token"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- ["SH", "DispatchQueue"]
+- ["SH", "DispatchSpecificKey"]
+- !private ["SH", "getSpecific"]
+- ["SH", "main"]
+- ["SH", "setSpecific"]
+- !private ["SH", "token"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "DispatchSpecificKey"]
+- !private ["So8NSObjectC", "getSpecific"]
+- ["So8NSObjectC", "isMain"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "setSpecific"]
+- ["So8NSObjectC", "token"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", "DispatchSpecificKey"]
+- !private ["So8NSObjectP", "getSpecific"]
+- ["So8NSObjectP", "isMain"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "setSpecific"]
+- ["So8NSObjectP", "token"]
+- ["So9OS_objectC", "Bool"]
+- ["So9OS_objectC", "DispatchQueue"]
+- ["So9OS_objectC", "DispatchSpecificKey"]
+- !private ["So9OS_objectC", "getSpecific"]
+- ["So9OS_objectC", "isMain"]
+- ["So9OS_objectC", "main"]
+- ["So9OS_objectC", "setSpecific"]
+- ["So9OS_objectC", "token"]
+- ["7RxSwift18ReactiveCompatibleP", "DispatchQueue"]
+- ["7RxSwift18ReactiveCompatibleP", "DispatchSpecificKey"]
+- !private ["7RxSwift18ReactiveCompatibleP", "getSpecific"]
+- ["7RxSwift18ReactiveCompatibleP", "main"]
+- ["7RxSwift18ReactiveCompatibleP", "setSpecific"]
+- !private ["7RxSwift18ReactiveCompatibleP", "token"]
+- ["7Combine9SchedulerP", "DispatchQueue"]
+- ["7Combine9SchedulerP", "DispatchSpecificKey"]
+- !private ["7Combine9SchedulerP", "getSpecific"]
+- ["7Combine9SchedulerP", "main"]
+- ["7Combine9SchedulerP", "setSpecific"]
+- !private ["7Combine9SchedulerP", "token"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchSpecificKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSpecific"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setSpecific"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "token"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchSpecificKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getSpecific"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setSpecific"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "token"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "8Dispatch0A11SpecificKeyC"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "7RxSwift18ReactiveCompatibleP"
+- "7Combine9SchedulerP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0137b1c52af26aa7b31b8d9441e6a994"

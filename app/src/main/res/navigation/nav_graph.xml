@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/questListFragment">
+
+    <fragment
+        android:id="@+id/questListFragment"
+        android:name="ru.agladkov.questgo.screens.questList.QuestListFragment"
+        android:label="QuestListFragment" >
+        <action
+            android:id="@+id/action_questListFragment_to_questInfoFragment"
+            app:destination="@id/questInfoFragment" />
+        <action
+            android:id="@+id/action_questListFragment_to_questPageFragment"
+            app:destination="@id/questPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questInfoFragment"
+        android:name="ru.agladkov.questgo.screens.questInfo.QuestInfoFragment"
+        android:label="QuestInfoFragment" >
+        <action
+            android:id="@+id/action_questInfoFragment_to_questPageFragment"
+            app:destination="@id/questPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questPageFragment"
+        android:name="ru.agladkov.questgo.screens.questPage.QuestPageFragment"
+        android:label="QuestPageFragment" >
+        <action
+            android:id="@+id/action_questPageFragment_self"
+            app:destination="@id/questPageFragment" />
+        <action
+            android:id="@+id/action_questPageFragment_to_errorFragment"
+            app:destination="@id/errorFragment" />
+        <action
+            android:id="@+id/action_questPageFragment_to_thankYouPageFragment"
+            app:destination="@id/thankYouPageFragment" />
+        <action
+            android:id="@+id/action_questPageFragment_to_fullImageFragment"
+            app:destination="@id/fullImageFragment" />
+        <action
+            android:id="@+id/action_questPageFragment_to_payFragment"
+            app:destination="@id/payFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/errorFragment"
+        android:name="ru.agladkov.questgo.screens.error.ErrorFragment"
+        android:label="ErrorFragment" />
+    <dialog
+        android:id="@+id/thankYouPageFragment"
+        android:name="ru.agladkov.questgo.screens.thankYouPage.ThankYouPageFragment"
+        android:label="ThankYouPageFragment" >
+        <action
+            android:id="@+id/action_thankYouPageFragment_to_questListFragment"
+            app:destination="@id/questListFragment"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <fragment
+        android:id="@+id/fullImageFragment"
+        android:name="ru.agladkov.questgo.screens.fullImage.FullImageFragment"
+        android:label="FullImageFragment" />
+    <dialog
+        android:id="@+id/payFragment"
+        android:name="ru.agladkov.questgo.screens.pay.PayFragment"
+        android:label="PayFragment" >
+        <action
+            android:id="@+id/action_payFragment_to_promoFragment"
+            app:destination="@id/promoFragment" />
+    </dialog>
+    <dialog
+        android:id="@+id/promoFragment"
+        android:name="ru.agladkov.questgo.screens.promo.PromoFragment"
+        android:label="PromoFragment" />
+</navigation>

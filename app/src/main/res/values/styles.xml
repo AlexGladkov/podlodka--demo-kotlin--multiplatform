@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="ActivityTheme.Primary.Base" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="ActivityTheme.Primary.Base.Light">
+        <item name="colorPrimaryDark">@color/light_status_bar_detail_color</item>
+        <item name="colorPrimary">@color/light_status_bar_detail_color</item>
+        <item name="primaryBackgroundColor">@color/light_background_color</item>
+        <item name="secondaryBackgroundColor">@color/light_background_secondary_color</item>
+
+        <item name="primaryTextColor">@color/light_primary_text_color</item>
+        <item name="secondaryTextColor">@color/light_secondary_text_color</item>
+
+        <item name="primaryTintColor">@color/light_tint_primary</item>
+    </style>
+
+    <style name="ActivityTheme.Primary.Base.Dark">
+        <item name="colorPrimaryDark">@color/dark_status_bar_detail_color</item>
+        <item name="colorPrimary">@color/dark_status_bar_detail_color</item>
+        <item name="primaryBackgroundColor">@color/dark_background_color</item>
+        <item name="secondaryBackgroundColor">@color/dark_background_secondary_color</item>
+
+        <item name="primaryTextColor">@color/dark_primary_text_color</item>
+        <item name="secondaryTextColor">@color/dark_secondary_text_color</item>
+
+        <item name="primaryTintColor">@color/dark_tint_primary</item>
+    </style>
+
+</resources>

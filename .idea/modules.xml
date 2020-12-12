@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuestGo.iml" filepath="$PROJECT_DIR$/.idea/modules/QuestGo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/QuestGo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/QuestGo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosArm64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosArm64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosArm64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosArm64Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosMain.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosTest.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosX64Main.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosX64Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosX64Test.iml" filepath="$PROJECT_DIR$/.idea/modules/questShared/QuestGo.questShared.iosX64Test.iml" />
+    </modules>
+  </component>
+</project>

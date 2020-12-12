@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:atomicfu-iosarm64:klib:0.14.4" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-iosarm64/0.14.4/9d7b23725abb4fb70fa0f6b437eb02a1c33c0e0/atomicfu.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-iosarm64/0.14.4/d638503e5ca4de348a94be8e251ee9d8b0ce3539/atomicfu-iosarm64-0.14.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

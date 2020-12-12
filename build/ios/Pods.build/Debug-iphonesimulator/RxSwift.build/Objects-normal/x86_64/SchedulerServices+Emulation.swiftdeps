@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SchedulePeriodicRecursiveCommand"
+- "SchedulePeriodicRecursive"
+provides-nominal:
+- "7RxSwift32SchedulePeriodicRecursiveCommandO"
+- "7RxSwift25SchedulePeriodicRecursiveC"
+provides-member:
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", ""]
+- ["7RxSwift25SchedulePeriodicRecursiveC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private ">"
+- "AnyRecursiveScheduler"
+- "AssignmentPrecedence"
+- "AtomicInt"
+- "Disposable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "RecursiveAction"
+- "RecursiveScheduler"
+- "RxTimeInterval"
+- "SchedulePeriodicRecursive"
+- "SchedulePeriodicRecursiveCommand"
+- "SchedulerType"
+- "State"
+- !private "decrement"
+- !private "increment"
+depends-member:
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "schedule"]
+- ["7RxSwift9AtomicIntC", "init"]
+- ["s7CVarArgP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "dispatchStart"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "tick"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "dispatchStart"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "tick"]
+- !private ["s6HasherV", "combine"]
+- ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "scheduleRecursive"]
+- ["So6NSLockC", ""]
+- ["So9NSLockingP", "init"]
+- ["So8NSObjectP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "AnyRecursiveScheduler"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "AtomicInt"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "Disposable"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "RecursiveAction"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "RecursiveScheduler"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "RxTimeInterval"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "SchedulePeriodicRecursiveCommand"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "SchedulerType"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "_action"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "_pendingTickCount"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "_period"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "_scheduler"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "_startAfter"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "_state"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "action"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "decrement"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "deinit"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "increment"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "init"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "pendingTickCount"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "period"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "scheduler"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "start"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "startAfter"]
+- !private ["7RxSwift25SchedulePeriodicRecursiveC", "state"]
+- ["7RxSwift25SchedulePeriodicRecursiveC", "tick"]
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", "=="]
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", ""]
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", "__derived_enum_equals"]
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", "_rawHashValue"]
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", "dispatchStart"]
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", "hash"]
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", "hashValue"]
+- ["7RxSwift32SchedulePeriodicRecursiveCommandO", "tick"]
+- !private ["7RxSwift13SchedulerTypeP", "scheduleRecursive"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+depends-nominal:
+- !private "7RxSwift21AnyRecursiveSchedulerC"
+- "7RxSwift9AtomicIntC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "7RxSwift22ImmediateSchedulerTypeP"
+- "So6NSLockC"
+- "So9NSLockingP"
+- "So8NSObjectP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxSwift25SchedulePeriodicRecursiveC"
+- "7RxSwift32SchedulePeriodicRecursiveCommandO"
+- !private "7RxSwift13SchedulerTypeP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fbe54b9120cfb37217ab4735b11133d8"

@@ -1,0 +1,131 @@
+PODS:
+  - Alamofire (5.2.2)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - Firebase/Analytics (6.28.1):
+    - Firebase/Core
+  - Firebase/Core (6.28.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.6.2)
+  - Firebase/CoreOnly (6.28.1):
+    - FirebaseCore (= 6.9.1)
+  - Firebase/DynamicLinks (6.28.1):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 4.2.0)
+  - FirebaseAnalytics (6.6.2):
+    - FirebaseCore (~> 6.8)
+    - FirebaseInstallations (~> 1.4)
+    - GoogleAppMeasurement (= 6.6.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - FirebaseCore (6.9.1):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+  - FirebaseCoreDiagnostics (1.5.0):
+    - GoogleDataTransport (~> 7.0)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/Logger (~> 6.7)
+    - nanopb (~> 1.30905.0)
+  - FirebaseDynamicLinks (4.2.0):
+    - FirebaseCore (~> 6.8)
+  - FirebaseInstallations (1.5.0):
+    - FirebaseCore (~> 6.8)
+    - GoogleUtilities/Environment (~> 6.7)
+    - GoogleUtilities/UserDefaults (~> 6.7)
+    - PromisesObjC (~> 1.2)
+  - GoogleAppMeasurement (6.6.2):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - GoogleDataTransport (7.0.0):
+    - nanopb (~> 1.30905.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.7.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.7.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.7.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.7.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.7.1)"
+  - GoogleUtilities/Reachability (6.7.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.7.1):
+    - GoogleUtilities/Logger
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - PromisesObjC (1.2.9)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - youtube-ios-player-helper (1.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - AlamofireImage (~> 4.1)
+  - Firebase/Analytics
+  - Firebase/DynamicLinks
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - youtube-ios-player-helper (~> 1.0.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDynamicLinks
+    - FirebaseInstallations
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - nanopb
+    - PromisesObjC
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Firebase: ed042590caa0029392257529a8003c25ee82bc18
+  FirebaseAnalytics: 5fa308e1b13f838d0f6dc74719ac2a72e8c5afc4
+  FirebaseCore: 687b8e6a0a4337b898a6326d68254c2f80c143af
+  FirebaseCoreDiagnostics: 7535fe695737f8c5b350584292a70b7f8ff0357b
+  FirebaseDynamicLinks: cf3cfedfd47ce6ea56fa66a5c940ea0ca9c60950
+  FirebaseInstallations: 3c520c951305cbf9ca54eb891ff9e6d1fd384881
+  GoogleAppMeasurement: 8cd1f289d60e629cf16ab03363b9e89c776b9651
+  GoogleDataTransport: 8a40cb194ad242b6f6dfe72c14fe40fc67c4dcd7
+  GoogleUtilities: e121a3867449ce16b0e35ddf1797ea7a389ffdf2
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  youtube-ios-player-helper: 40b96e52c22445f0fdc43731cefa32c67075ff81
+
+PODFILE CHECKSUM: aeb446695189c3cca9523851baab1af62d35cd64
+
+COCOAPODS: 1.9.1

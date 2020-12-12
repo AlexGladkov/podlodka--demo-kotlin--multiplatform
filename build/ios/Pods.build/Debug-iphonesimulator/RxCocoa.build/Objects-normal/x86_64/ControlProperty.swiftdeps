@@ -1,0 +1,226 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ControlPropertyType"
+- "ControlProperty"
+provides-nominal:
+- "7RxCocoa19ControlPropertyTypeP"
+- "7RxCocoa15ControlPropertyV"
+provides-member:
+- ["7RxCocoa19ControlPropertyTypeP", ""]
+- ["7RxCocoa15ControlPropertyV", ""]
+- ["7RxCocoa19ControlPropertyTypeP", "orEmpty"]
+provides-dynamic-lookup:
+depends-top-level:
+- "??"
+- "AnyObserver"
+- "AssignmentPrecedence"
+- !private "ConcurrentMainScheduler"
+- "ControlEvent"
+- "ControlProperty"
+- "ControlPropertyType"
+- "Disposable"
+- "Element"
+- "Event"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+- "PropertyType"
+- "String"
+- !private "StringLiteralType"
+- !private "bindingError"
+depends-member:
+- !private ["7RxSwift11AnyObserverV", "mapObserver"]
+- !private ["7RxSwift11AnyObserverV", "on"]
+- !private ["7RxSwift23ConcurrentMainSchedulerC", "instance"]
+- !private ["7RxCocoa12ControlEventV", "init"]
+- !private ["7RxCocoa16ControlEventTypeP", "init"]
+- ["7RxCocoa15ControlPropertyV", "AnyObserver"]
+- !private ["7RxCocoa15ControlPropertyV", "ConcurrentMainScheduler"]
+- ["7RxCocoa15ControlPropertyV", "ControlEvent"]
+- ["7RxCocoa15ControlPropertyV", "ControlProperty"]
+- ["7RxCocoa15ControlPropertyV", "Disposable"]
+- ["7RxCocoa15ControlPropertyV", "Element"]
+- ["7RxCocoa15ControlPropertyV", "Event"]
+- ["7RxCocoa15ControlPropertyV", "Observable"]
+- ["7RxCocoa15ControlPropertyV", "ObservableType"]
+- ["7RxCocoa15ControlPropertyV", "ObserverType"]
+- ["7RxCocoa15ControlPropertyV", ""]
+- ["7RxCocoa15ControlPropertyV", "_valueSink"]
+- ["7RxCocoa15ControlPropertyV", "_values"]
+- ["7RxCocoa15ControlPropertyV", "asControlProperty"]
+- ["7RxCocoa15ControlPropertyV", "asObservable"]
+- !private ["7RxCocoa15ControlPropertyV", "bindingError"]
+- ["7RxCocoa15ControlPropertyV", "changed"]
+- ["7RxCocoa15ControlPropertyV", "init"]
+- ["7RxCocoa15ControlPropertyV", "on"]
+- ["7RxCocoa15ControlPropertyV", "subscribe"]
+- !private ["7RxCocoa15ControlPropertyV", "valueSink"]
+- !private ["7RxCocoa15ControlPropertyV", "values"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "AnyObserver"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "ConcurrentMainScheduler"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "ControlEvent"]
+- ["7RxCocoa19ControlPropertyTypeP", "ControlProperty"]
+- ["7RxCocoa19ControlPropertyTypeP", "E"]
+- ["7RxCocoa19ControlPropertyTypeP", "Element"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "Observable"]
+- ["7RxCocoa19ControlPropertyTypeP", "String"]
+- ["7RxCocoa19ControlPropertyTypeP", ""]
+- !private ["7RxCocoa19ControlPropertyTypeP", "_valueSink"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "_values"]
+- ["7RxCocoa19ControlPropertyTypeP", "asControlProperty"]
+- ["7RxCocoa19ControlPropertyTypeP", "asObservable"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "bindingError"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "init"]
+- ["7RxCocoa19ControlPropertyTypeP", "on"]
+- ["7RxCocoa19ControlPropertyTypeP", "orEmpty"]
+- ["7RxCocoa19ControlPropertyTypeP", "subscribe"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "valueSink"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "values"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- ["7RxSwift5EventO", "completed"]
+- ["7RxSwift5EventO", "error"]
+- ["7RxSwift5EventO", "next"]
+- ["7RxSwift16EventConvertibleP", "completed"]
+- ["7RxSwift16EventConvertibleP", "error"]
+- ["7RxSwift16EventConvertibleP", "next"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "instance"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift10ObservableC", "skip"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "AnyObserver"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "ConcurrentMainScheduler"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "ControlEvent"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ControlProperty"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Element"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "String"]
+- ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "_valueSink"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "_values"]
+- ["7RxSwift25ObservableConvertibleTypeP", "asControlProperty"]
+- ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bindingError"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- ["7RxSwift25ObservableConvertibleTypeP", "on"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "skip"]
+- ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "valueSink"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "values"]
+- !private ["7RxSwift14ObservableTypeP", "AnyObserver"]
+- !private ["7RxSwift14ObservableTypeP", "ConcurrentMainScheduler"]
+- !private ["7RxSwift14ObservableTypeP", "ControlEvent"]
+- ["7RxSwift14ObservableTypeP", "ControlProperty"]
+- ["7RxSwift14ObservableTypeP", "Element"]
+- !private ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", "String"]
+- ["7RxSwift14ObservableTypeP", ""]
+- !private ["7RxSwift14ObservableTypeP", "_valueSink"]
+- !private ["7RxSwift14ObservableTypeP", "_values"]
+- ["7RxSwift14ObservableTypeP", "asControlProperty"]
+- ["7RxSwift14ObservableTypeP", "asObservable"]
+- !private ["7RxSwift14ObservableTypeP", "bindingError"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "on"]
+- !private ["7RxSwift14ObservableTypeP", "skip"]
+- ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "subscribeOn"]
+- !private ["7RxSwift14ObservableTypeP", "valueSink"]
+- !private ["7RxSwift14ObservableTypeP", "values"]
+- !private ["7RxSwift12ObserverTypeP", "AnyObserver"]
+- !private ["7RxSwift12ObserverTypeP", "ConcurrentMainScheduler"]
+- !private ["7RxSwift12ObserverTypeP", "ControlEvent"]
+- ["7RxSwift12ObserverTypeP", "ControlProperty"]
+- ["7RxSwift12ObserverTypeP", "Element"]
+- !private ["7RxSwift12ObserverTypeP", "Observable"]
+- ["7RxSwift12ObserverTypeP", "String"]
+- ["7RxSwift12ObserverTypeP", ""]
+- !private ["7RxSwift12ObserverTypeP", "_valueSink"]
+- !private ["7RxSwift12ObserverTypeP", "_values"]
+- ["7RxSwift12ObserverTypeP", "asControlProperty"]
+- ["7RxSwift12ObserverTypeP", "asObservable"]
+- !private ["7RxSwift12ObserverTypeP", "asObserver"]
+- !private ["7RxSwift12ObserverTypeP", "bindingError"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "mapObserver"]
+- ["7RxSwift12ObserverTypeP", "on"]
+- ["7RxSwift12ObserverTypeP", "subscribe"]
+- !private ["7RxSwift12ObserverTypeP", "valueSink"]
+- !private ["7RxSwift12ObserverTypeP", "values"]
+- !private ["7RxSwift13SchedulerTypeP", "instance"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- !private "7RxSwift11AnyObserverV"
+- !private "7RxSwift23ConcurrentMainSchedulerC"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- "7RxCocoa15ControlPropertyV"
+- "7RxCocoa19ControlPropertyTypeP"
+- "s28CustomDebugStringConvertibleP"
+- "7RxSwift5EventO"
+- "7RxSwift16EventConvertibleP"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift12ObserverTypeP"
+- !private "7RxSwift13SchedulerTypeP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9db0df9fc662aa027a012db9852a1f44"

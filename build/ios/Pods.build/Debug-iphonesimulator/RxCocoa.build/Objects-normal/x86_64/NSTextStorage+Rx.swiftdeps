@@ -1,0 +1,304 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift8ReactiveV", "delegate"]
+- ["7RxSwift8ReactiveV", "didProcessEditingRangeChangeInLength"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Base"
+- "DelegateProxy"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NSRange"
+- "NSTextStorage"
+- "NSTextStorageDelegate"
+- "NSValue"
+- "Observable"
+- "Reactive"
+- !private "RxTextStorageDelegateProxy"
+- "UInt"
+- !private "base"
+- "castOrThrow"
+- !private "delegate"
+depends-member:
+- !private ["Sa", "subscript"]
+- ["SK", ""]
+- !private ["SK", "subscript"]
+- ["s7CVarArgP", "EditActions"]
+- !private ["s7CVarArgP", "methodInvoked"]
+- !private ["s7CVarArgP", "proxy"]
+- !private ["s7CVarArgP", "rangeValue"]
+- !private ["s7CVarArgP", "subscript"]
+- ["Sl", ""]
+- !private ["Sl", "subscript"]
+- ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "EditActions"]
+- !private ["s28CustomDebugStringConvertibleP", "methodInvoked"]
+- !private ["s28CustomDebugStringConvertibleP", "proxy"]
+- !private ["s28CustomDebugStringConvertibleP", "rangeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "EditActions"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "methodInvoked"]
+- !private ["s23CustomStringConvertibleP", "proxy"]
+- !private ["s23CustomStringConvertibleP", "rangeValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "subscript"]
+- ["7RxCocoa13DelegateProxyC", ""]
+- !private ["7RxCocoa13DelegateProxyC", "methodInvoked"]
+- !private ["7RxCocoa13DelegateProxyC", "proxy"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "proxy"]
+- !private ["So24NSTextStorageEditActionsV", "ArrayLiteralElement"]
+- !private ["So24NSTextStorageEditActionsV", "Element"]
+- !private ["So24NSTextStorageEditActionsV", "RawValue"]
+- !private ["So24NSTextStorageEditActionsV", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "ArrayLiteralElement"]
+- ["SQ", "EditActions"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "methodInvoked"]
+- !private ["SQ", "proxy"]
+- !private ["SQ", "rangeValue"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["7RxCocoa11HasDelegateP", "EditActions"]
+- ["SH", "EditActions"]
+- ["SH", ""]
+- !private ["SH", "methodInvoked"]
+- !private ["SH", "proxy"]
+- !private ["SH", "rangeValue"]
+- !private ["SH", "subscript"]
+- !private ["7RxCocoa16KVORepresentableP", "KVOType"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", ""]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So18NSAttributedStringC", "EditActions"]
+- ["So18NSAttributedStringC", ""]
+- ["So8NSCodingP", "EditActions"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "rangeValue"]
+- ["So9NSCopyingP", "EditActions"]
+- !private ["So9NSCopyingP", "rangeValue"]
+- ["So21NSItemProviderReadingP", "EditActions"]
+- ["So21NSItemProviderWritingP", "EditActions"]
+- ["So25NSMutableAttributedStringC", "EditActions"]
+- ["So25NSMutableAttributedStringC", ""]
+- ["So16NSMutableCopyingP", "EditActions"]
+- ["So8NSObjectC", "EditActions"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "methodInvoked"]
+- !private ["So8NSObjectC", "proxy"]
+- !private ["So8NSObjectC", "rangeValue"]
+- ["So8NSObjectP", "EditActions"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "methodInvoked"]
+- !private ["So8NSObjectP", "proxy"]
+- !private ["So8NSObjectP", "rangeValue"]
+- !private ["So8NSObjectP", "textStorage"]
+- ["So14NSSecureCodingP", "EditActions"]
+- !private ["So14NSSecureCodingP", "rangeValue"]
+- ["So13NSTextStorageC", "EditActions"]
+- !private ["So21NSTextStorageDelegateP", "proxy"]
+- !private ["So21NSTextStorageDelegateP", "textStorage"]
+- !private ["So7NSValueC", "rangeValue"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "RawValue"]
+- !private ["s9OptionSetP", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "subscript"]
+- !private ["SY", "ArrayLiteralElement"]
+- !private ["SY", "Element"]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "init"]
+- ["7RxSwift8ReactiveV", "DelegateProxy"]
+- ["7RxSwift8ReactiveV", "Int"]
+- ["7RxSwift8ReactiveV", "NSRange"]
+- ["7RxSwift8ReactiveV", "NSTextStorage"]
+- ["7RxSwift8ReactiveV", "NSTextStorageDelegate"]
+- !private ["7RxSwift8ReactiveV", "NSValue"]
+- ["7RxSwift8ReactiveV", "Observable"]
+- !private ["7RxSwift8ReactiveV", "RxTextStorageDelegateProxy"]
+- !private ["7RxSwift8ReactiveV", "UInt"]
+- ["7RxSwift8ReactiveV", ""]
+- !private ["7RxSwift8ReactiveV", "base"]
+- !private ["7RxSwift8ReactiveV", "castOrThrow"]
+- ["7RxSwift8ReactiveV", "delegate"]
+- ["7RxSwift8ReactiveV", "didProcessEditingRangeChangeInLength"]
+- ["7RxSwift18ReactiveCompatibleP", "EditActions"]
+- !private ["7RxSwift18ReactiveCompatibleP", "methodInvoked"]
+- !private ["7RxSwift18ReactiveCompatibleP", "proxy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rangeValue"]
+- !private ["7RxCocoa0A24TextStorageDelegateProxyC", ""]
+- !private ["7RxCocoa0A24TextStorageDelegateProxyC", "proxy"]
+- !private ["ST", "Element"]
+- ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", "RawValue"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "EditActions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "methodInvoked"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "proxy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rangeValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "EditActions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "methodInvoked"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "proxy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rangeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["So16_RXDelegateProxyC", ""]
+- !private ["So16_RXDelegateProxyC", "methodInvoked"]
+- !private ["So16_RXDelegateProxyC", "proxy"]
+depends-nominal:
+- !private "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "7RxCocoa13DelegateProxyC"
+- !private "7RxCocoa17DelegateProxyTypeP"
+- !private "So24NSTextStorageEditActionsV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "7RxCocoa11HasDelegateP"
+- "SH"
+- !private "7RxCocoa16KVORepresentableP"
+- "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So18NSAttributedStringC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So25NSMutableAttributedStringC"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So13NSTextStorageC"
+- !private "So21NSTextStorageDelegateP"
+- !private "So7NSValueC"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "s9OptionSetP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "7RxCocoa0A24TextStorageDelegateProxyC"
+- "ST"
+- !private "s10SetAlgebraP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "So16_RXDelegateProxyC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d501f0171c87e4ab9d9d1a48709bf572"

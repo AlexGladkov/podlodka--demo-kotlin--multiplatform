@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/primaryBackgroundColor">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/itemsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="96dp" />
+
+    <com.github.rahatarmanahmed.cpv.CircularProgressView
+        android:id="@+id/pageLoaderView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cpv_animAutostart="true"
+        app:cpv_color="?attr/primaryTintColor"
+        app:cpv_indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/answerHolderCardView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="30dp"
+        android:background="?attr/secondaryBackgroundColor"
+        android:backgroundTint="?attr/secondaryBackgroundColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/answerTextFieldView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:paddingStart="24dp"
+                android:layout_weight="1"
+                android:paddingEnd="24dp"
+                android:textSize="14dp"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColorHint="?attr/secondaryTextColor"
+                android:hint="@string/quest_page_response"
+                android:background="?attr/secondaryBackgroundColor"
+                tools:ignore="SpUsage" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/sendButtonView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:tint="?attr/primaryTintColor"
+                android:src="@drawable/ic_baseline_send_24"
+                android:background="@android:color/transparent"
+                android:layout_marginEnd="16dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

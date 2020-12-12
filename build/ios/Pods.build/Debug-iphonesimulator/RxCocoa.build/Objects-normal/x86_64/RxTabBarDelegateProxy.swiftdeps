@@ -1,0 +1,403 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTabBarDelegateProxy"
+provides-nominal:
+- "So8UITabBarC"
+- "7RxCocoa0A19TabBarDelegateProxyC"
+provides-member:
+- ["So8UITabBarC", ""]
+- ["7RxCocoa0A19TabBarDelegateProxyC", ""]
+provides-dynamic-lookup:
+- "currentDelegate"
+- "registerKnownImplementations"
+- "setCurrentDelegate"
+- "tabBar"
+depends-top-level:
+- "AssignmentPrecedence"
+- "DelegateProxy"
+- "DelegateProxyType"
+- "HasDelegate"
+- "ParentObject"
+- "RxTabBarDelegateProxy"
+- "UITabBar"
+- "UITabBarDelegate"
+depends-member:
+- ["So15CALayerDelegateP", "Delegate"]
+- ["So15CALayerDelegateP", "UITabBarDelegate"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "delegate"]
+- ["s7CVarArgP", "Delegate"]
+- ["s7CVarArgP", "ParentObject"]
+- !private ["s7CVarArgP", "RxTabBarDelegateProxy"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "currentDelegate"]
+- ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "forwardToDelegate"]
+- ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "register"]
+- ["s7CVarArgP", "registerKnownImplementations"]
+- ["s7CVarArgP", "setCurrentDelegate"]
+- ["s7CVarArgP", "setForwardToDelegate"]
+- ["s7CVarArgP", "tabBar"]
+- ["s28CustomDebugStringConvertibleP", "Delegate"]
+- ["s28CustomDebugStringConvertibleP", "ParentObject"]
+- !private ["s28CustomDebugStringConvertibleP", "RxTabBarDelegateProxy"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "currentDelegate"]
+- ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "forwardToDelegate"]
+- ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- ["s28CustomDebugStringConvertibleP", "registerKnownImplementations"]
+- ["s28CustomDebugStringConvertibleP", "setCurrentDelegate"]
+- ["s28CustomDebugStringConvertibleP", "setForwardToDelegate"]
+- ["s28CustomDebugStringConvertibleP", "tabBar"]
+- ["s23CustomStringConvertibleP", "Delegate"]
+- ["s23CustomStringConvertibleP", "ParentObject"]
+- !private ["s23CustomStringConvertibleP", "RxTabBarDelegateProxy"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "currentDelegate"]
+- ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "forwardToDelegate"]
+- ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- ["s23CustomStringConvertibleP", "registerKnownImplementations"]
+- ["s23CustomStringConvertibleP", "setCurrentDelegate"]
+- ["s23CustomStringConvertibleP", "setForwardToDelegate"]
+- ["s23CustomStringConvertibleP", "tabBar"]
+- ["7RxCocoa13DelegateProxyC", "Delegate"]
+- ["7RxCocoa13DelegateProxyC", "ParentObject"]
+- !private ["7RxCocoa13DelegateProxyC", "RxTabBarDelegateProxy"]
+- ["7RxCocoa13DelegateProxyC", "UITabBar"]
+- ["7RxCocoa13DelegateProxyC", "UITabBarDelegate"]
+- ["7RxCocoa13DelegateProxyC", ""]
+- ["7RxCocoa13DelegateProxyC", "currentDelegate"]
+- ["7RxCocoa13DelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", "identifier"]
+- ["7RxCocoa13DelegateProxyC", "init"]
+- !private ["7RxCocoa13DelegateProxyC", "register"]
+- ["7RxCocoa13DelegateProxyC", "registerKnownImplementations"]
+- ["7RxCocoa13DelegateProxyC", "setCurrentDelegate"]
+- ["7RxCocoa13DelegateProxyC", "setForwardToDelegate"]
+- ["7RxCocoa13DelegateProxyC", "tabBar"]
+- ["7RxCocoa17DelegateProxyTypeP", "Delegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "ParentObject"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "RxTabBarDelegateProxy"]
+- ["7RxCocoa17DelegateProxyTypeP", ""]
+- ["7RxCocoa17DelegateProxyTypeP", "currentDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "forwardToDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "identifier"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "init"]
+- !private ["7RxCocoa17DelegateProxyTypeP", "register"]
+- ["7RxCocoa17DelegateProxyTypeP", "registerKnownImplementations"]
+- ["7RxCocoa17DelegateProxyTypeP", "setCurrentDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "setForwardToDelegate"]
+- ["7RxCocoa17DelegateProxyTypeP", "tabBar"]
+- ["SQ", "Delegate"]
+- ["SQ", "ParentObject"]
+- !private ["SQ", "RxTabBarDelegateProxy"]
+- ["SQ", ""]
+- ["SQ", "currentDelegate"]
+- ["SQ", "delegate"]
+- ["SQ", "forwardToDelegate"]
+- ["SQ", "identifier"]
+- !private ["SQ", "init"]
+- !private ["SQ", "register"]
+- ["SQ", "registerKnownImplementations"]
+- ["SQ", "setCurrentDelegate"]
+- ["SQ", "setForwardToDelegate"]
+- ["SQ", "tabBar"]
+- ["7RxCocoa11HasDelegateP", "Delegate"]
+- ["7RxCocoa11HasDelegateP", ""]
+- ["7RxCocoa11HasDelegateP", "delegate"]
+- ["SH", "Delegate"]
+- ["SH", "ParentObject"]
+- !private ["SH", "RxTabBarDelegateProxy"]
+- ["SH", ""]
+- ["SH", "currentDelegate"]
+- ["SH", "delegate"]
+- ["SH", "forwardToDelegate"]
+- ["SH", "identifier"]
+- !private ["SH", "init"]
+- !private ["SH", "register"]
+- ["SH", "registerKnownImplementations"]
+- ["SH", "setCurrentDelegate"]
+- ["SH", "setForwardToDelegate"]
+- ["SH", "tabBar"]
+- ["So8NSCodingP", "Delegate"]
+- ["So8NSCodingP", "UITabBarDelegate"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "delegate"]
+- ["So8NSObjectC", "Delegate"]
+- ["So8NSObjectC", "ParentObject"]
+- !private ["So8NSObjectC", "RxTabBarDelegateProxy"]
+- ["So8NSObjectC", "UITabBar"]
+- ["So8NSObjectC", "UITabBarDelegate"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "currentDelegate"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "forwardToDelegate"]
+- ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "registerKnownImplementations"]
+- ["So8NSObjectC", "setCurrentDelegate"]
+- ["So8NSObjectC", "setForwardToDelegate"]
+- ["So8NSObjectC", "tabBar"]
+- ["So8NSObjectP", "Delegate"]
+- ["So8NSObjectP", "ParentObject"]
+- !private ["So8NSObjectP", "RxTabBarDelegateProxy"]
+- ["So8NSObjectP", "UITabBar"]
+- ["So8NSObjectP", "UITabBarDelegate"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "currentDelegate"]
+- ["So8NSObjectP", "deinit"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "forwardToDelegate"]
+- ["So8NSObjectP", "identifier"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "register"]
+- ["So8NSObjectP", "registerKnownImplementations"]
+- ["So8NSObjectP", "setCurrentDelegate"]
+- ["So8NSObjectP", "setForwardToDelegate"]
+- ["So8NSObjectP", "tabBar"]
+- ["7RxSwift18ReactiveCompatibleP", "Delegate"]
+- ["7RxSwift18ReactiveCompatibleP", "ParentObject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "RxTabBarDelegateProxy"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "currentDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- ["7RxSwift18ReactiveCompatibleP", "forwardToDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "identifier"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "register"]
+- ["7RxSwift18ReactiveCompatibleP", "registerKnownImplementations"]
+- ["7RxSwift18ReactiveCompatibleP", "setCurrentDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "setForwardToDelegate"]
+- ["7RxSwift18ReactiveCompatibleP", "tabBar"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "Delegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "ParentObject"]
+- !private ["7RxCocoa0A19TabBarDelegateProxyC", "RxTabBarDelegateProxy"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "UITabBar"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "UITabBarDelegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", ""]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "currentDelegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "deinit"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "forwardToDelegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "identifier"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "init"]
+- !private ["7RxCocoa0A19TabBarDelegateProxyC", "register"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "registerKnownImplementations"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "setCurrentDelegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "setForwardToDelegate"]
+- ["7RxCocoa0A19TabBarDelegateProxyC", "tabBar"]
+- ["So29UIAccessibilityIdentificationP", "Delegate"]
+- ["So29UIAccessibilityIdentificationP", "UITabBarDelegate"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "delegate"]
+- ["So12UIAppearanceP", "Delegate"]
+- ["So12UIAppearanceP", "UITabBarDelegate"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "delegate"]
+- ["So21UIAppearanceContainerP", "Delegate"]
+- ["So21UIAppearanceContainerP", "UITabBarDelegate"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "delegate"]
+- ["So17UICoordinateSpaceP", "Delegate"]
+- ["So17UICoordinateSpaceP", "UITabBarDelegate"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "delegate"]
+- ["So13UIDynamicItemP", "Delegate"]
+- ["So13UIDynamicItemP", "UITabBarDelegate"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "delegate"]
+- ["So18UIFocusEnvironmentP", "Delegate"]
+- ["So18UIFocusEnvironmentP", "UITabBarDelegate"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "delegate"]
+- ["So11UIFocusItemP", "Delegate"]
+- ["So11UIFocusItemP", "UITabBarDelegate"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "delegate"]
+- ["So20UIFocusItemContainerP", "Delegate"]
+- ["So20UIFocusItemContainerP", "UITabBarDelegate"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "delegate"]
+- ["So24UILargeContentViewerItemP", "Delegate"]
+- ["So24UILargeContentViewerItemP", "UITabBarDelegate"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "Delegate"]
+- ["So30UIPasteConfigurationSupportingP", "UITabBarDelegate"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
+- ["So11UIResponderC", "Delegate"]
+- ["So11UIResponderC", "UITabBarDelegate"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "delegate"]
+- ["So30UIResponderStandardEditActionsP", "Delegate"]
+- ["So30UIResponderStandardEditActionsP", "UITabBarDelegate"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
+- ["So35UISpringLoadedInteractionSupportingP", "Delegate"]
+- ["So35UISpringLoadedInteractionSupportingP", "UITabBarDelegate"]
+- ["So35UISpringLoadedInteractionSupportingP", "delegate"]
+- ["So8UITabBarC", "Delegate"]
+- ["So8UITabBarC", "UITabBarDelegate"]
+- ["So8UITabBarC", ""]
+- ["So8UITabBarC", "delegate"]
+- ["So16UITabBarDelegateP", "Delegate"]
+- ["So16UITabBarDelegateP", "ParentObject"]
+- !private ["So16UITabBarDelegateP", "RxTabBarDelegateProxy"]
+- ["So16UITabBarDelegateP", ""]
+- ["So16UITabBarDelegateP", "currentDelegate"]
+- ["So16UITabBarDelegateP", "deinit"]
+- ["So16UITabBarDelegateP", "forwardToDelegate"]
+- ["So16UITabBarDelegateP", "identifier"]
+- ["So16UITabBarDelegateP", "init"]
+- !private ["So16UITabBarDelegateP", "register"]
+- ["So16UITabBarDelegateP", "registerKnownImplementations"]
+- ["So16UITabBarDelegateP", "setCurrentDelegate"]
+- ["So16UITabBarDelegateP", "setForwardToDelegate"]
+- ["So16UITabBarDelegateP", "tabBar"]
+- ["So18UITraitEnvironmentP", "Delegate"]
+- ["So18UITraitEnvironmentP", "UITabBarDelegate"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "delegate"]
+- ["So23UIUserActivityRestoringP", "Delegate"]
+- ["So23UIUserActivityRestoringP", "UITabBarDelegate"]
+- ["So23UIUserActivityRestoringP", "delegate"]
+- ["So6UIViewC", "Delegate"]
+- ["So6UIViewC", "UITabBarDelegate"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ParentObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxTabBarDelegateProxy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "currentDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "forwardToDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "registerKnownImplementations"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setCurrentDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setForwardToDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tabBar"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ParentObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RxTabBarDelegateProxy"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentDelegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "forwardToDelegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "identifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerKnownImplementations"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setCurrentDelegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setForwardToDelegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBar"]
+- ["So16_RXDelegateProxyC", "Delegate"]
+- ["So16_RXDelegateProxyC", "ParentObject"]
+- !private ["So16_RXDelegateProxyC", "RxTabBarDelegateProxy"]
+- ["So16_RXDelegateProxyC", "UITabBar"]
+- ["So16_RXDelegateProxyC", "UITabBarDelegate"]
+- ["So16_RXDelegateProxyC", ""]
+- ["So16_RXDelegateProxyC", "currentDelegate"]
+- ["So16_RXDelegateProxyC", "forwardToDelegate"]
+- ["So16_RXDelegateProxyC", "identifier"]
+- !private ["So16_RXDelegateProxyC", "register"]
+- ["So16_RXDelegateProxyC", "registerKnownImplementations"]
+- ["So16_RXDelegateProxyC", "setCurrentDelegate"]
+- ["So16_RXDelegateProxyC", "setForwardToDelegate"]
+- ["So16_RXDelegateProxyC", "tabBar"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Delegate"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "delegate"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxCocoa13DelegateProxyC"
+- "7RxCocoa17DelegateProxyTypeP"
+- "SQ"
+- "7RxCocoa11HasDelegateP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A19TabBarDelegateProxyC"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So35UISpringLoadedInteractionSupportingP"
+- "So8UITabBarC"
+- "So16UITabBarDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "So16_RXDelegateProxyC"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4864ddb6fd6dc79b1f5ded291ea02648"

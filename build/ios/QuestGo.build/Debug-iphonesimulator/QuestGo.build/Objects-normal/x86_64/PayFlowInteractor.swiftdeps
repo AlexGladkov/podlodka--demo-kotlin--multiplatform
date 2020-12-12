@@ -1,0 +1,720 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PayFlowBusinessLogic"
+- "PayFlowDataStoring"
+- "PayFlowInteractor"
+provides-nominal:
+- "7QuestGo20PayFlowBusinessLogicP"
+- "7QuestGo18PayFlowDataStoringP"
+- "7QuestGo17PayFlowInteractorC"
+provides-member:
+- ["7QuestGo20PayFlowBusinessLogicP", ""]
+- ["7QuestGo18PayFlowDataStoringP", ""]
+- ["7QuestGo17PayFlowInteractorC", ""]
+provides-dynamic-lookup:
+- "checkPromo"
+- "disposeBag"
+- "finishPayment"
+- "launchBuyProcess"
+- "launchRestoreProcess"
+- "obtainEvent"
+- "presenter"
+- "promoWorker"
+- "purchaseAnalytics"
+- "questId"
+- "renderInitialScreen"
+- "renderPromoCodeScreen"
+- "storeManagerDidReceiveMessage"
+- "storeManagerDidReceiveResponse"
+- "storeObserverBuyDidSucceed"
+- "storeObserverDidReceiveMessage"
+- "storeObserverRestoreDidSucceed"
+- "userWorker"
+- "viewState"
+depends-top-level:
+- !private "!"
+- !private "??"
+- "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "ButtonCell"
+- "ButtonCellModel"
+- "CastingPrecedence"
+- !private "CellConfigurator"
+- !private "ConcurrentDispatchQueueScheduler"
+- "DisposeBag"
+- !private "FloatLiteralType"
+- "HeaderCell"
+- "HeaderCellModel"
+- "Int"
+- !private "IntegerLiteralType"
+- "LoadingCell"
+- !private "MainScheduler"
+- "Messages"
+- "PayFlowBusinessLogic"
+- "PayFlowDataStoring"
+- "PayFlowEvent"
+- "PayFlowInteractor"
+- "PayFlowPresentationLogic"
+- "PayFlowViewState"
+- "PromoWorker"
+- "PurchaseAnalytics"
+- "SKProduct"
+- "Section"
+- !private "StoreManager"
+- "StoreManagerDelegate"
+- !private "StoreObserver"
+- "StoreObserverDelegate"
+- "String"
+- !private "StringLiteralType"
+- !private "TableCellConfigurator"
+- "TextButtonCell"
+- "TextButtonCellModel"
+- "TextCell"
+- "TextCellModel"
+- "TextFieldCell"
+- "TextFieldCellModel"
+- !private "UserConfiguration"
+- "UserWorker"
+- !private "checkPromo"
+- !private "disposeBag"
+- !private "finishPayment"
+- !private "launchBuyProcess"
+- !private "launchRestoreProcess"
+- !private "presenter"
+- !private "promoWorker"
+- !private "purchaseAnalytics"
+- !private "questId"
+- !private "renderInitialScreen"
+- !private "renderPromoCodeScreen"
+- !private "userWorker"
+- !private "viewState"
+- !private "~="
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "append"]
+- !private ["9Alamofire0A8ExtendedP", "contains"]
+- !private ["9Alamofire0A8ExtendedP", "first"]
+- !private ["9Alamofire0A8ExtendedP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "contains"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["7QuestGo10ButtonCellC", ""]
+- !private ["7QuestGo15ButtonCellModelV", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "contains"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "first"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "buy"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "restore"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "startProductRequest"]
+- !private ["7QuestGo16CellConfiguratorP", "init"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["7RxSwift32ConcurrentDispatchQueueSchedulerC", "init"]
+- !private ["7QuestGo16ConfigurableCellP", "DataType"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "buy"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "restore"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "startProductRequest"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "buy"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "restore"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "startProductRequest"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "availableQuestCount"]
+- !private ["Se", "boughtQuestIdsList"]
+- !private ["Se", "contains"]
+- !private ["Se", "currentQuestId"]
+- !private ["Se", "currentUserPage"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "isValid"]
+- !private ["8Dispatch0A3QoSV", "userInitiated"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", ""]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "availableQuestCount"]
+- !private ["SE", "boughtQuestIdsList"]
+- !private ["SE", "contains"]
+- !private ["SE", "currentQuestId"]
+- !private ["SE", "currentUserPage"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "isValid"]
+- !private ["SQ", "=="]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "buy"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "restore"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "startProductRequest"]
+- !private ["SQ", "userInitiated"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "buy"]
+- !private ["SH", "contains"]
+- !private ["SH", "delegate"]
+- !private ["SH", "first"]
+- !private ["SH", "hash"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "restore"]
+- !private ["SH", "shared"]
+- !private ["SH", "startProductRequest"]
+- !private ["7QuestGo10HeaderCellC", ""]
+- !private ["7QuestGo15HeaderCellModelV", "init"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "init"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "instance"]
+- !private ["7QuestGo11LoadingCellC", ""]
+- !private ["7RxSwift13MainSchedulerC", "instance"]
+- !private ["7QuestGo8MessagesV", "canceled"]
+- !private ["7QuestGo8MessagesV", "noRestorablePurchases"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "contains"]
+- !private ["SM", "first"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "buy"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "restore"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "startProductRequest"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "buy"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "restore"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "startProductRequest"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "observeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribeOn"]
+- !private ["7QuestGo13PayFlowActionO", "closeWithResult"]
+- !private ["7QuestGo13PayFlowActionO", "showError"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "CellConfigurator"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo20PayFlowBusinessLogicP", "DisposeBag"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "Int"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "MainScheduler"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "Messages"]
+- ["7QuestGo20PayFlowBusinessLogicP", "PayFlowEvent"]
+- ["7QuestGo20PayFlowBusinessLogicP", "PayFlowViewState"]
+- ["7QuestGo20PayFlowBusinessLogicP", "PromoWorker"]
+- ["7QuestGo20PayFlowBusinessLogicP", "PurchaseAnalytics"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "StoreManager"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "StoreObserver"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "TableCellConfigurator"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "UserConfiguration"]
+- ["7QuestGo20PayFlowBusinessLogicP", "UserWorker"]
+- ["7QuestGo20PayFlowBusinessLogicP", ""]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "checkPromo"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "disposeBag"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "finishPayment"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "launchBuyProcess"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "launchRestoreProcess"]
+- ["7QuestGo20PayFlowBusinessLogicP", "obtainEvent"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "presenter"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "promoWorker"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "purchaseAnalytics"]
+- ["7QuestGo20PayFlowBusinessLogicP", "questId"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "renderInitialScreen"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "renderPromoCodeScreen"]
+- ["7QuestGo20PayFlowBusinessLogicP", "storeManagerDidReceiveMessage"]
+- ["7QuestGo20PayFlowBusinessLogicP", "storeManagerDidReceiveResponse"]
+- ["7QuestGo20PayFlowBusinessLogicP", "storeObserverBuyDidSucceed"]
+- ["7QuestGo20PayFlowBusinessLogicP", "storeObserverDidReceiveMessage"]
+- ["7QuestGo20PayFlowBusinessLogicP", "storeObserverRestoreDidSucceed"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "userWorker"]
+- !private ["7QuestGo20PayFlowBusinessLogicP", "viewState"]
+- !private ["7QuestGo18PayFlowDataStoringP", "CellConfigurator"]
+- !private ["7QuestGo18PayFlowDataStoringP", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo18PayFlowDataStoringP", "DisposeBag"]
+- ["7QuestGo18PayFlowDataStoringP", "Int"]
+- !private ["7QuestGo18PayFlowDataStoringP", "MainScheduler"]
+- !private ["7QuestGo18PayFlowDataStoringP", "Messages"]
+- ["7QuestGo18PayFlowDataStoringP", "PayFlowViewState"]
+- ["7QuestGo18PayFlowDataStoringP", "PromoWorker"]
+- ["7QuestGo18PayFlowDataStoringP", "PurchaseAnalytics"]
+- !private ["7QuestGo18PayFlowDataStoringP", "StoreManager"]
+- !private ["7QuestGo18PayFlowDataStoringP", "StoreObserver"]
+- !private ["7QuestGo18PayFlowDataStoringP", "TableCellConfigurator"]
+- !private ["7QuestGo18PayFlowDataStoringP", "UserConfiguration"]
+- ["7QuestGo18PayFlowDataStoringP", "UserWorker"]
+- ["7QuestGo18PayFlowDataStoringP", ""]
+- !private ["7QuestGo18PayFlowDataStoringP", "checkPromo"]
+- !private ["7QuestGo18PayFlowDataStoringP", "disposeBag"]
+- !private ["7QuestGo18PayFlowDataStoringP", "finishPayment"]
+- !private ["7QuestGo18PayFlowDataStoringP", "launchBuyProcess"]
+- !private ["7QuestGo18PayFlowDataStoringP", "launchRestoreProcess"]
+- ["7QuestGo18PayFlowDataStoringP", "obtainEvent"]
+- !private ["7QuestGo18PayFlowDataStoringP", "presenter"]
+- !private ["7QuestGo18PayFlowDataStoringP", "promoWorker"]
+- !private ["7QuestGo18PayFlowDataStoringP", "purchaseAnalytics"]
+- ["7QuestGo18PayFlowDataStoringP", "questId"]
+- !private ["7QuestGo18PayFlowDataStoringP", "renderInitialScreen"]
+- !private ["7QuestGo18PayFlowDataStoringP", "renderPromoCodeScreen"]
+- ["7QuestGo18PayFlowDataStoringP", "storeManagerDidReceiveMessage"]
+- ["7QuestGo18PayFlowDataStoringP", "storeManagerDidReceiveResponse"]
+- ["7QuestGo18PayFlowDataStoringP", "storeObserverBuyDidSucceed"]
+- ["7QuestGo18PayFlowDataStoringP", "storeObserverDidReceiveMessage"]
+- ["7QuestGo18PayFlowDataStoringP", "storeObserverRestoreDidSucceed"]
+- !private ["7QuestGo18PayFlowDataStoringP", "userWorker"]
+- !private ["7QuestGo18PayFlowDataStoringP", "viewState"]
+- ["7QuestGo12PayFlowEventO", "buyQuest"]
+- ["7QuestGo12PayFlowEventO", "promoCodeTapped"]
+- ["7QuestGo12PayFlowEventO", "restoreProducts"]
+- ["7QuestGo12PayFlowEventO", "screenShown"]
+- ["7QuestGo12PayFlowEventO", "sendPromo"]
+- !private ["7QuestGo17PayFlowInteractorC", "ButtonCell"]
+- !private ["7QuestGo17PayFlowInteractorC", "ButtonCellModel"]
+- !private ["7QuestGo17PayFlowInteractorC", "CellConfigurator"]
+- !private ["7QuestGo17PayFlowInteractorC", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo17PayFlowInteractorC", "DisposeBag"]
+- !private ["7QuestGo17PayFlowInteractorC", "HeaderCell"]
+- !private ["7QuestGo17PayFlowInteractorC", "HeaderCellModel"]
+- ["7QuestGo17PayFlowInteractorC", "Int"]
+- !private ["7QuestGo17PayFlowInteractorC", "LoadingCell"]
+- !private ["7QuestGo17PayFlowInteractorC", "MainScheduler"]
+- !private ["7QuestGo17PayFlowInteractorC", "Messages"]
+- ["7QuestGo17PayFlowInteractorC", "PayFlowEvent"]
+- ["7QuestGo17PayFlowInteractorC", "PayFlowPresentationLogic"]
+- ["7QuestGo17PayFlowInteractorC", "PayFlowViewState"]
+- ["7QuestGo17PayFlowInteractorC", "PromoWorker"]
+- ["7QuestGo17PayFlowInteractorC", "PurchaseAnalytics"]
+- !private ["7QuestGo17PayFlowInteractorC", "SKProduct"]
+- ["7QuestGo17PayFlowInteractorC", "Section"]
+- !private ["7QuestGo17PayFlowInteractorC", "StoreManager"]
+- !private ["7QuestGo17PayFlowInteractorC", "StoreObserver"]
+- ["7QuestGo17PayFlowInteractorC", "String"]
+- !private ["7QuestGo17PayFlowInteractorC", "TableCellConfigurator"]
+- !private ["7QuestGo17PayFlowInteractorC", "TextButtonCell"]
+- !private ["7QuestGo17PayFlowInteractorC", "TextButtonCellModel"]
+- !private ["7QuestGo17PayFlowInteractorC", "TextCell"]
+- !private ["7QuestGo17PayFlowInteractorC", "TextCellModel"]
+- !private ["7QuestGo17PayFlowInteractorC", "TextFieldCell"]
+- !private ["7QuestGo17PayFlowInteractorC", "TextFieldCellModel"]
+- !private ["7QuestGo17PayFlowInteractorC", "UserConfiguration"]
+- ["7QuestGo17PayFlowInteractorC", "UserWorker"]
+- ["7QuestGo17PayFlowInteractorC", ""]
+- !private ["7QuestGo17PayFlowInteractorC", "checkPromo"]
+- ["7QuestGo17PayFlowInteractorC", "deinit"]
+- !private ["7QuestGo17PayFlowInteractorC", "disposeBag"]
+- !private ["7QuestGo17PayFlowInteractorC", "finishPayment"]
+- ["7QuestGo17PayFlowInteractorC", "init"]
+- !private ["7QuestGo17PayFlowInteractorC", "launchBuyProcess"]
+- !private ["7QuestGo17PayFlowInteractorC", "launchRestoreProcess"]
+- ["7QuestGo17PayFlowInteractorC", "obtainEvent"]
+- ["7QuestGo17PayFlowInteractorC", "presenter"]
+- !private ["7QuestGo17PayFlowInteractorC", "promoWorker"]
+- !private ["7QuestGo17PayFlowInteractorC", "purchaseAnalytics"]
+- ["7QuestGo17PayFlowInteractorC", "questId"]
+- !private ["7QuestGo17PayFlowInteractorC", "renderInitialScreen"]
+- !private ["7QuestGo17PayFlowInteractorC", "renderPromoCodeScreen"]
+- ["7QuestGo17PayFlowInteractorC", "storeManagerDidReceiveMessage"]
+- ["7QuestGo17PayFlowInteractorC", "storeManagerDidReceiveResponse"]
+- ["7QuestGo17PayFlowInteractorC", "storeObserverBuyDidSucceed"]
+- ["7QuestGo17PayFlowInteractorC", "storeObserverDidReceiveMessage"]
+- ["7QuestGo17PayFlowInteractorC", "storeObserverRestoreDidSucceed"]
+- !private ["7QuestGo17PayFlowInteractorC", "userWorker"]
+- !private ["7QuestGo17PayFlowInteractorC", "viewState"]
+- !private ["7QuestGo24PayFlowPresentationLogicP", "present"]
+- ["7QuestGo16PayFlowViewStateV", "init"]
+- !private ["7RxSwift17PrimitiveSequenceV", "observeOn"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribe"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribeOn"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "observeOn"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "subscribe"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "subscribeOn"]
+- !private ["7QuestGo13PromoResponseV", "isValid"]
+- !private ["7QuestGo11PromoWorkerC", "checkPromo"]
+- ["7QuestGo11PromoWorkerC", "init"]
+- ["7QuestGo17PurchaseAnalyticsC", "init"]
+- !private ["7QuestGo17PurchaseAnalyticsC", "purchaseCanceled"]
+- !private ["7QuestGo17PurchaseAnalyticsC", "purchaseError"]
+- !private ["7QuestGo17PurchaseAnalyticsC", "purchaseSucceed"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "first"]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "buy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "restore"]
+- !private ["7RxSwift18ReactiveCompatibleP", "shared"]
+- !private ["7RxSwift18ReactiveCompatibleP", "startProductRequest"]
+- !private ["So28SKPaymentTransactionObserverP", "buy"]
+- !private ["So28SKPaymentTransactionObserverP", "delegate"]
+- !private ["So28SKPaymentTransactionObserverP", "restore"]
+- !private ["So28SKPaymentTransactionObserverP", "shared"]
+- !private ["So25SKProductsRequestDelegateP", "delegate"]
+- !private ["So25SKProductsRequestDelegateP", "shared"]
+- !private ["So25SKProductsRequestDelegateP", "startProductRequest"]
+- !private ["So17SKRequestDelegateP", ""]
+- !private ["So17SKRequestDelegateP", "delegate"]
+- !private ["So17SKRequestDelegateP", "shared"]
+- !private ["So17SKRequestDelegateP", "startProductRequest"]
+- !private ["7RxSwift13SchedulerTypeP", "init"]
+- !private ["7RxSwift13SchedulerTypeP", "instance"]
+- !private ["7QuestGo7SectionV", "elements"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- ["7RxSwift28SerialDispatchQueueSchedulerC", ""]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "instance"]
+- !private ["7QuestGo12StoreManagerC", "delegate"]
+- !private ["7QuestGo12StoreManagerC", "shared"]
+- !private ["7QuestGo12StoreManagerC", "startProductRequest"]
+- !private ["7QuestGo20StoreManagerDelegateP", "CellConfigurator"]
+- !private ["7QuestGo20StoreManagerDelegateP", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo20StoreManagerDelegateP", "DisposeBag"]
+- !private ["7QuestGo20StoreManagerDelegateP", "Int"]
+- !private ["7QuestGo20StoreManagerDelegateP", "MainScheduler"]
+- !private ["7QuestGo20StoreManagerDelegateP", "Messages"]
+- ["7QuestGo20StoreManagerDelegateP", "PayFlowViewState"]
+- ["7QuestGo20StoreManagerDelegateP", "PromoWorker"]
+- ["7QuestGo20StoreManagerDelegateP", "PurchaseAnalytics"]
+- !private ["7QuestGo20StoreManagerDelegateP", "StoreManager"]
+- !private ["7QuestGo20StoreManagerDelegateP", "StoreObserver"]
+- !private ["7QuestGo20StoreManagerDelegateP", "TableCellConfigurator"]
+- !private ["7QuestGo20StoreManagerDelegateP", "UserConfiguration"]
+- ["7QuestGo20StoreManagerDelegateP", "UserWorker"]
+- ["7QuestGo20StoreManagerDelegateP", ""]
+- !private ["7QuestGo20StoreManagerDelegateP", "checkPromo"]
+- !private ["7QuestGo20StoreManagerDelegateP", "disposeBag"]
+- !private ["7QuestGo20StoreManagerDelegateP", "finishPayment"]
+- !private ["7QuestGo20StoreManagerDelegateP", "launchBuyProcess"]
+- !private ["7QuestGo20StoreManagerDelegateP", "launchRestoreProcess"]
+- ["7QuestGo20StoreManagerDelegateP", "obtainEvent"]
+- !private ["7QuestGo20StoreManagerDelegateP", "presenter"]
+- !private ["7QuestGo20StoreManagerDelegateP", "promoWorker"]
+- !private ["7QuestGo20StoreManagerDelegateP", "purchaseAnalytics"]
+- ["7QuestGo20StoreManagerDelegateP", "questId"]
+- !private ["7QuestGo20StoreManagerDelegateP", "renderInitialScreen"]
+- !private ["7QuestGo20StoreManagerDelegateP", "renderPromoCodeScreen"]
+- ["7QuestGo20StoreManagerDelegateP", "storeManagerDidReceiveMessage"]
+- ["7QuestGo20StoreManagerDelegateP", "storeManagerDidReceiveResponse"]
+- ["7QuestGo20StoreManagerDelegateP", "storeObserverBuyDidSucceed"]
+- ["7QuestGo20StoreManagerDelegateP", "storeObserverDidReceiveMessage"]
+- ["7QuestGo20StoreManagerDelegateP", "storeObserverRestoreDidSucceed"]
+- !private ["7QuestGo20StoreManagerDelegateP", "userWorker"]
+- !private ["7QuestGo20StoreManagerDelegateP", "viewState"]
+- !private ["7QuestGo13StoreObserverC", "buy"]
+- !private ["7QuestGo13StoreObserverC", "delegate"]
+- !private ["7QuestGo13StoreObserverC", "restore"]
+- !private ["7QuestGo13StoreObserverC", "shared"]
+- !private ["7QuestGo21StoreObserverDelegateP", "CellConfigurator"]
+- !private ["7QuestGo21StoreObserverDelegateP", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo21StoreObserverDelegateP", "DisposeBag"]
+- !private ["7QuestGo21StoreObserverDelegateP", "Int"]
+- !private ["7QuestGo21StoreObserverDelegateP", "MainScheduler"]
+- !private ["7QuestGo21StoreObserverDelegateP", "Messages"]
+- ["7QuestGo21StoreObserverDelegateP", "PayFlowViewState"]
+- ["7QuestGo21StoreObserverDelegateP", "PromoWorker"]
+- ["7QuestGo21StoreObserverDelegateP", "PurchaseAnalytics"]
+- !private ["7QuestGo21StoreObserverDelegateP", "StoreManager"]
+- !private ["7QuestGo21StoreObserverDelegateP", "StoreObserver"]
+- !private ["7QuestGo21StoreObserverDelegateP", "TableCellConfigurator"]
+- !private ["7QuestGo21StoreObserverDelegateP", "UserConfiguration"]
+- ["7QuestGo21StoreObserverDelegateP", "UserWorker"]
+- ["7QuestGo21StoreObserverDelegateP", ""]
+- !private ["7QuestGo21StoreObserverDelegateP", "checkPromo"]
+- !private ["7QuestGo21StoreObserverDelegateP", "disposeBag"]
+- !private ["7QuestGo21StoreObserverDelegateP", "finishPayment"]
+- !private ["7QuestGo21StoreObserverDelegateP", "launchBuyProcess"]
+- !private ["7QuestGo21StoreObserverDelegateP", "launchRestoreProcess"]
+- ["7QuestGo21StoreObserverDelegateP", "obtainEvent"]
+- !private ["7QuestGo21StoreObserverDelegateP", "presenter"]
+- !private ["7QuestGo21StoreObserverDelegateP", "promoWorker"]
+- !private ["7QuestGo21StoreObserverDelegateP", "purchaseAnalytics"]
+- ["7QuestGo21StoreObserverDelegateP", "questId"]
+- !private ["7QuestGo21StoreObserverDelegateP", "renderInitialScreen"]
+- !private ["7QuestGo21StoreObserverDelegateP", "renderPromoCodeScreen"]
+- ["7QuestGo21StoreObserverDelegateP", "storeManagerDidReceiveMessage"]
+- ["7QuestGo21StoreObserverDelegateP", "storeManagerDidReceiveResponse"]
+- ["7QuestGo21StoreObserverDelegateP", "storeObserverBuyDidSucceed"]
+- ["7QuestGo21StoreObserverDelegateP", "storeObserverDidReceiveMessage"]
+- ["7QuestGo21StoreObserverDelegateP", "storeObserverRestoreDidSucceed"]
+- !private ["7QuestGo21StoreObserverDelegateP", "userWorker"]
+- !private ["7QuestGo21StoreObserverDelegateP", "viewState"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["7QuestGo21TableCellConfiguratorC", ""]
+- !private ["7QuestGo21TableCellConfiguratorC", "init"]
+- !private ["7QuestGo14TextButtonCellC", ""]
+- !private ["7QuestGo19TextButtonCellModelV", "init"]
+- !private ["7QuestGo8TextCellC", ""]
+- !private ["7QuestGo13TextCellModelV", "init"]
+- !private ["7QuestGo13TextFieldCellC", ""]
+- !private ["7QuestGo18TextFieldCellModelV", "init"]
+- ["So15UITableViewCellC", ""]
+- !private ["7QuestGo17UserConfigurationV", "CodingKeys"]
+- !private ["7QuestGo17UserConfigurationV", ""]
+- !private ["7QuestGo17UserConfigurationV", "availableQuestCount"]
+- !private ["7QuestGo17UserConfigurationV", "boughtQuestIdsList"]
+- !private ["7QuestGo17UserConfigurationV", "currentQuestId"]
+- !private ["7QuestGo17UserConfigurationV", "currentUserPage"]
+- !private ["7QuestGo17UserConfigurationV", "init"]
+- ["7QuestGo10UserWorkerC", "init"]
+- !private ["7QuestGo10UserWorkerC", "readConfiguration"]
+- !private ["7QuestGo10UserWorkerC", "updateConfiguration"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startProductRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "buy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restore"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startProductRequest"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "7QuestGo10ButtonCellC"
+- !private "7QuestGo15ButtonCellModelV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "7QuestGo16CellConfiguratorP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "7RxSwift32ConcurrentDispatchQueueSchedulerC"
+- !private "7QuestGo16ConfigurableCellP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "8Dispatch0A3QoSV"
+- !private "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "SH"
+- !private "7QuestGo10HeaderCellC"
+- !private "7QuestGo15HeaderCellModelV"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7QuestGo11LoadingCellC"
+- !private "7RxSwift13MainSchedulerC"
+- !private "7QuestGo8MessagesV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7QuestGo13PayFlowActionO"
+- "7QuestGo20PayFlowBusinessLogicP"
+- "7QuestGo18PayFlowDataStoringP"
+- "7QuestGo12PayFlowEventO"
+- "7QuestGo17PayFlowInteractorC"
+- !private "7QuestGo24PayFlowPresentationLogicP"
+- "7QuestGo16PayFlowViewStateV"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
+- !private "7QuestGo13PromoResponseV"
+- "7QuestGo11PromoWorkerC"
+- "7QuestGo17PurchaseAnalyticsC"
+- !private "Sk"
+- !private "Sm"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "So28SKPaymentTransactionObserverP"
+- !private "So25SKProductsRequestDelegateP"
+- !private "So17SKRequestDelegateP"
+- !private "7RxSwift13SchedulerTypeP"
+- !private "7QuestGo7SectionV"
+- !private "ST"
+- "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "7QuestGo12StoreManagerC"
+- "7QuestGo20StoreManagerDelegateP"
+- !private "7QuestGo13StoreObserverC"
+- "7QuestGo21StoreObserverDelegateP"
+- !private "s27StringInterpolationProtocolP"
+- !private "7QuestGo21TableCellConfiguratorC"
+- !private "7QuestGo14TextButtonCellC"
+- !private "7QuestGo19TextButtonCellModelV"
+- !private "7QuestGo8TextCellC"
+- !private "7QuestGo13TextCellModelV"
+- !private "7QuestGo13TextFieldCellC"
+- !private "7QuestGo18TextFieldCellModelV"
+- "So15UITableViewCellC"
+- !private "7QuestGo17UserConfigurationV"
+- "7QuestGo10UserWorkerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/youtube-ios-player-helper-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Headers/questGoShared.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/YTPlayerView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/QuestGoShared/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "efebc0eb6a9098f6399844ce82223ff9"

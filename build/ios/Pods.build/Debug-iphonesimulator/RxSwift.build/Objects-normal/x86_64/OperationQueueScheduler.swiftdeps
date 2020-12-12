@@ -1,0 +1,171 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OperationQueueScheduler"
+provides-nominal:
+- "7RxSwift23OperationQueueSchedulerC"
+provides-member:
+- ["7RxSwift23OperationQueueSchedulerC", ""]
+provides-dynamic-lookup:
+- "operationQueue"
+- "queuePriority"
+- "schedule"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BlockOperation"
+- "Disposable"
+- "ImmediateSchedulerType"
+- "Operation"
+- "OperationQueue"
+- "OperationQueueScheduler"
+- !private "SingleAssignmentDisposable"
+depends-member:
+- !private ["So16NSBlockOperationC", "init"]
+- !private ["So16NSBlockOperationC", "queuePriority"]
+- ["s7CVarArgP", "QueuePriority"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "queuePriority"]
+- !private ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "isDisposed"]
+- !private ["7RxSwift10CancelableP", "setDisposable"]
+- ["s28CustomDebugStringConvertibleP", "QueuePriority"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "queuePriority"]
+- ["s23CustomStringConvertibleP", "QueuePriority"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "queuePriority"]
+- ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "isDisposed"]
+- !private ["7RxSwift10DisposableP", "setDisposable"]
+- ["7RxSwift11DisposeBaseC", ""]
+- !private ["7RxSwift11DisposeBaseC", "init"]
+- !private ["7RxSwift11DisposeBaseC", "isDisposed"]
+- !private ["7RxSwift11DisposeBaseC", "setDisposable"]
+- ["SQ", "QueuePriority"]
+- ["SQ", ""]
+- !private ["SQ", "addOperation"]
+- !private ["SQ", "init"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "queuePriority"]
+- ["SH", "QueuePriority"]
+- !private ["SH", "addOperation"]
+- !private ["SH", "init"]
+- !private ["SH", "normal"]
+- !private ["SH", "queuePriority"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "BlockOperation"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "SingleAssignmentDisposable"]
+- ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "operationQueue"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "queuePriority"]
+- ["7RxSwift22ImmediateSchedulerTypeP", "schedule"]
+- ["So8NSObjectC", "QueuePriority"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "addOperationWithBlock"]
+- !private ["So8NSObjectC", "blockOperationWithBlock"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "queuePriority"]
+- ["So8NSObjectP", "QueuePriority"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addOperation"]
+- !private ["So8NSObjectP", "addOperationWithBlock"]
+- !private ["So8NSObjectP", "blockOperationWithBlock"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "queuePriority"]
+- ["So11NSOperationC", "QueuePriority"]
+- ["So11NSOperationC", ""]
+- !private ["So11NSOperationC", "blockOperationWithBlock"]
+- !private ["So11NSOperationC", "init"]
+- !private ["So11NSOperationC", "queuePriority"]
+- !private ["So16NSOperationQueueC", "addOperation"]
+- !private ["7RxSwift23OperationQueueSchedulerC", "BlockOperation"]
+- ["7RxSwift23OperationQueueSchedulerC", "Disposable"]
+- ["7RxSwift23OperationQueueSchedulerC", "Operation"]
+- ["7RxSwift23OperationQueueSchedulerC", "OperationQueue"]
+- !private ["7RxSwift23OperationQueueSchedulerC", "SingleAssignmentDisposable"]
+- ["7RxSwift23OperationQueueSchedulerC", ""]
+- ["7RxSwift23OperationQueueSchedulerC", "deinit"]
+- ["7RxSwift23OperationQueueSchedulerC", "init"]
+- ["7RxSwift23OperationQueueSchedulerC", "operationQueue"]
+- ["7RxSwift23OperationQueueSchedulerC", "queuePriority"]
+- ["7RxSwift23OperationQueueSchedulerC", "schedule"]
+- !private ["So19NSProgressReportingP", "addOperation"]
+- !private ["So24NSOperationQueuePriorityV", "normal"]
+- !private ["SY", "normal"]
+- ["7RxSwift18ReactiveCompatibleP", "QueuePriority"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addOperation"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "queuePriority"]
+- !private ["7Combine9SchedulerP", "addOperation"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", ""]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "init"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "isDisposed"]
+- !private ["7RxSwift26SingleAssignmentDisposableC", "setDisposable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "QueuePriority"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queuePriority"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "QueuePriority"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addOperation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "queuePriority"]
+depends-nominal:
+- !private "So16NSBlockOperationC"
+- "s7CVarArgP"
+- !private "7RxSwift10CancelableP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxSwift10DisposableP"
+- "7RxSwift11DisposeBaseC"
+- "SQ"
+- "SH"
+- "7RxSwift22ImmediateSchedulerTypeP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11NSOperationC"
+- !private "So16NSOperationQueueC"
+- "7RxSwift23OperationQueueSchedulerC"
+- !private "So19NSProgressReportingP"
+- !private "So24NSOperationQueuePriorityV"
+- !private "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "7Combine9SchedulerP"
+- !private "7RxSwift26SingleAssignmentDisposableC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8eb22904f8912f15a54ec8a586735514"

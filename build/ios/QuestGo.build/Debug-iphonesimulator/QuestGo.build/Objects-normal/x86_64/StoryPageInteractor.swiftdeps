@@ -1,0 +1,615 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StoryPageBusinessLogic"
+- "StoryPageDataStoring"
+- "StoryPageInteractor"
+provides-nominal:
+- "7QuestGo22StoryPageBusinessLogicP"
+- "7QuestGo20StoryPageDataStoringP"
+- "7QuestGo19StoryPageInteractorC"
+provides-member:
+- ["7QuestGo22StoryPageBusinessLogicP", ""]
+- ["7QuestGo20StoryPageDataStoringP", ""]
+- ["7QuestGo19StoryPageInteractorC", ""]
+provides-dynamic-lookup:
+- "checkAnswer"
+- "checkNextPageAvailable"
+- "disposeBag"
+- "fetchQuestData"
+- "obtainEvent"
+- "presenter"
+- "questPageAnalytics"
+- "questWorker"
+- "userWorker"
+- "viewState"
+depends-top-level:
+- !private "&&"
+- !private "+"
+- !private "=="
+- ">"
+- !private ">="
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "ButtonCell"
+- "ButtonCellModel"
+- !private "ConcurrentDispatchQueueScheduler"
+- "DisposeBag"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "MainScheduler"
+- !private "QuestModel"
+- "QuestPageAnalytics"
+- "QuestWorker"
+- "StoryPageBusinessLogic"
+- "StoryPageDataStoring"
+- "StoryPageEvent"
+- "StoryPageInteractor"
+- "StoryPagePresentationLogic"
+- "StoryPageViewState"
+- "String"
+- !private "StringLiteralType"
+- !private "TableCellConfigurator"
+- "UserConfiguration"
+- "UserWorker"
+- !private "checkAnswer"
+- !private "checkNextPageAvailable"
+- !private "disposeBag"
+- !private "fetchQuestData"
+- !private "presenter"
+- !private "questPageAnalytics"
+- !private "questWorker"
+- !private "viewState"
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "append"]
+- !private ["9Alamofire0A8ExtendedP", "compactMap"]
+- !private ["9Alamofire0A8ExtendedP", "count"]
+- !private ["9Alamofire0A8ExtendedP", "subscript"]
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "subscript"]
+- !private ["7QuestGo10ButtonCellC", ""]
+- !private ["7QuestGo15ButtonCellModelV", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "compactMap"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "lowercased"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["7QuestGo16CellConfiguratorP", "init"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "lowercased"]
+- !private ["7RxSwift32ConcurrentDispatchQueueSchedulerC", "init"]
+- !private ["7QuestGo16ConfigurableCellP", "DataType"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "showContent"]
+- !private ["s28CustomDebugStringConvertibleP", "showInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "error"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "showContent"]
+- !private ["s17CustomReflectableP", "showInfo"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "availableQuestCount"]
+- !private ["Se", "boughtQuestIdsList"]
+- !private ["Se", "code"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "components"]
+- !private ["Se", "count"]
+- !private ["Se", "error"]
+- !private ["Se", "info"]
+- !private ["Se", "init"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "mapToCellConfigurator"]
+- !private ["Se", "needsToPay"]
+- !private ["Se", "pages"]
+- !private ["Se", "showContent"]
+- !private ["Se", "showInfo"]
+- !private ["Se", "subscript"]
+- !private ["8Dispatch0A3QoSV", "userInitiated"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", ""]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "availableQuestCount"]
+- !private ["SE", "boughtQuestIdsList"]
+- !private ["SE", "code"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "components"]
+- !private ["SE", "count"]
+- !private ["SE", "error"]
+- !private ["SE", "info"]
+- !private ["SE", "init"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "mapToCellConfigurator"]
+- !private ["SE", "needsToPay"]
+- !private ["SE", "pages"]
+- !private ["SE", "showContent"]
+- !private ["SE", "showInfo"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "=="]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "count"]
+- !private ["SQ", "error"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "showContent"]
+- !private ["SQ", "showInfo"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "userInitiated"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s23ExpressibleByNilLiteralP", "error"]
+- !private ["s23ExpressibleByNilLiteralP", "showContent"]
+- !private ["s23ExpressibleByNilLiteralP", "showInfo"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["7QuestGo0A5ModelV5FetchV", "Request"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "count"]
+- !private ["SH", "error"]
+- !private ["SH", "hash"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "showContent"]
+- !private ["SH", "showInfo"]
+- !private ["SH", "subscript"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "init"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "instance"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["7RxSwift13MainSchedulerC", "instance"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "lowercaseStringWithLocale"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "lowercaseStringWithLocale"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "observeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribeOn"]
+- !private ["Sq", "error"]
+- !private ["Sq", "showContent"]
+- !private ["Sq", "showInfo"]
+- !private ["7RxSwift17PrimitiveSequenceV", "observeOn"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribe"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribeOn"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "observeOn"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "subscribe"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "subscribeOn"]
+- !private ["7QuestGo0A5ModelV0A9ComponentV", "mapToCellConfigurator"]
+- !private ["7QuestGo0A5ModelV", "Fetch"]
+- !private ["7QuestGo0A5ModelV5FetchV8ResponseV0A4PageV", "code"]
+- !private ["7QuestGo0A5ModelV5FetchV8ResponseV0A4PageV", "components"]
+- !private ["7QuestGo0A5ModelV5FetchV8ResponseV0A4PageV", "info"]
+- !private ["7QuestGo0A5ModelV5FetchV8ResponseV0A4PageV", "needsToPay"]
+- !private ["7QuestGo0A13PageAnalyticsC", "answerSend"]
+- !private ["7QuestGo0A13PageAnalyticsC", "infoLoaded"]
+- ["7QuestGo0A13PageAnalyticsC", "init"]
+- !private ["7QuestGo0A13PageAnalyticsC", "pageLoaded"]
+- !private ["7QuestGo0A6WorkerC", "fetchQuest"]
+- ["7QuestGo0A6WorkerC", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "subscript"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lowercased"]
+- !private ["7QuestGo0A5ModelV5FetchV7RequestV", "init"]
+- !private ["7QuestGo0A5ModelV5FetchV8ResponseV", "pages"]
+- !private ["7RxSwift13SchedulerTypeP", "init"]
+- !private ["7RxSwift13SchedulerTypeP", "instance"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "subscript"]
+- ["7RxSwift28SerialDispatchQueueSchedulerC", ""]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "instance"]
+- !private ["7QuestGo15StoryPageActionO", "openFinalPage"]
+- !private ["7QuestGo15StoryPageActionO", "openNextPage"]
+- !private ["7QuestGo15StoryPageActionO", "openWrongAnswer"]
+- !private ["7QuestGo15StoryPageActionO", "showPayFlow"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo22StoryPageBusinessLogicP", "DisposeBag"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "MainScheduler"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "QuestModel"]
+- ["7QuestGo22StoryPageBusinessLogicP", "QuestPageAnalytics"]
+- ["7QuestGo22StoryPageBusinessLogicP", "QuestWorker"]
+- ["7QuestGo22StoryPageBusinessLogicP", "StoryPageEvent"]
+- ["7QuestGo22StoryPageBusinessLogicP", "StoryPageViewState"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "TableCellConfigurator"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "UserConfiguration"]
+- ["7QuestGo22StoryPageBusinessLogicP", "UserWorker"]
+- ["7QuestGo22StoryPageBusinessLogicP", ""]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "checkAnswer"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "checkNextPageAvailable"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "disposeBag"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "fetchQuestData"]
+- ["7QuestGo22StoryPageBusinessLogicP", "obtainEvent"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "presenter"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "questPageAnalytics"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "questWorker"]
+- !private ["7QuestGo22StoryPageBusinessLogicP", "userWorker"]
+- ["7QuestGo22StoryPageBusinessLogicP", "viewState"]
+- !private ["7QuestGo20StoryPageDataStoringP", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo20StoryPageDataStoringP", "DisposeBag"]
+- !private ["7QuestGo20StoryPageDataStoringP", "MainScheduler"]
+- !private ["7QuestGo20StoryPageDataStoringP", "QuestModel"]
+- ["7QuestGo20StoryPageDataStoringP", "QuestPageAnalytics"]
+- ["7QuestGo20StoryPageDataStoringP", "QuestWorker"]
+- ["7QuestGo20StoryPageDataStoringP", "StoryPageViewState"]
+- !private ["7QuestGo20StoryPageDataStoringP", "TableCellConfigurator"]
+- !private ["7QuestGo20StoryPageDataStoringP", "UserConfiguration"]
+- ["7QuestGo20StoryPageDataStoringP", "UserWorker"]
+- ["7QuestGo20StoryPageDataStoringP", ""]
+- !private ["7QuestGo20StoryPageDataStoringP", "checkAnswer"]
+- !private ["7QuestGo20StoryPageDataStoringP", "checkNextPageAvailable"]
+- !private ["7QuestGo20StoryPageDataStoringP", "disposeBag"]
+- !private ["7QuestGo20StoryPageDataStoringP", "fetchQuestData"]
+- ["7QuestGo20StoryPageDataStoringP", "obtainEvent"]
+- !private ["7QuestGo20StoryPageDataStoringP", "presenter"]
+- !private ["7QuestGo20StoryPageDataStoringP", "questPageAnalytics"]
+- !private ["7QuestGo20StoryPageDataStoringP", "questWorker"]
+- !private ["7QuestGo20StoryPageDataStoringP", "userWorker"]
+- ["7QuestGo20StoryPageDataStoringP", "viewState"]
+- ["7QuestGo14StoryPageEventO", "fetchInitial"]
+- ["7QuestGo14StoryPageEventO", "nextPage"]
+- ["7QuestGo14StoryPageEventO", "sendAnswer"]
+- !private ["7QuestGo20StoryPageFetchStatusO", "error"]
+- !private ["7QuestGo20StoryPageFetchStatusO", "showContent"]
+- !private ["7QuestGo20StoryPageFetchStatusO", "showInfo"]
+- !private ["7QuestGo19StoryPageInteractorC", "ButtonCell"]
+- !private ["7QuestGo19StoryPageInteractorC", "ButtonCellModel"]
+- !private ["7QuestGo19StoryPageInteractorC", "ConcurrentDispatchQueueScheduler"]
+- ["7QuestGo19StoryPageInteractorC", "DisposeBag"]
+- !private ["7QuestGo19StoryPageInteractorC", "MainScheduler"]
+- !private ["7QuestGo19StoryPageInteractorC", "QuestModel"]
+- ["7QuestGo19StoryPageInteractorC", "QuestPageAnalytics"]
+- ["7QuestGo19StoryPageInteractorC", "QuestWorker"]
+- ["7QuestGo19StoryPageInteractorC", "StoryPageEvent"]
+- ["7QuestGo19StoryPageInteractorC", "StoryPagePresentationLogic"]
+- ["7QuestGo19StoryPageInteractorC", "StoryPageViewState"]
+- ["7QuestGo19StoryPageInteractorC", "String"]
+- !private ["7QuestGo19StoryPageInteractorC", "TableCellConfigurator"]
+- !private ["7QuestGo19StoryPageInteractorC", "UserConfiguration"]
+- ["7QuestGo19StoryPageInteractorC", "UserWorker"]
+- ["7QuestGo19StoryPageInteractorC", ""]
+- !private ["7QuestGo19StoryPageInteractorC", "checkAnswer"]
+- !private ["7QuestGo19StoryPageInteractorC", "checkNextPageAvailable"]
+- ["7QuestGo19StoryPageInteractorC", "deinit"]
+- !private ["7QuestGo19StoryPageInteractorC", "disposeBag"]
+- !private ["7QuestGo19StoryPageInteractorC", "fetchQuestData"]
+- ["7QuestGo19StoryPageInteractorC", "init"]
+- ["7QuestGo19StoryPageInteractorC", "obtainEvent"]
+- ["7QuestGo19StoryPageInteractorC", "presenter"]
+- !private ["7QuestGo19StoryPageInteractorC", "questPageAnalytics"]
+- !private ["7QuestGo19StoryPageInteractorC", "questWorker"]
+- !private ["7QuestGo19StoryPageInteractorC", "userWorker"]
+- ["7QuestGo19StoryPageInteractorC", "viewState"]
+- !private ["7QuestGo26StoryPagePresentationLogicP", "present"]
+- !private ["7QuestGo18StoryPageViewStateV", "copy"]
+- !private ["7QuestGo18StoryPageViewStateV", "correctAnswer"]
+- !private ["7QuestGo18StoryPageViewStateV", "currentPage"]
+- !private ["7QuestGo18StoryPageViewStateV", "currentQuestId"]
+- !private ["7QuestGo18StoryPageViewStateV", "currentQuestMaxPages"]
+- !private ["7QuestGo18StoryPageViewStateV", "infoData"]
+- ["7QuestGo18StoryPageViewStateV", "init"]
+- !private ["7QuestGo18StoryPageViewStateV", "needsToPay"]
+- !private ["SS", "lowercased"]
+- !private ["Sy", "lowercased"]
+- !private ["7QuestGo21TableCellConfiguratorC", ""]
+- !private ["7QuestGo21TableCellConfiguratorC", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- ["So15UITableViewCellC", ""]
+- !private ["9Alamofire14URLConvertibleP", "lowercased"]
+- !private ["7QuestGo17UserConfigurationV", "CodingKeys"]
+- !private ["7QuestGo17UserConfigurationV", ""]
+- !private ["7QuestGo17UserConfigurationV", "availableQuestCount"]
+- !private ["7QuestGo17UserConfigurationV", "boughtQuestIdsList"]
+- !private ["7QuestGo17UserConfigurationV", "init"]
+- ["7QuestGo10UserWorkerC", "init"]
+- !private ["7QuestGo10UserWorkerC", "readConfiguration"]
+- !private ["7QuestGo10UserWorkerC", "updateConfiguration"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "error"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "showContent"]
+- !private ["s21_ObjectiveCBridgeableP", "showInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["So13CKRecordValueP", "lowercased"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "7QuestGo10ButtonCellC"
+- !private "7QuestGo15ButtonCellModelV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "7QuestGo16CellConfiguratorP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "7RxSwift32ConcurrentDispatchQueueSchedulerC"
+- !private "7QuestGo16ConfigurableCellP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "8Dispatch0A3QoSV"
+- !private "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7QuestGo0A5ModelV5FetchV"
+- !private "SH"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "7RxSwift13MainSchedulerC"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "Sq"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
+- !private "7QuestGo0A5ModelV0A9ComponentV"
+- !private "7QuestGo0A5ModelV"
+- !private "7QuestGo0A5ModelV5FetchV8ResponseV0A4PageV"
+- "7QuestGo0A13PageAnalyticsC"
+- "7QuestGo0A6WorkerC"
+- !private "Sk"
+- !private "Sm"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "7QuestGo0A5ModelV5FetchV7RequestV"
+- !private "7QuestGo0A5ModelV5FetchV8ResponseV"
+- !private "7RxSwift13SchedulerTypeP"
+- !private "ST"
+- "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "7QuestGo15StoryPageActionO"
+- "7QuestGo22StoryPageBusinessLogicP"
+- "7QuestGo20StoryPageDataStoringP"
+- "7QuestGo14StoryPageEventO"
+- !private "7QuestGo20StoryPageFetchStatusO"
+- "7QuestGo19StoryPageInteractorC"
+- !private "7QuestGo26StoryPagePresentationLogicP"
+- "7QuestGo18StoryPageViewStateV"
+- !private "SS"
+- !private "Sy"
+- !private "7QuestGo21TableCellConfiguratorC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So15UITableViewCellC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "7QuestGo17UserConfigurationV"
+- "7QuestGo10UserWorkerC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/youtube-ios-player-helper-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Headers/questGoShared.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/YTPlayerView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/QuestGoShared/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6bad3b0008ec35088776221f26cc6949"

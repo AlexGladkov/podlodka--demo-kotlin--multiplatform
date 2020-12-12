@@ -1,0 +1,206 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyRecursiveScheduler"
+- "RecursiveImmediateScheduler"
+provides-nominal:
+- "7RxSwift21AnyRecursiveSchedulerC"
+- "7RxSwift27RecursiveImmediateSchedulerC"
+provides-member:
+- ["7RxSwift21AnyRecursiveSchedulerC", ""]
+- ["7RxSwift27RecursiveImmediateSchedulerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Action"
+- "AnyRecursiveScheduler"
+- "AssignmentPrecedence"
+- "CompositeDisposable"
+- "Disposable"
+- "Disposables"
+- "ImmediateSchedulerType"
+- "RecursiveImmediateScheduler"
+- "RecursiveLock"
+- "RxTimeInterval"
+- "ScheduleState"
+- "SchedulerType"
+- "SpinLock"
+- "State"
+- "StringLiteralType"
+- "Void"
+- "rxFatalError"
+depends-member:
+- ["7RxSwift21AnyRecursiveSchedulerC", "Action"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "AnyRecursiveScheduler"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "CompositeDisposable"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "Disposable"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "Disposables"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "RecursiveLock"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "RxTimeInterval"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "ScheduleState"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "SchedulerType"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "Void"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "_action"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "_group"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "_lock"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "_scheduler"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "action"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "deinit"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "dispose"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "group"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "init"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "lock"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "rxFatalError"]
+- ["7RxSwift21AnyRecursiveSchedulerC", "schedule"]
+- !private ["7RxSwift21AnyRecursiveSchedulerC", "scheduler"]
+- !private ["s7CVarArgP", "calculateLocked"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "performLocked"]
+- ["7RxSwift10CancelableP", "DisposeKey"]
+- !private ["7RxSwift10CancelableP", "dispose"]
+- ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "insert"]
+- !private ["7RxSwift10CancelableP", "isDisposed"]
+- !private ["7RxSwift10CancelableP", "remove"]
+- ["7RxSwift19CompositeDisposableC", "DisposeKey"]
+- !private ["7RxSwift19CompositeDisposableC", ""]
+- !private ["7RxSwift19CompositeDisposableC", "dispose"]
+- ["7RxSwift19CompositeDisposableC", "init"]
+- !private ["7RxSwift19CompositeDisposableC", "insert"]
+- !private ["7RxSwift19CompositeDisposableC", "isDisposed"]
+- !private ["7RxSwift19CompositeDisposableC", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "calculateLocked"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "performLocked"]
+- !private ["s23CustomStringConvertibleP", "calculateLocked"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "performLocked"]
+- ["7RxSwift10DisposableP", "DisposeKey"]
+- ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift10DisposableP", "dispose"]
+- ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "insert"]
+- !private ["7RxSwift10DisposableP", "isDisposed"]
+- !private ["7RxSwift10DisposableP", "remove"]
+- !private ["7RxSwift11DisposablesV", "create"]
+- ["7RxSwift11DisposeBaseC", "DisposeKey"]
+- ["7RxSwift11DisposeBaseC", ""]
+- !private ["7RxSwift11DisposeBaseC", "dispose"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["7RxSwift11DisposeBaseC", "insert"]
+- !private ["7RxSwift11DisposeBaseC", "isDisposed"]
+- !private ["7RxSwift11DisposeBaseC", "remove"]
+- ["SQ", ""]
+- !private ["SQ", "calculateLocked"]
+- ["SQ", "init"]
+- !private ["SQ", "performLocked"]
+- !private ["SH", "calculateLocked"]
+- ["SH", "init"]
+- !private ["SH", "performLocked"]
+- ["7RxSwift22ImmediateSchedulerTypeP", ""]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "schedule"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "scheduleRelative"]
+- !private ["7RxSwift4LockP", "calculateLocked"]
+- ["7RxSwift4LockP", "init"]
+- !private ["7RxSwift4LockP", "performLocked"]
+- !private ["So9NSLockingP", "calculateLocked"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "performLocked"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "calculateLocked"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "performLocked"]
+- !private ["So8NSObjectP", "calculateLocked"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "performLocked"]
+- !private ["So15NSRecursiveLockC", "calculateLocked"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "performLocked"]
+- !private ["7RxSwift18ReactiveCompatibleP", "calculateLocked"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "performLocked"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "Action"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "CompositeDisposable"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "Disposable"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "Disposables"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "ImmediateSchedulerType"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "ScheduleState"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "SpinLock"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "Void"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "_action"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "_group"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "_lock"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "_scheduler"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "action"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "deinit"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "dispose"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "group"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "init"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "lock"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "rxFatalError"]
+- ["7RxSwift27RecursiveImmediateSchedulerC", "schedule"]
+- !private ["7RxSwift27RecursiveImmediateSchedulerC", "scheduler"]
+- !private ["7RxSwift13SchedulerTypeP", "schedule"]
+- !private ["7RxSwift13SchedulerTypeP", "scheduleRelative"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculateLocked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performLocked"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "calculateLocked"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performLocked"]
+depends-nominal:
+- "7RxSwift21AnyRecursiveSchedulerC"
+- "s7CVarArgP"
+- "7RxSwift10CancelableP"
+- "7RxSwift19CompositeDisposableC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxSwift10DisposableP"
+- !private "7RxSwift11DisposablesV"
+- "7RxSwift11DisposeBaseC"
+- "SQ"
+- "SH"
+- "7RxSwift22ImmediateSchedulerTypeP"
+- "7RxSwift4LockP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxSwift27RecursiveImmediateSchedulerC"
+- !private "7RxSwift13SchedulerTypeP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "72d42b5ac1e0c4ec767ac10ff99c1425"

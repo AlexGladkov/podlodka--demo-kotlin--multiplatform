@@ -1,0 +1,578 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FinishPageRoutingLogic"
+- "FinishPageDataPassing"
+- "FinishPageRouter"
+provides-nominal:
+- "7QuestGo22FinishPageRoutingLogicP"
+- "7QuestGo21FinishPageDataPassingP"
+- "7QuestGo16FinishPageRouterC"
+provides-member:
+- ["7QuestGo22FinishPageRoutingLogicP", ""]
+- ["7QuestGo21FinishPageDataPassingP", ""]
+- ["7QuestGo16FinishPageRouterC", ""]
+provides-dynamic-lookup:
+- "dataStore"
+- "routeToQuestList"
+- "routetoShare"
+- "viewController"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CGRect"
+- "CastingPrecedence"
+- !private "ControllerFactory"
+- "FinishPageDataPassing"
+- "FinishPageDataStoring"
+- "FinishPageRouter"
+- "FinishPageRoutingLogic"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "QuestsListViewController"
+- !private "StringLiteralType"
+- !private "UIActivity"
+- "UIActivityItemsConfigurationReading"
+- "UIActivityViewController"
+- !private "UIPopoverArrowDirection"
+- "UIView"
+- "UIViewController"
+- !private "viewController"
+depends-member:
+- !private ["So14UIActivityTypea", "addToReadingList"]
+- !private ["So14UIActivityTypea", "assignToContact"]
+- !private ["So14UIActivityTypea", "message"]
+- !private ["So14UIActivityTypea", "postToFacebook"]
+- !private ["So14UIActivityTypea", "postToFlickr"]
+- !private ["So14UIActivityTypea", "postToTencentWeibo"]
+- !private ["So14UIActivityTypea", "postToVimeo"]
+- !private ["So14UIActivityTypea", "postToWeibo"]
+- !private ["So14UIActivityTypea", "print"]
+- !private ["So14UIActivityTypea", "saveToCameraRoll"]
+- !private ["SK", ""]
+- !private ["So6CGRectV", "init"]
+- !private ["s7CVarArgP", "ActivityType"]
+- !private ["s7CVarArgP", "activityItemsConfiguration"]
+- !private ["s7CVarArgP", "excludedActivityTypes"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isModalInPresentation"]
+- !private ["s7CVarArgP", "modalPresentationStyle"]
+- !private ["s7CVarArgP", "permittedArrowDirections"]
+- !private ["s7CVarArgP", "popoverPresentationController"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "sourceRect"]
+- !private ["s7CVarArgP", "sourceView"]
+- !private ["Sl", ""]
+- !private ["SL", ""]
+- !private ["7QuestGo17ControllerFactoryC", "createViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "ActivityType"]
+- !private ["s28CustomDebugStringConvertibleP", "activityItemsConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "excludedActivityTypes"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isModalInPresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "modalPresentationStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "permittedArrowDirections"]
+- !private ["s28CustomDebugStringConvertibleP", "popoverPresentationController"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceRect"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceView"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ActivityType"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activityItemsConfiguration"]
+- !private ["s23CustomStringConvertibleP", "excludedActivityTypes"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isModalInPresentation"]
+- !private ["s23CustomStringConvertibleP", "modalPresentationStyle"]
+- !private ["s23CustomStringConvertibleP", "permittedArrowDirections"]
+- !private ["s23CustomStringConvertibleP", "popoverPresentationController"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "sourceRect"]
+- !private ["s23CustomStringConvertibleP", "sourceView"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "ActivityType"]
+- !private ["SQ", ""]
+- !private ["SQ", "activityItemsConfiguration"]
+- !private ["SQ", "addToReadingList"]
+- !private ["SQ", "assignToContact"]
+- !private ["SQ", "down"]
+- !private ["SQ", "excludedActivityTypes"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isModalInPresentation"]
+- !private ["SQ", "message"]
+- !private ["SQ", "modalPresentationStyle"]
+- !private ["SQ", "overFullScreen"]
+- !private ["SQ", "permittedArrowDirections"]
+- !private ["SQ", "popoverPresentationController"]
+- !private ["SQ", "postToFacebook"]
+- !private ["SQ", "postToFlickr"]
+- !private ["SQ", "postToTencentWeibo"]
+- !private ["SQ", "postToVimeo"]
+- !private ["SQ", "postToWeibo"]
+- !private ["SQ", "present"]
+- !private ["SQ", "print"]
+- !private ["SQ", "saveToCameraRoll"]
+- !private ["SQ", "sourceRect"]
+- !private ["SQ", "sourceView"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "down"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["7QuestGo21FinishPageDataPassingP", "CGRect"]
+- !private ["7QuestGo21FinishPageDataPassingP", "ControllerFactory"]
+- ["7QuestGo21FinishPageDataPassingP", "FinishPageDataStoring"]
+- !private ["7QuestGo21FinishPageDataPassingP", "UIActivity"]
+- !private ["7QuestGo21FinishPageDataPassingP", "UIActivityViewController"]
+- !private ["7QuestGo21FinishPageDataPassingP", "UIPopoverArrowDirection"]
+- ["7QuestGo21FinishPageDataPassingP", ""]
+- ["7QuestGo21FinishPageDataPassingP", "dataStore"]
+- ["7QuestGo21FinishPageDataPassingP", "routeToQuestList"]
+- ["7QuestGo21FinishPageDataPassingP", "routetoShare"]
+- !private ["7QuestGo21FinishPageDataPassingP", "viewController"]
+- !private ["7QuestGo16FinishPageRouterC", "CGRect"]
+- !private ["7QuestGo16FinishPageRouterC", "ControllerFactory"]
+- ["7QuestGo16FinishPageRouterC", "FinishPageDataStoring"]
+- !private ["7QuestGo16FinishPageRouterC", "QuestsListViewController"]
+- !private ["7QuestGo16FinishPageRouterC", "UIActivity"]
+- !private ["7QuestGo16FinishPageRouterC", "UIActivityItemsConfigurationReading"]
+- !private ["7QuestGo16FinishPageRouterC", "UIActivityViewController"]
+- !private ["7QuestGo16FinishPageRouterC", "UIPopoverArrowDirection"]
+- ["7QuestGo16FinishPageRouterC", "UIView"]
+- ["7QuestGo16FinishPageRouterC", "UIViewController"]
+- ["7QuestGo16FinishPageRouterC", ""]
+- ["7QuestGo16FinishPageRouterC", "dataStore"]
+- ["7QuestGo16FinishPageRouterC", "deinit"]
+- ["7QuestGo16FinishPageRouterC", "init"]
+- ["7QuestGo16FinishPageRouterC", "routeToQuestList"]
+- ["7QuestGo16FinishPageRouterC", "routetoShare"]
+- ["7QuestGo16FinishPageRouterC", "viewController"]
+- !private ["7QuestGo22FinishPageRoutingLogicP", "CGRect"]
+- !private ["7QuestGo22FinishPageRoutingLogicP", "ControllerFactory"]
+- !private ["7QuestGo22FinishPageRoutingLogicP", "UIActivity"]
+- !private ["7QuestGo22FinishPageRoutingLogicP", "UIActivityViewController"]
+- !private ["7QuestGo22FinishPageRoutingLogicP", "UIPopoverArrowDirection"]
+- ["7QuestGo22FinishPageRoutingLogicP", "UIView"]
+- ["7QuestGo22FinishPageRoutingLogicP", ""]
+- ["7QuestGo22FinishPageRoutingLogicP", "dataStore"]
+- ["7QuestGo22FinishPageRoutingLogicP", "routeToQuestList"]
+- ["7QuestGo22FinishPageRoutingLogicP", "routetoShare"]
+- !private ["7QuestGo22FinishPageRoutingLogicP", "viewController"]
+- !private ["SH", "ActivityType"]
+- !private ["SH", ""]
+- !private ["SH", "activityItemsConfiguration"]
+- !private ["SH", "addToReadingList"]
+- !private ["SH", "assignToContact"]
+- !private ["SH", "excludedActivityTypes"]
+- !private ["SH", "init"]
+- !private ["SH", "isModalInPresentation"]
+- !private ["SH", "message"]
+- !private ["SH", "modalPresentationStyle"]
+- !private ["SH", "overFullScreen"]
+- !private ["SH", "permittedArrowDirections"]
+- !private ["SH", "popoverPresentationController"]
+- !private ["SH", "postToFacebook"]
+- !private ["SH", "postToFlickr"]
+- !private ["SH", "postToTencentWeibo"]
+- !private ["SH", "postToVimeo"]
+- !private ["SH", "postToWeibo"]
+- !private ["SH", "present"]
+- !private ["SH", "print"]
+- !private ["SH", "saveToCameraRoll"]
+- !private ["SH", "sourceRect"]
+- !private ["SH", "sourceView"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "activityItemsConfiguration"]
+- !private ["So8NSCodingP", "excludedActivityTypes"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isModalInPresentation"]
+- !private ["So8NSCodingP", "modalPresentationStyle"]
+- !private ["So8NSCodingP", "popoverPresentationController"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "activityItemsConfiguration"]
+- !private ["So26NSExtensionRequestHandlingP", "excludedActivityTypes"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "isModalInPresentation"]
+- !private ["So26NSExtensionRequestHandlingP", "modalPresentationStyle"]
+- !private ["So26NSExtensionRequestHandlingP", "popoverPresentationController"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So8NSObjectC", "ActivityType"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activityItemsConfiguration"]
+- !private ["So8NSObjectC", "excludedActivityTypes"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isModalInPresentation"]
+- !private ["So8NSObjectC", "modalPresentationStyle"]
+- !private ["So8NSObjectC", "permittedArrowDirections"]
+- !private ["So8NSObjectC", "popoverPresentationController"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentViewController"]
+- !private ["So8NSObjectC", "sourceRect"]
+- !private ["So8NSObjectC", "sourceView"]
+- !private ["So8NSObjectP", "ActivityType"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activityItemsConfiguration"]
+- !private ["So8NSObjectP", "excludedActivityTypes"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isModalInPresentation"]
+- !private ["So8NSObjectP", "modalPresentationStyle"]
+- !private ["So8NSObjectP", "permittedArrowDirections"]
+- !private ["So8NSObjectP", "popoverPresentationController"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentViewController"]
+- !private ["So8NSObjectP", "sourceRect"]
+- !private ["So8NSObjectP", "sourceView"]
+- !private ["s9OptionSetP", "down"]
+- !private ["7QuestGo22QuestsListDisplayLogicP", "modalPresentationStyle"]
+- !private ["7QuestGo24QuestsListViewControllerC", "modalPresentationStyle"]
+- !private ["SY", ""]
+- !private ["SY", "addToReadingList"]
+- !private ["SY", "assignToContact"]
+- !private ["SY", "down"]
+- !private ["SY", "message"]
+- !private ["SY", "overFullScreen"]
+- !private ["SY", "postToFacebook"]
+- !private ["SY", "postToFlickr"]
+- !private ["SY", "postToTencentWeibo"]
+- !private ["SY", "postToVimeo"]
+- !private ["SY", "postToWeibo"]
+- !private ["SY", "print"]
+- !private ["SY", "saveToCameraRoll"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ActivityType"]
+- !private ["7RxSwift18ReactiveCompatibleP", "activityItemsConfiguration"]
+- !private ["7RxSwift18ReactiveCompatibleP", "excludedActivityTypes"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isModalInPresentation"]
+- !private ["7RxSwift18ReactiveCompatibleP", "modalPresentationStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "permittedArrowDirections"]
+- !private ["7RxSwift18ReactiveCompatibleP", "popoverPresentationController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "present"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sourceRect"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sourceView"]
+- !private ["ST", ""]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "down"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["So10UIActivityC", "ActivityType"]
+- !private ["So24UIActivityViewControllerC", "activityItemsConfiguration"]
+- !private ["So24UIActivityViewControllerC", "excludedActivityTypes"]
+- !private ["So24UIActivityViewControllerC", "init"]
+- !private ["So24UIActivityViewControllerC", "isModalInPresentation"]
+- !private ["So24UIActivityViewControllerC", "popoverPresentationController"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "activityItemsConfiguration"]
+- !private ["So21UIAppearanceContainerP", "excludedActivityTypes"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isModalInPresentation"]
+- !private ["So21UIAppearanceContainerP", "modalPresentationStyle"]
+- !private ["So21UIAppearanceContainerP", "permittedArrowDirections"]
+- !private ["So21UIAppearanceContainerP", "popoverPresentationController"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "sourceRect"]
+- !private ["So21UIAppearanceContainerP", "sourceView"]
+- !private ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "activityItemsConfiguration"]
+- !private ["So18UIContentContainerP", "excludedActivityTypes"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "isModalInPresentation"]
+- !private ["So18UIContentContainerP", "modalPresentationStyle"]
+- !private ["So18UIContentContainerP", "permittedArrowDirections"]
+- !private ["So18UIContentContainerP", "popoverPresentationController"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "sourceRect"]
+- !private ["So18UIContentContainerP", "sourceView"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "activityItemsConfiguration"]
+- !private ["So18UIFocusEnvironmentP", "excludedActivityTypes"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isModalInPresentation"]
+- !private ["So18UIFocusEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UIFocusEnvironmentP", "permittedArrowDirections"]
+- !private ["So18UIFocusEnvironmentP", "popoverPresentationController"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "sourceRect"]
+- !private ["So18UIFocusEnvironmentP", "sourceView"]
+- !private ["So24UIModalPresentationStyleV", "overFullScreen"]
+- !private ["So30UIPasteConfigurationSupportingP", "activityItemsConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "excludedActivityTypes"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isModalInPresentation"]
+- !private ["So30UIPasteConfigurationSupportingP", "modalPresentationStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "popoverPresentationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
+- !private ["So23UIPopoverArrowDirectionV", "down"]
+- !private ["So31UIPopoverPresentationControllerC", "permittedArrowDirections"]
+- !private ["So31UIPopoverPresentationControllerC", "sourceRect"]
+- !private ["So31UIPopoverPresentationControllerC", "sourceView"]
+- ["So24UIPresentationControllerC", ""]
+- !private ["So24UIPresentationControllerC", "permittedArrowDirections"]
+- !private ["So24UIPresentationControllerC", "sourceRect"]
+- !private ["So24UIPresentationControllerC", "sourceView"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "activityItemsConfiguration"]
+- !private ["So11UIResponderC", "excludedActivityTypes"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isModalInPresentation"]
+- !private ["So11UIResponderC", "modalPresentationStyle"]
+- !private ["So11UIResponderC", "popoverPresentationController"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "activityItemsConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "excludedActivityTypes"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isModalInPresentation"]
+- !private ["So30UIResponderStandardEditActionsP", "modalPresentationStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "popoverPresentationController"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
+- !private ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "modalPresentationStyle"]
+- !private ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "activityItemsConfiguration"]
+- !private ["So16UIStateRestoringP", "excludedActivityTypes"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "isModalInPresentation"]
+- !private ["So16UIStateRestoringP", "modalPresentationStyle"]
+- !private ["So16UIStateRestoringP", "popoverPresentationController"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So21UITableViewDataSourceP", "modalPresentationStyle"]
+- !private ["So19UITableViewDelegateP", "modalPresentationStyle"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "activityItemsConfiguration"]
+- !private ["So18UITraitEnvironmentP", "excludedActivityTypes"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isModalInPresentation"]
+- !private ["So18UITraitEnvironmentP", "modalPresentationStyle"]
+- !private ["So18UITraitEnvironmentP", "permittedArrowDirections"]
+- !private ["So18UITraitEnvironmentP", "popoverPresentationController"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "sourceRect"]
+- !private ["So18UITraitEnvironmentP", "sourceView"]
+- !private ["So23UIUserActivityRestoringP", "activityItemsConfiguration"]
+- !private ["So23UIUserActivityRestoringP", "excludedActivityTypes"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isModalInPresentation"]
+- !private ["So23UIUserActivityRestoringP", "modalPresentationStyle"]
+- !private ["So23UIUserActivityRestoringP", "popoverPresentationController"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentViewController"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "activityItemsConfiguration"]
+- !private ["So16UIViewControllerC", "excludedActivityTypes"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "isModalInPresentation"]
+- !private ["So16UIViewControllerC", "modalPresentationStyle"]
+- !private ["So16UIViewControllerC", "popoverPresentationController"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addToReadingList"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "assignToContact"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "message"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "postToFacebook"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "postToFlickr"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "postToTencentWeibo"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "postToVimeo"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "postToWeibo"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "print"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "saveToCameraRoll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ActivityType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activityItemsConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "excludedActivityTypes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isModalInPresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "modalPresentationStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "permittedArrowDirections"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popoverPresentationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ActivityType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activityItemsConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "excludedActivityTypes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isModalInPresentation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "modalPresentationStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "permittedArrowDirections"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popoverPresentationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sourceRect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sourceView"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "addToReadingList"]
+- !private ["s21_ObjectiveCBridgeableP", "assignToContact"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "message"]
+- !private ["s21_ObjectiveCBridgeableP", "postToFacebook"]
+- !private ["s21_ObjectiveCBridgeableP", "postToFlickr"]
+- !private ["s21_ObjectiveCBridgeableP", "postToTencentWeibo"]
+- !private ["s21_ObjectiveCBridgeableP", "postToVimeo"]
+- !private ["s21_ObjectiveCBridgeableP", "postToWeibo"]
+- !private ["s21_ObjectiveCBridgeableP", "print"]
+- !private ["s21_ObjectiveCBridgeableP", "saveToCameraRoll"]
+- !private ["s20_SwiftNewtypeWrapperP", "addToReadingList"]
+- !private ["s20_SwiftNewtypeWrapperP", "assignToContact"]
+- !private ["s20_SwiftNewtypeWrapperP", "message"]
+- !private ["s20_SwiftNewtypeWrapperP", "postToFacebook"]
+- !private ["s20_SwiftNewtypeWrapperP", "postToFlickr"]
+- !private ["s20_SwiftNewtypeWrapperP", "postToTencentWeibo"]
+- !private ["s20_SwiftNewtypeWrapperP", "postToVimeo"]
+- !private ["s20_SwiftNewtypeWrapperP", "postToWeibo"]
+- !private ["s20_SwiftNewtypeWrapperP", "print"]
+- !private ["s20_SwiftNewtypeWrapperP", "saveToCameraRoll"]
+depends-nominal:
+- !private "So14UIActivityTypea"
+- !private "SK"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "7QuestGo17ControllerFactoryC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "7QuestGo21FinishPageDataPassingP"
+- "7QuestGo16FinishPageRouterC"
+- "7QuestGo22FinishPageRoutingLogicP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "7QuestGo22QuestsListDisplayLogicP"
+- !private "7QuestGo24QuestsListViewControllerC"
+- !private "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So10UIActivityC"
+- !private "So24UIActivityViewControllerC"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So24UIModalPresentationStyleV"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So23UIPopoverArrowDirectionV"
+- !private "So31UIPopoverPresentationControllerC"
+- "So24UIPresentationControllerC"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/youtube-ios-player-helper-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Headers/questGoShared.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Headers/YTPlayerView.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/QuestGoShared/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../questShared/build/xcode-frameworks/questGoShared.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/youtube-ios-player-helper/youtube_ios_player_helper.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../QuestGo/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/../build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "30d905a92dd738da5de5e569bb436289"

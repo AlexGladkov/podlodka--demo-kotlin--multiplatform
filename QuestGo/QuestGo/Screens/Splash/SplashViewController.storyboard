@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cbw-np-Nfg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="kPT-gd-zYk">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cbw-np-Nfg" customClass="SplashViewController" customModule="QuestGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XoC-TB-g8p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YJl-YB-ijq">
+                                <rect key="frame" x="159" y="400" width="96" height="96"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="rtE-Fz-bKb">
+                                        <rect key="frame" x="8" y="8" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="Jjy-Sx-S8R"/>
+                                            <constraint firstAttribute="height" constant="80" id="Qgm-mf-aHD"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="rtE-Fz-bKb" secondAttribute="bottom" constant="8" id="3v0-M2-40y"/>
+                                    <constraint firstItem="rtE-Fz-bKb" firstAttribute="centerY" secondItem="YJl-YB-ijq" secondAttribute="centerY" id="VYV-Bu-dsT"/>
+                                    <constraint firstItem="rtE-Fz-bKb" firstAttribute="leading" secondItem="YJl-YB-ijq" secondAttribute="leading" constant="8" id="YCN-OD-IUH"/>
+                                    <constraint firstAttribute="trailing" secondItem="rtE-Fz-bKb" secondAttribute="trailing" constant="8" id="aUt-hk-mQH"/>
+                                    <constraint firstItem="rtE-Fz-bKb" firstAttribute="top" secondItem="YJl-YB-ijq" secondAttribute="top" constant="8" id="hE2-Ct-ZTA"/>
+                                    <constraint firstItem="rtE-Fz-bKb" firstAttribute="centerX" secondItem="YJl-YB-ijq" secondAttribute="centerX" id="vM5-Uk-xb4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="174-wk-5j7"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YJl-YB-ijq" firstAttribute="centerX" secondItem="XoC-TB-g8p" secondAttribute="centerX" id="EOw-Gf-ouf"/>
+                            <constraint firstItem="YJl-YB-ijq" firstAttribute="centerY" secondItem="XoC-TB-g8p" secondAttribute="centerY" id="QTb-BT-Vne"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="iconHolderView" destination="YJl-YB-ijq" id="PEL-c9-APk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IxE-zx-SQj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="106" y="106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashIcon" width="43.5" height="43.5"/>
+    </resources>
+</document>

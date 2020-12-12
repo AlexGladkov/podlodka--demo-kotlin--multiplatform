@@ -1,0 +1,353 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Si"
+- "s5Int32V"
+- "s5Int64V"
+- "Su"
+- "s6UInt32V"
+- "s6UInt64V"
+- "Sb"
+provides-member:
+- ["Si", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Su", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["Sb", ""]
+- ["SY", ""]
+- ["SY", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Int"
+- "Int32"
+- "Int64"
+- "KVORepresentable"
+- "KVOType"
+- "NSNumber"
+- "RawRepresentable"
+- "RawValue"
+- "UInt"
+- "UInt32"
+- "UInt64"
+depends-member:
+- ["s18AdditiveArithmeticP", "KVOType"]
+- ["s18AdditiveArithmeticP", ""]
+- ["s18AdditiveArithmeticP", "init"]
+- ["Sz", "KVOType"]
+- ["Sz", ""]
+- ["Sz", "init"]
+- ["Sb", "KVOType"]
+- ["Sb", "NSNumber"]
+- ["Sb", ""]
+- ["Sb", "init"]
+- ["s7CVarArgP", "KVOType"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "boolValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "int32Value"]
+- !private ["s7CVarArgP", "int64Value"]
+- !private ["s7CVarArgP", "uint32Value"]
+- !private ["s7CVarArgP", "uint64Value"]
+- !private ["s7CVarArgP", "uintValue"]
+- ["SL", "KVOType"]
+- ["SL", ""]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "boolValue"]
+- !private ["s28CustomDebugStringConvertibleP", "int32Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uint32Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uint64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uintValue"]
+- ["s17CustomReflectableP", "KVOType"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "KVOType"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int32Value"]
+- !private ["s23CustomStringConvertibleP", "int64Value"]
+- !private ["s23CustomStringConvertibleP", "uint32Value"]
+- !private ["s23CustomStringConvertibleP", "uint64Value"]
+- !private ["s23CustomStringConvertibleP", "uintValue"]
+- ["Se", "KVOType"]
+- ["Se", "init"]
+- ["SE", "KVOType"]
+- ["SE", "init"]
+- ["SQ", "KVOType"]
+- ["SQ", ""]
+- !private ["SQ", "boolValue"]
+- ["SQ", "init"]
+- !private ["SQ", "int32Value"]
+- !private ["SQ", "int64Value"]
+- !private ["SQ", "uint32Value"]
+- !private ["SQ", "uint64Value"]
+- !private ["SQ", "uintValue"]
+- ["s27ExpressibleByBooleanLiteralP", "KVOType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int32Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint32Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uintValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "boolValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "int32Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint32Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uintValue"]
+- ["s27ExpressibleByIntegerLiteralP", "KVOType"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "boolValue"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int32Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint32Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uintValue"]
+- ["s17FixedWidthIntegerP", "KVOType"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["SH", "KVOType"]
+- ["SH", ""]
+- !private ["SH", "boolValue"]
+- ["SH", "init"]
+- !private ["SH", "int32Value"]
+- !private ["SH", "int64Value"]
+- !private ["SH", "uint32Value"]
+- !private ["SH", "uint64Value"]
+- !private ["SH", "uintValue"]
+- ["Si", "KVOType"]
+- ["Si", "NSNumber"]
+- ["Si", ""]
+- ["Si", "init"]
+- ["s5Int32V", "KVOType"]
+- ["s5Int32V", "NSNumber"]
+- ["s5Int32V", ""]
+- ["s5Int32V", "init"]
+- ["s5Int64V", "KVOType"]
+- ["s5Int64V", "NSNumber"]
+- ["s5Int64V", ""]
+- ["s5Int64V", "init"]
+- ["7RxCocoa16KVORepresentableP", "KVOType"]
+- ["7RxCocoa16KVORepresentableP", ""]
+- ["7RxCocoa16KVORepresentableP", "init"]
+- ["s25LosslessStringConvertibleP", "KVOType"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "KVOType"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "boolValue"]
+- !private ["So8NSCodingP", "int32Value"]
+- !private ["So8NSCodingP", "int64Value"]
+- !private ["So8NSCodingP", "uint32Value"]
+- !private ["So8NSCodingP", "uint64Value"]
+- !private ["So8NSCodingP", "uintValue"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "boolValue"]
+- !private ["So9NSCopyingP", "int32Value"]
+- !private ["So9NSCopyingP", "int64Value"]
+- !private ["So9NSCopyingP", "uint32Value"]
+- !private ["So9NSCopyingP", "uint64Value"]
+- !private ["So9NSCopyingP", "uintValue"]
+- !private ["So8NSNumberC", "boolValue"]
+- !private ["So8NSNumberC", "int32Value"]
+- !private ["So8NSNumberC", "int64Value"]
+- !private ["So8NSNumberC", "uint32Value"]
+- !private ["So8NSNumberC", "uint64Value"]
+- !private ["So8NSNumberC", "uintValue"]
+- !private ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "boolValue"]
+- !private ["So8NSObjectC", "int32Value"]
+- !private ["So8NSObjectC", "int64Value"]
+- !private ["So8NSObjectC", "uint32Value"]
+- !private ["So8NSObjectC", "uint64Value"]
+- !private ["So8NSObjectC", "uintValue"]
+- !private ["So8NSObjectP", "boolValue"]
+- !private ["So8NSObjectP", "int32Value"]
+- !private ["So8NSObjectP", "int64Value"]
+- !private ["So8NSObjectP", "uint32Value"]
+- !private ["So8NSObjectP", "uint64Value"]
+- !private ["So8NSObjectP", "uintValue"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "boolValue"]
+- !private ["So14NSSecureCodingP", "int32Value"]
+- !private ["So14NSSecureCodingP", "int64Value"]
+- !private ["So14NSSecureCodingP", "uint32Value"]
+- !private ["So14NSSecureCodingP", "uint64Value"]
+- !private ["So14NSSecureCodingP", "uintValue"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "boolValue"]
+- !private ["So7NSValueC", "int32Value"]
+- !private ["So7NSValueC", "int64Value"]
+- !private ["So7NSValueC", "uint32Value"]
+- !private ["So7NSValueC", "uint64Value"]
+- !private ["So7NSValueC", "uintValue"]
+- ["Sj", "KVOType"]
+- ["Sj", ""]
+- ["Sj", "init"]
+- ["SY", "KVORepresentable"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "boolValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "int32Value"]
+- !private ["7RxSwift18ReactiveCompatibleP", "int64Value"]
+- !private ["7RxSwift18ReactiveCompatibleP", "uint32Value"]
+- !private ["7RxSwift18ReactiveCompatibleP", "uint64Value"]
+- !private ["7RxSwift18ReactiveCompatibleP", "uintValue"]
+- ["s10SIMDScalarP", "KVOType"]
+- ["s10SIMDScalarP", "init"]
+- ["SZ", "KVOType"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "KVOType"]
+- ["s13SignedNumericP", ""]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "KVOType"]
+- ["Sx", ""]
+- ["Sx", "init"]
+- ["Su", "KVOType"]
+- ["Su", "NSNumber"]
+- ["Su", ""]
+- ["Su", "init"]
+- ["s6UInt32V", "KVOType"]
+- ["s6UInt32V", "NSNumber"]
+- ["s6UInt32V", ""]
+- ["s6UInt32V", "init"]
+- ["s6UInt64V", "KVOType"]
+- ["s6UInt64V", "NSNumber"]
+- ["s6UInt64V", ""]
+- ["s6UInt64V", "init"]
+- ["SU", "KVOType"]
+- ["SU", "init"]
+- ["s15_CVarArgAlignedP", "KVOType"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "KVOType"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "KVOType"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "KVOType"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "KVOType"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "boolValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int32Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int64Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint32Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint64Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uintValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boolValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int32Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int64Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint32Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint64Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uintValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "boolValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "int32Value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "int64Value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uint32Value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uint64Value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uintValue"]
+- ["s21_ObjectiveCBridgeableP", "KVOType"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "Si"
+- "s5Int32V"
+- "s5Int64V"
+- "7RxCocoa16KVORepresentableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So7NSValueC"
+- "Sj"
+- "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- "s10SIMDScalarP"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "Su"
+- "s6UInt32V"
+- "s6UInt64V"
+- "SU"
+- "s15_CVarArgAlignedP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f2a366479009a097be732a7db33724a7"

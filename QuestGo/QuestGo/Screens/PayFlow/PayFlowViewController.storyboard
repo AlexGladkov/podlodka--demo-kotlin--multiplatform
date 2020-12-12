@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pay Flow View Controller-->
+        <scene sceneID="mt7-8w-DUo">
+            <objects>
+                <viewController storyboardIdentifier="PayFlowViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8tf-3U-Lyq" customClass="PayFlowViewController" customModule="QuestGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="teX-bW-O1I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jJO-vd-uv9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5h4-US-xhv"/>
+                        <color key="backgroundColor" name="primaryBackroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5h4-US-xhv" firstAttribute="trailing" secondItem="jJO-vd-uv9" secondAttribute="trailing" id="Za2-o5-hgv"/>
+                            <constraint firstItem="jJO-vd-uv9" firstAttribute="leading" secondItem="5h4-US-xhv" secondAttribute="leading" id="hRs-G4-Oql"/>
+                            <constraint firstItem="5h4-US-xhv" firstAttribute="bottom" secondItem="jJO-vd-uv9" secondAttribute="bottom" id="nLf-mI-hbQ"/>
+                            <constraint firstItem="jJO-vd-uv9" firstAttribute="top" secondItem="5h4-US-xhv" secondAttribute="top" id="qzD-B3-lp4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="jJO-vd-uv9" id="XyT-M4-atA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NJp-yW-7XW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="67"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="primaryBackroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

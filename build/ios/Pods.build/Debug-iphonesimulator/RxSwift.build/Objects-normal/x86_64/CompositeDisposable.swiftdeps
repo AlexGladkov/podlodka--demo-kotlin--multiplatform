@@ -1,0 +1,349 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CompositeDisposable"
+provides-nominal:
+- "7RxSwift19CompositeDisposableC"
+- "7RxSwift19CompositeDisposableC10DisposeKeyV"
+provides-member:
+- ["7RxSwift19CompositeDisposableC", ""]
+- ["7RxSwift19CompositeDisposableC10DisposeKeyV", ""]
+- ["7RxSwift11DisposablesV", ""]
+- ["7RxSwift11DisposablesV", "create"]
+- ["7RxSwift11DisposablesV", "create"]
+- ["7RxSwift11DisposablesV", "create"]
+provides-dynamic-lookup:
+- "_disposables"
+- "_dispose"
+- "_insert"
+- "_lock"
+- "_remove"
+- "count"
+- "dispose"
+- "insert"
+- "isDisposed"
+- "remove"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bag"
+- "BagKey"
+- "Bool"
+- "Cancelable"
+- "CompositeDisposable"
+- "Disposable"
+- "Disposables"
+- "DisposeBase"
+- "DisposeKey"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "SpinLock"
+- !private "disposeAll"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["7RxSwift3BagV", "count"]
+- ["7RxSwift3BagV", "init"]
+- !private ["7RxSwift3BagV", "insert"]
+- !private ["7RxSwift3BagV", "removeKey"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unlock"]
+- ["7RxSwift10CancelableP", "Bag"]
+- !private ["7RxSwift10CancelableP", "DisposeKey"]
+- ["7RxSwift10CancelableP", "SpinLock"]
+- ["7RxSwift10CancelableP", ""]
+- !private ["7RxSwift10CancelableP", "_disposables"]
+- !private ["7RxSwift10CancelableP", "_dispose"]
+- !private ["7RxSwift10CancelableP", "_insert"]
+- !private ["7RxSwift10CancelableP", "_lock"]
+- !private ["7RxSwift10CancelableP", "_remove"]
+- !private ["7RxSwift10CancelableP", "disposables"]
+- ["7RxSwift10CancelableP", "dispose"]
+- !private ["7RxSwift10CancelableP", "disposeAll"]
+- !private ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "insert"]
+- ["7RxSwift10CancelableP", "isDisposed"]
+- !private ["7RxSwift10CancelableP", "lock"]
+- !private ["7RxSwift10CancelableP", "remove"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
+- ["7RxSwift19CompositeDisposableC", "Bag"]
+- ["7RxSwift19CompositeDisposableC", "BagKey"]
+- ["7RxSwift19CompositeDisposableC", "Bool"]
+- ["7RxSwift19CompositeDisposableC", "Disposable"]
+- ["7RxSwift19CompositeDisposableC", "DisposeKey"]
+- ["7RxSwift19CompositeDisposableC", "Int"]
+- ["7RxSwift19CompositeDisposableC", "SpinLock"]
+- ["7RxSwift19CompositeDisposableC", ""]
+- !private ["7RxSwift19CompositeDisposableC", "_disposables"]
+- !private ["7RxSwift19CompositeDisposableC", "_dispose"]
+- !private ["7RxSwift19CompositeDisposableC", "_insert"]
+- !private ["7RxSwift19CompositeDisposableC", "_lock"]
+- !private ["7RxSwift19CompositeDisposableC", "_remove"]
+- ["7RxSwift19CompositeDisposableC", "count"]
+- ["7RxSwift19CompositeDisposableC", "deinit"]
+- !private ["7RxSwift19CompositeDisposableC", "disposables"]
+- ["7RxSwift19CompositeDisposableC", "dispose"]
+- !private ["7RxSwift19CompositeDisposableC", "disposeAll"]
+- ["7RxSwift19CompositeDisposableC", "init"]
+- ["7RxSwift19CompositeDisposableC", "insert"]
+- ["7RxSwift19CompositeDisposableC", "isDisposed"]
+- !private ["7RxSwift19CompositeDisposableC", "lock"]
+- ["7RxSwift19CompositeDisposableC", "remove"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "removeKey"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- ["7RxSwift10DisposableP", "Bag"]
+- !private ["7RxSwift10DisposableP", "DisposeKey"]
+- ["7RxSwift10DisposableP", "SpinLock"]
+- ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift10DisposableP", "_disposables"]
+- !private ["7RxSwift10DisposableP", "_dispose"]
+- !private ["7RxSwift10DisposableP", "_insert"]
+- !private ["7RxSwift10DisposableP", "_lock"]
+- !private ["7RxSwift10DisposableP", "_remove"]
+- !private ["7RxSwift10DisposableP", "disposables"]
+- ["7RxSwift10DisposableP", "dispose"]
+- !private ["7RxSwift10DisposableP", "disposeAll"]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "insert"]
+- ["7RxSwift10DisposableP", "isDisposed"]
+- !private ["7RxSwift10DisposableP", "lock"]
+- !private ["7RxSwift10DisposableP", "remove"]
+- ["7RxSwift11DisposablesV", "Cancelable"]
+- !private ["7RxSwift11DisposablesV", "CompositeDisposable"]
+- ["7RxSwift11DisposablesV", "Disposable"]
+- !private ["7RxSwift11DisposablesV", "Disposables"]
+- ["7RxSwift11DisposablesV", ""]
+- ["7RxSwift11DisposablesV", "create"]
+- ["7RxSwift11DisposeBaseC", "Bag"]
+- ["7RxSwift11DisposeBaseC", "BagKey"]
+- ["7RxSwift11DisposeBaseC", "Bool"]
+- ["7RxSwift11DisposeBaseC", "Disposable"]
+- ["7RxSwift11DisposeBaseC", "DisposeKey"]
+- ["7RxSwift11DisposeBaseC", "Int"]
+- ["7RxSwift11DisposeBaseC", "SpinLock"]
+- ["7RxSwift11DisposeBaseC", ""]
+- ["7RxSwift11DisposeBaseC", "_disposables"]
+- ["7RxSwift11DisposeBaseC", "_dispose"]
+- ["7RxSwift11DisposeBaseC", "_insert"]
+- ["7RxSwift11DisposeBaseC", "_lock"]
+- ["7RxSwift11DisposeBaseC", "_remove"]
+- ["7RxSwift11DisposeBaseC", "count"]
+- ["7RxSwift11DisposeBaseC", "disposables"]
+- ["7RxSwift11DisposeBaseC", "dispose"]
+- !private ["7RxSwift11DisposeBaseC", "disposeAll"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- ["7RxSwift11DisposeBaseC", "insert"]
+- ["7RxSwift11DisposeBaseC", "isDisposed"]
+- ["7RxSwift11DisposeBaseC", "lock"]
+- ["7RxSwift11DisposeBaseC", "remove"]
+- ["7RxSwift19CompositeDisposableC10DisposeKeyV", "BagKey"]
+- !private ["7RxSwift19CompositeDisposableC10DisposeKeyV", "init"]
+- !private ["7RxSwift19CompositeDisposableC10DisposeKeyV", "key"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "map"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unlock"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "map"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unlock"]
+- ["7RxSwift4LockP", "init"]
+- !private ["7RxSwift4LockP", "lock"]
+- !private ["7RxSwift4LockP", "unlock"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", ""]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- !private ["Sq", "map"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lock"]
+- !private ["7RxSwift18ReactiveCompatibleP", "unlock"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "subscript"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- "7RxSwift3BagV"
+- !private "SK"
+- "s7CVarArgP"
+- "7RxSwift10CancelableP"
+- !private "Sl"
+- "7RxSwift19CompositeDisposableC"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "7RxSwift10DisposableP"
+- "7RxSwift11DisposablesV"
+- "7RxSwift11DisposeBaseC"
+- "7RxSwift19CompositeDisposableC10DisposeKeyV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "7RxSwift4LockP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/QuestGo/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/neuradev/Documents/Shared/questgo--mobile-customer--kotlin/build/ios/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "62b2c5cc1066e9c70632de687ce64fc0"
