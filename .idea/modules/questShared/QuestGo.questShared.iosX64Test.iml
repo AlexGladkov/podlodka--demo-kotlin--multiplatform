@@ -8,11 +8,11 @@
           <dependsOn>:questShared:iosTest</dependsOn>
         </dependsOnModuleNames>
         <sourceSets>
+          <sourceSet>QuestGo.questShared.iosTest</sourceSet>
+          <sourceSet>QuestGo.questShared.commonTest</sourceSet>
+          <sourceSet>QuestGo.questShared.iosMain</sourceSet>
           <sourceSet>QuestGo.questShared.commonMain</sourceSet>
           <sourceSet>QuestGo.questShared.iosX64Main</sourceSet>
-          <sourceSet>QuestGo.questShared.commonTest</sourceSet>
-          <sourceSet>QuestGo.questShared.iosTest</sourceSet>
-          <sourceSet>QuestGo.questShared.iosMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>

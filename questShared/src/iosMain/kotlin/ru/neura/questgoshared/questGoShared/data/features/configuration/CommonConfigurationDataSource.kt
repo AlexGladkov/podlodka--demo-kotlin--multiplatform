@@ -11,8 +11,8 @@ class CommonConfigurationDataSource: ConfigurationLocalDataSource {
     private val userDefaults = NSUserDefaults.standardUserDefaults()
 
     override fun storeConfiguration(configurationModel: ConfigurationModel) {
-        userDefaults.setInteger(configurationModel.currentQuestId, questIdKey)
-        userDefaults.setInteger(configurationModel.currentQuestPage, questPageKey)
+        userDefaults.setInteger(configurationModel.currentQuestId.toLong(), questIdKey)
+        userDefaults.setInteger(configurationModel.currentQuestPage.toLong(), questPageKey)
         userDefaults.setObject(configurationModel.boughtQuestIds
             .map { it.toString() }.joinToString { " " }, boughtQuestIdsKey)
     }
@@ -23,12 +23,12 @@ class CommonConfigurationDataSource: ConfigurationLocalDataSource {
         val boughtQuests = (userDefaults.valueForKey(boughtQuestIdsKey) as? NSString ?: "").toString()
 
         return ConfigurationModel(
-            currentQuestId = questId ?: -1,
-            currentQuestPage = questPage ?: -1,
+            currentQuestId = questId?.toInt() ?: -1,
+            currentQuestPage = questPage?.toInt() ?: -1,
             boughtQuestIds = if (boughtQuests.isEmpty()) {
                 emptyList()
             } else {
-                boughtQuests.split(" ").map { it.toLong() }
+                boughtQuests.split(" ").map { it.toInt() }
             }
         )
     }

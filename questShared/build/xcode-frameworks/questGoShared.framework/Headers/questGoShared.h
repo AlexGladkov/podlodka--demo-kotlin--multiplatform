@@ -249,17 +249,17 @@ __attribute__((swift_name("MockConfigurationDataSource")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ConfigurationModel")))
 @interface QGSConfigurationModel : QGSBase
-- (instancetype)initWithCurrentQuestId:(int64_t)currentQuestId currentQuestPage:(int64_t)currentQuestPage boughtQuestIds:(NSArray<QGSLong *> *)boughtQuestIds __attribute__((swift_name("init(currentQuestId:currentQuestPage:boughtQuestIds:)"))) __attribute__((objc_designated_initializer));
-- (int64_t)component1 __attribute__((swift_name("component1()")));
-- (int64_t)component2 __attribute__((swift_name("component2()")));
-- (NSArray<QGSLong *> *)component3 __attribute__((swift_name("component3()")));
-- (QGSConfigurationModel *)doCopyCurrentQuestId:(int64_t)currentQuestId currentQuestPage:(int64_t)currentQuestPage boughtQuestIds:(NSArray<QGSLong *> *)boughtQuestIds __attribute__((swift_name("doCopy(currentQuestId:currentQuestPage:boughtQuestIds:)")));
+- (instancetype)initWithCurrentQuestId:(int32_t)currentQuestId currentQuestPage:(int32_t)currentQuestPage boughtQuestIds:(NSArray<QGSInt *> *)boughtQuestIds __attribute__((swift_name("init(currentQuestId:currentQuestPage:boughtQuestIds:)"))) __attribute__((objc_designated_initializer));
+- (int32_t)component1 __attribute__((swift_name("component1()")));
+- (int32_t)component2 __attribute__((swift_name("component2()")));
+- (NSArray<QGSInt *> *)component3 __attribute__((swift_name("component3()")));
+- (QGSConfigurationModel *)doCopyCurrentQuestId:(int32_t)currentQuestId currentQuestPage:(int32_t)currentQuestPage boughtQuestIds:(NSArray<QGSInt *> *)boughtQuestIds __attribute__((swift_name("doCopy(currentQuestId:currentQuestPage:boughtQuestIds:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<QGSLong *> *boughtQuestIds __attribute__((swift_name("boughtQuestIds")));
-@property (readonly) int64_t currentQuestId __attribute__((swift_name("currentQuestId")));
-@property (readonly) int64_t currentQuestPage __attribute__((swift_name("currentQuestPage")));
+@property (readonly) NSArray<QGSInt *> *boughtQuestIds __attribute__((swift_name("boughtQuestIds")));
+@property (readonly) int32_t currentQuestId __attribute__((swift_name("currentQuestId")));
+@property (readonly) int32_t currentQuestPage __attribute__((swift_name("currentQuestPage")));
 @end;
 
 __attribute__((swift_name("KotlinThrowable")))

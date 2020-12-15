@@ -13,18 +13,18 @@ class CommonConfigurationDataSource(private val context: Context): Configuration
 
     override fun storeConfiguration(configurationModel: ConfigurationModel) {
         sharedPreferences.edit()
-            .putLong(questIdKey, configurationModel.currentQuestId)
-            .putLong(questPageKey, configurationModel.currentQuestPage)
+            .putInt(questIdKey, configurationModel.currentQuestId)
+            .putInt(questPageKey, configurationModel.currentQuestPage)
             .putStringSet(boughtQuestIdsKey, configurationModel.boughtQuestIds.map { it.toString() }.toSet())
             .apply()
     }
 
     override fun fetchConfiguration(): ConfigurationModel {
         return ConfigurationModel(
-            currentQuestId = sharedPreferences.getLong(questIdKey, -1),
-            currentQuestPage = sharedPreferences.getLong(questPageKey, -1),
+            currentQuestId = sharedPreferences.getInt(questIdKey, -1),
+            currentQuestPage = sharedPreferences.getInt(questPageKey, -1),
             boughtQuestIds = sharedPreferences.getStringSet(boughtQuestIdsKey, emptySet())
-                ?.map { it.toLong() } ?: emptyList()
+                ?.map { it.toInt() } ?: emptyList()
         )
     }
 }
